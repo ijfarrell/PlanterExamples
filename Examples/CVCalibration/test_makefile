@@ -1,0 +1,7 @@
+TARGET = HardwareTestPlanter
+$(info TARGET is: $(TARGET))
+
+SYSTEM_FILES_DIR = ../../libDaisy/core
+include $(SYSTEM_FILES_DIR)/Makefile
+
+$(info After include, TARGET is: $(TARGET))

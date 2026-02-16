@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "name": "Daisy",
+            "includePath": [
+                "${workspaceFolder}/Planter",
+                "${workspaceFolder}/libDaisy",
+                "${workspaceFolder}/libDaisy/src",
+                "${workspaceFolder}/libDaisy/src/sys",
+                "${workspaceFolder}/libDaisy/src/usbd",
+                "${workspaceFolder}/libDaisy/src/usbh",
+                "${workspaceFolder}/libDaisy/core",
+                "${workspaceFolder}/libDaisy/Drivers/CMSIS_5/CMSIS/Core/Include",
+                "${workspaceFolder}/libDaisy/Drivers/CMSIS-DSP/Include",
+                "${workspaceFolder}/libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx/Include",
+                "${workspaceFolder}/libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc",
+                "${workspaceFolder}/libDaisy/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/libDaisy/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "${workspaceFolder}/libDaisy/Middlewares/ST/STM32_USB_Host_Library/Core/Inc",
+                "${workspaceFolder}/libDaisy/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc",
+                "${workspaceFolder}/libDaisy/Middlewares/ST/STM32_USB_Host_Library/Class/MIDI/Inc",
+                "${workspaceFolder}/libDaisy/Middlewares/Third_Party/FatFs/src",
+                "${workspaceFolder}/DaisySP/Source"
+            ],
+            "defines": [
+                "CORE_CM7",
+                "STM32H750xx",
+                "STM32H750IB",
+                "ARM_MATH_CM7",
+                "USE_HAL_DRIVER",
+                "USE_FULL_LL_DRIVER",
+                "HSE_VALUE=16000000",
+                "FILEIO_ENABLE_FATFS_READER",
+                "BOOT_APP",
+                "LOGGER_EXTERNAL=1"
+            ],
+            "compilerPath": "C:/Program Files/DaisyToolchain/bin/arm-none-eabi-g++.exe",
+            "intelliSenseMode": "windows-gcc-arm",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "forcedInclude": [
+                "${workspaceFolder}/libDaisy/Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h7xx.h"
+            ],
+            "compilerArgs": [
+                "-mcpu=cortex-m7",
+                "-mfpu=fpv5-d16",
+                "-mfloat-abi=hard",
+                "-mthumb"
+            ]
+        }
+    ],
+    "version": 4
+}
