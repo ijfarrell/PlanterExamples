@@ -1,10 +1,13 @@
 build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
- ../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
- ../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h \
- ../../libDaisy//Drivers/CMSIS/Include/core_cm7.h \
- ../../libDaisy//Drivers/CMSIS/Include/cmsis_compiler.h \
- ../../libDaisy//Drivers/CMSIS/Include/cmsis_gcc.h \
- ../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
+ ../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h7xx.h \
+ ../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h750xx.h \
+ ../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/core_cm7.h \
+ ../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_version.h \
+ ../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_compiler.h \
+ ../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h \
+ ../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/mpu_armv7.h \
+ ../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cachel1_armv7.h \
+ ../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/system_stm32h7xx.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../libDaisy//src/sys/stm32h7xx_hal_conf.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -22,6 +25,7 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma2d.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dsi.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dfsdm.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dts.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_eth.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_eth_ex.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h \
@@ -32,6 +36,7 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cec.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_comp.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cordic.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cryp.h \
@@ -40,6 +45,8 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dac_ex.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gfxmmu.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fmac.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hrtim.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sram.h \
@@ -60,6 +67,9 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc_ex.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_opamp.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_opamp_ex.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_otfdec.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pssi.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_qspi.h \
@@ -88,6 +98,7 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smartcard.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smartcard_ex.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smbus.h \
+ ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smbus_ex.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_wwdg.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
@@ -98,12 +109,15 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
  ../../libDaisy//src/sys/ffconf.h \
  ../../libDaisy//src/util/bsp_sd_diskio.h \
  ../../libDaisy//Middlewares/Third_Party/FatFs/src/diskio.h
-../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
-../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h750xx.h:
-../../libDaisy//Drivers/CMSIS/Include/core_cm7.h:
-../../libDaisy//Drivers/CMSIS/Include/cmsis_compiler.h:
-../../libDaisy//Drivers/CMSIS/Include/cmsis_gcc.h:
-../../libDaisy//Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h:
+../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h7xx.h:
+../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h750xx.h:
+../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/core_cm7.h:
+../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_version.h:
+../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_compiler.h:
+../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cmsis_gcc.h:
+../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/mpu_armv7.h:
+../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/cachel1_armv7.h:
+../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/system_stm32h7xx.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../libDaisy//src/sys/stm32h7xx_hal_conf.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -121,6 +135,7 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma2d.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dsi.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dfsdm.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dts.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_eth.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_eth_ex.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h:
@@ -131,6 +146,7 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fdcan.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cec.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_comp.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cordic.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_crc_ex.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cryp.h:
@@ -139,6 +155,8 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dac_ex.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gfxmmu.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_fmac.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hrtim.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sram.h:
@@ -159,6 +177,9 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ltdc_ex.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_opamp.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_opamp_ex.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_otfdec.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pssi.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_qspi.h:
@@ -187,6 +208,7 @@ build/ff.o: ../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.c \
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smartcard.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smartcard_ex.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smbus.h:
+../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_smbus_ex.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_wwdg.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
 ../../libDaisy//Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:

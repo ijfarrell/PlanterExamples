@@ -1,7 +1,9 @@
 #include "planter.h"
+#include "planter_cal.h"
 
 using anachrome::planter;
 using daisy::System;
+using namespace anachrome::calibration;
 
 namespace anachrome
 {
@@ -27,28 +29,23 @@ namespace anachrome
       else if(bipolar_voltage < -5.0f)
           bipolar_voltage = -5.0f;
 
-      // Calibration points: (desired_output_voltage, dac_input_value_to_achieve_it)
-      // These should be measured using a multimeter on the output with known DAC inputs
-      // Collect by: set WriteCvOut(channel, dac_val), measure actual output, record as calibration
-      float cal_voltage_low, cal_dac_low, cal_voltage_mid, cal_dac_mid, cal_voltage_high, cal_dac_high;
+      // Fixed reference voltages (same for all units)
+      constexpr float cal_voltage_low  = -5.0f;
+      constexpr float cal_voltage_mid  =  0.0f;
+      constexpr float cal_voltage_high =  5.0f;
+
+      // Per-unit measured DAC values from planter_calibration.h
+      float cal_dac_low, cal_dac_mid, cal_dac_high;
 
       if (channel == 1){
-        // Calibration points for CV_OUT_1
-        cal_voltage_low = -5.0f;    // Desired voltage
-        cal_dac_low = 4.146f;       // DAC input value to get -5.0V out (change based on measurement)
-        cal_voltage_mid = 0.0f;     // Desired voltage
-        cal_dac_mid = 2.556f;         // DAC input value to get 0.0V out
-        cal_voltage_high = 5.0f;    // Desired voltage
-        cal_dac_high = 0.967f;        // DAC input value to get +5.0V out
+        cal_dac_low  = CAL.dac_ch1_low;
+        cal_dac_mid  = CAL.dac_ch1_mid;
+        cal_dac_high = CAL.dac_ch1_high;
       }
       else{
-        // Calibration points for CV_OUT_2
-        cal_voltage_low = -5.0f;    // Desired voltage
-        cal_dac_low = 4.141f;       // DAC input value to get -5.0V out (change based on measurement)
-        cal_voltage_mid = 0.0f;     // Desired voltage
-        cal_dac_mid = 2.552f;         // DAC input value to get 0.0V out
-        cal_voltage_high = 5.0f;    // Desired voltage
-        cal_dac_high = 0.965f;        // DAC input value to get +5.0V out
+        cal_dac_low  = CAL.dac_ch2_low;
+        cal_dac_mid  = CAL.dac_ch2_mid;
+        cal_dac_high = CAL.dac_ch2_high;
       }
  
       // Piecewise linear interpolation
@@ -80,44 +77,36 @@ namespace anachrome
       // Read raw ADC value from GetAdcValue (returns -1.0 to 1.0 for -5V to +5V)
       float raw = patch.GetAdcValue(channel);
 
-      // Per-channel calibration points: (measured_adc_reading, normalized_output -1 to 1)
-      // NOTE: Calibrate at ±4V instead of ±5V to avoid ADC saturation/clamping
-      // Piecewise linear interpolation will extrapolate to ±1.0 for ±5V range
-      float cal_adc_low, cal_out_low, cal_adc_mid, cal_out_mid, cal_adc_high, cal_out_high;
+      // Fixed normalized output targets (same for all units)
+      // Calibrate at ±4V (not ±5V) to avoid ADC saturation; piecewise linear extrapolates to ±1.0
+      constexpr float cal_out_high =  0.8f;   // 4V / 5V
+      constexpr float cal_out_mid  =  0.0f;
+      constexpr float cal_out_low  = -0.8f;   // -4V / 5V
+
+      // Per-unit measured ADC readings from planter_calibration.h
+      float cal_adc_low, cal_adc_mid, cal_adc_high;
 
       switch(channel)
       {
           case 0: // CV_1
-              cal_adc_high = 0.7959f;   // ADC reading when +4.0V applied (extrapolates to +1.0 at 5V)
-              cal_out_high = 0.8f;      // Normalized output (4V / 5V = 0.8)
-              cal_adc_mid  = -0.0267f;   // ADC reading when 0.0V applied
-              cal_out_mid  = 0.0f;      // Normalized output
-              cal_adc_low  = -0.8479f;  // ADC reading when -4.0V applied (extrapolates to -1.0 at 5V)
-              cal_out_low  = -0.8f;     // Normalized output (-4V / 5V = -0.8)
+              cal_adc_high = CAL.adc_ch0_high;
+              cal_adc_mid  = CAL.adc_ch0_mid;
+              cal_adc_low  = CAL.adc_ch0_low;
               break;
           case 1: // CV_2
-              cal_adc_high = 0.7934f;   // ADC reading when +4.0V applied
-              cal_out_high = 0.8f;
-              cal_adc_mid  = -0.0312f;   // ADC reading when 0.0V applied
-              cal_out_mid  = 0.0f;
-              cal_adc_low  = -0.8551f;  // ADC reading when -4.0V applied
-              cal_out_low  = -0.8f;
+              cal_adc_high = CAL.adc_ch1_high;
+              cal_adc_mid  = CAL.adc_ch1_mid;
+              cal_adc_low  = CAL.adc_ch1_low;
               break;
           case 2: // CV_3
-              cal_adc_high = 0.7924f;   // ADC reading when +4.0V applied
-              cal_out_high = 0.8f;
-              cal_adc_mid  = -0.0311f;   // ADC reading when 0.0V applied
-              cal_out_mid  = 0.0f;
-              cal_adc_low  = -0.8543f;  // ADC reading when -4.0V applied
-              cal_out_low  = -0.8f;
+              cal_adc_high = CAL.adc_ch2_high;
+              cal_adc_mid  = CAL.adc_ch2_mid;
+              cal_adc_low  = CAL.adc_ch2_low;
               break;
           case 3: // CV_4
-              cal_adc_high = 0.7937f;   // ADC reading when +4.0V applied
-              cal_out_high = 0.8f;
-              cal_adc_mid  = -0.0291f;   // ADC reading when 0.0V applied
-              cal_out_mid  = 0.0f;
-              cal_adc_low  = -0.8517f;  // ADC reading when -4.0V applied
-              cal_out_low  = -0.8f;
+              cal_adc_high = CAL.adc_ch3_high;
+              cal_adc_mid  = CAL.adc_ch3_mid;
+              cal_adc_low  = CAL.adc_ch3_low;
               break;
           default:
               // No calibration for out-of-range channels
@@ -162,22 +151,52 @@ namespace anachrome
 
   float planter::GetKnobValue(int index)
   {
-      if(index >= 4 && index < 8){
-      // Get raw 16-bit value
-      uint16_t raw = patch.adc.Get(index);;
-      // Normalize to 0-1 and invert due to the inverting amplifier in CV circuit
-      float normalized = (float)raw / 65535.0f;
-      float scaled = ((0.513f - normalized) * 3.03f);
-      
-      // Clamp to 0-1 to handle op-amp offset drift
+      // Read filtered value from AnalogControl
+      // Knobs 1-4 (indices 4-7): bipolar-initialized channels, output range depends on 3V3 pot into ±5V circuit
+      // Knobs 5-6 (indices 8-9): unipolar-initialized channels, output range ~0-0.5 for 3V3 pot
+      float raw = patch.GetAdcValue(index);
+
+      // Per-unit measured min/max from planter_calibration.h
+      float cal_raw_low, cal_raw_high;
+
+      switch(index)
+      {
+          case KNOB_1:
+              cal_raw_low  = CAL.knob1_low;
+              cal_raw_high = CAL.knob1_high;
+              break;
+          case KNOB_2:
+              cal_raw_low  = CAL.knob2_low;
+              cal_raw_high = CAL.knob2_high;
+              break;
+          case KNOB_3:
+              cal_raw_low  = CAL.knob3_low;
+              cal_raw_high = CAL.knob3_high;
+              break;
+          case KNOB_4:
+              cal_raw_low  = CAL.knob4_low;
+              cal_raw_high = CAL.knob4_high;
+              break;
+          case KNOB_5:
+              cal_raw_low  = CAL.knob5_low;
+              cal_raw_high = CAL.knob5_high;
+              break;
+          case KNOB_6:
+              cal_raw_low  = CAL.knob6_low;
+              cal_raw_high = CAL.knob6_high;
+              break;
+          default:
+              return raw;
+      }
+
+      // Linear interpolation from [cal_raw_low, cal_raw_high] -> [0.0, 1.0]
+      float scaled = (raw - cal_raw_low) / (cal_raw_high - cal_raw_low);
+
+      // Clamp to 0-1
       if(scaled < 0.0f) scaled = 0.0f;
       if(scaled > 1.0f) scaled = 1.0f;
-      
+
       return scaled;
-      }
-      else{
-        return patch.GetAdcValue(index);
-      }
   }
 
   void planter::BootloaderResetCheck() {

@@ -26,32 +26,28 @@ void AudioCallback(AudioHandle::InputBuffer  in,
     euro.toggle1.Debounce();
     euro.toggle2.Debounce();
     euro.toggle3.Debounce();
-    for(size_t i = 0; i < size; i++)
-    {
-        out[0][i] = out[1][i] = osc.Process() * (euro.toggle1.Pressed() ? 1.f : 0.f);
-    }
+    // for(size_t i = 0; i < size; i++)
+    // {
+    //     out[0][i] = in[0][i];
+    //     out[1][i] = in[1][i];
+    // }
 }
 
 int main(void)
 {
     euro.Init();    
     euro.StartLog(true);
-    //System::Delay(10000);
-    euro.PrintLine("Daisy Patch SM started. Test Beginning");
+    System::Delay(1000);
+    euro.PrintLine("Planter started. Test Beginning");
+    euro.PrintLine("PLANTER_SERIAL=%d", PLANTER_SERIAL);
+    euro.PrintLine("CAL serial=%d", anachrome::calibration::CAL.serial);
 
-    /** Memory tests first to keep test short if everything else fails */
-    bool sdram_pass = euro.patch.ValidateSDRAM();
-    euro.patch.PrintLine("SDRAM Test\t-\t%s", sdram_pass ? "PASS" : "FAIL");
-    bool qspi_pass = euro.patch.ValidateQSPI();
-    euro.patch.PrintLine("QSPI Test\t-\t%s", qspi_pass ? "PASS" : "FAIL");
+    System::Delay(1000);
 
-    /** Initialize our test tone */
-    osc.Init(euro.patch.AudioSampleRate());
     euro.patch.StartAudio(AudioCallback);
 
-    uint32_t now, dact, usbt, gatet, ledt;
-    now = dact = usbt = ledt = System::GetNow();
-    gatet             = now;
+    uint32_t now, usbt;
+    usbt = now = System::GetNow();
 
     bool led1_state = true;
     bool led2_state = false;
@@ -64,7 +60,6 @@ int main(void)
     while(1)
     {
         now = System::GetNow();
-        // 500Hz samplerate for DAC output test
 
         // Detect rising edge by comparing button state frame-to-frame, rising edge detect without audiocallback rate
         bool current_button_state = euro.button.Pressed();
@@ -127,23 +122,22 @@ int main(void)
         if(now - usbt > 100)
         {
 
-
-
-
             euro.PrintLine("######################");
-            euro.PrintLine("Analog IO:");
+            euro.PrintLine("Analog Out:");
             euro.PrintLine("CALIBRATING: %s", cv_out_state ? "CV_OUT_2" : "CV_OUT_1");
 
             float cal1 = euro.GetKnobValue(planter::KNOB_1) + (euro.GetKnobValue(planter::KNOB_4) * 0.02);
-            euro.PrintLine("CAL CV_OUT_HIGH: %1.3f", cal1);
+            euro.PrintLine("VAL CV_OUT_HIGH: %1.3f", cal1);
 
             float cal2 = euro.GetKnobValue(planter::KNOB_2) + (euro.GetKnobValue(planter::KNOB_5) * 0.02)+ 2.0f;
-            euro.PrintLine("CAL CV_OUT_MID: %1.3f", cal2);
+            euro.PrintLine("VAL CV_OUT_MID: %1.3f", cal2);
             
             float cal3 = euro.GetKnobValue(planter::KNOB_3) + (euro.GetKnobValue(planter::KNOB_6) * 0.02) + 4.0f;
-            euro.PrintLine("CAL CV_OUT_LOW: %1.3f", cal3);
+            euro.PrintLine("VAL CV_OUT_LOW: %1.3f", cal3);
 
             
+            euro.PrintLine("Analog In:");
+
             euro.PrintLine("CAL CV1: %1.4f", euro.GetCvIn(CV_1));
             euro.PrintLine("RAW CV1: %1.4f", euro.patch.GetAdcValue(CV_1));
 
@@ -156,34 +150,30 @@ int main(void)
             euro.PrintLine("CAL CV4: %1.4f", euro.GetCvIn(CV_4));
             euro.PrintLine("RAW CV4: %1.4f", euro.patch.GetAdcValue(CV_4));
 
-            // for(int i = 0; i < ADC_LAST; i++)
-            // {
-                
-                
-                
-            //     float val;
-            //     if(i < ADC_11 && i > CV_4)
-            //     {
-            //         // CV inputs: use proper scaling
-            //         val = euro.GetKnobValue(i);
-            //     }
-            //     else
-            //     {
-            //         // ADC inputs: use standard GetAdcValue
-            //         val = euro.patch.GetAdcValue(i);
-            //     }
-            //     euro.Print("%s_%d: " FLT_FMT3,
-            //              i < ADC_9 ? "CV" : "ADC",
-            //              i + 1,
-            //              FLT_VAR3(val));
-            //     if(i != 0 && (i + 1) % 4 == 0)
-            //         euro.Print("\n");
-            //     else
-            //         euro.Print("\t");
-            // }
+            euro.PrintLine("Knobs:");
+
+            euro.PrintLine("CAL Knob1: %1.4f", euro.GetKnobValue(planter::KNOB_1));
+            euro.PrintLine("RAW Knob1: %1.4f", euro.patch.GetAdcValue(planter::KNOB_1));
+
+            euro.PrintLine("CAL Knob2: %1.4f", euro.GetKnobValue(planter::KNOB_2));
+            euro.PrintLine("RAW Knob2: %1.4f", euro.patch.GetAdcValue(planter::KNOB_2));
+
+            euro.PrintLine("CAL Knob3: %1.4f", euro.GetKnobValue(planter::KNOB_3));
+            euro.PrintLine("RAW Knob3: %1.4f", euro.patch.GetAdcValue(planter::KNOB_3));
+
+            euro.PrintLine("CAL Knob4: %1.4f", euro.GetKnobValue(planter::KNOB_4));
+            euro.PrintLine("RAW Knob4: %1.4f", euro.patch.GetAdcValue(planter::KNOB_4));
+
+            euro.PrintLine("CAL Knob5: %1.4f", euro.GetKnobValue(planter::KNOB_5));
+            euro.PrintLine("RAW Knob5: %1.4f", euro.patch.GetAdcValue(planter::KNOB_5));
+
+            euro.PrintLine("CAL Knob6: %1.4f", euro.GetKnobValue(planter::KNOB_6));
+            euro.PrintLine("RAW Knob6: %1.4f", euro.patch.GetAdcValue(planter::KNOB_6));
+
             usbt = now;
         }
 
         euro.BootloaderResetCheck();
     }
+
 }

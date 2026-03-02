@@ -1,7 +1,7 @@
 #pragma once
 
 #include "daisy_patch_sm.h"
-
+#include "planter_cal.h"
 
 using daisy::AdcChannelConfig;
 using daisy::AnalogControl;
@@ -67,6 +67,10 @@ class planter
         // InitSwitches();
         // InitAnalogControls();
         patch.SetAudioBlockSize(48);
+
+        /** Init Gate Outputs */
+        patch.gate_out_1.Init(patch.B5, GPIO::Mode::OUTPUT);
+        patch.gate_out_2.Init(patch.B6, GPIO::Mode::OUTPUT);
         }
 
         /** Convert bipolar (-5..+5V) to 0..5V and write to the specified channel */
@@ -91,7 +95,7 @@ class planter
         template <typename... VA>
         static void Print(const char* format, VA... va)
         {
-            Log::Print(format, va...);
+            LoggerT::Print(format, va...);
         }
 
         /** Print formatted debug log message with automatic line termination
@@ -99,14 +103,14 @@ class planter
         template <typename... VA>
         static void PrintLine(const char* format, VA... va)
         {
-            Log::PrintLine(format, va...);
+            LoggerT::PrintLine(format, va...);
         }
 
         /** Start the logging session. Optionally wait for terminal connection before proceeding.
          */
         static void StartLog(bool wait_for_pc = false)
         {
-            Log::StartLog(wait_for_pc);
+            LoggerT::StartLog(wait_for_pc);
         }
 
 
@@ -120,9 +124,9 @@ class planter
 
         // Expose the Daisy Patch SM object so users can extend functionality.
         daisy::patch_sm::DaisyPatchSM patch;
-
+    
     private:
-        using Log = daisy::Logger<daisy::LoggerDestination::LOGGER_EXTERNAL>;
+    using LoggerT = daisy::Logger<daisy::LOGGER_EXTERNAL>;
 };
 
 } // namespace anachrome

@@ -169,7 +169,7 @@ build/planter.o: ../../Planter/planter.cpp \
  ../../libDaisy//src/sys/fatfs.h ../../libDaisy//src/util/wav_format.h \
  ../../libDaisy//src/util/WavParser.h \
  ../../libDaisy//src/util/WavPlayer.h ../../libDaisy//src/daisy.h \
- ../../libDaisy//src/util/WavWriter.h
+ ../../libDaisy//src/util/WavWriter.h ../../Planter/planter_cal.h
 ../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../libDaisy//Drivers/CMSIS-Device/ST/STM32H7xx/Include/stm32h750xx.h:
 ../../libDaisy//Drivers/CMSIS_5/CMSIS/Core/Include/core_cm7.h:
@@ -373,3 +373,4 @@ build/planter.o: ../../Planter/planter.cpp \
 ../../libDaisy//src/util/WavPlayer.h:
 ../../libDaisy//src/daisy.h:
 ../../libDaisy//src/util/WavWriter.h:
+../../Planter/planter_cal.h:

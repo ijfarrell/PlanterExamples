@@ -31,8 +31,7 @@
                 "USE_FULL_LL_DRIVER",
                 "HSE_VALUE=16000000",
                 "FILEIO_ENABLE_FATFS_READER",
-                "BOOT_APP",
-                "LOGGER_EXTERNAL=1"
+                "BOOT_APP"
             ],
             "compilerPath": "C:/Program Files/DaisyToolchain/bin/arm-none-eabi-g++.exe",
             "intelliSenseMode": "windows-gcc-arm",

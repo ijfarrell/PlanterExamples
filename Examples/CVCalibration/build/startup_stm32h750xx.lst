@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -26,7 +26,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
   23              		.thumb_func
   24              		.fpu fpv5-d16
   26              	Default_Handler:
-  27              	.LFB321:
+  27              	.LFB338:
   28              		.file 1 "../../libDaisy//core/startup_stm32h750xx.c"
    1:../../libDaisy//core/startup_stm32h750xx.c **** /*
    2:../../libDaisy//core/startup_stm32h750xx.c **** 	This file contains the entry point (Reset_Handler) of your firmware project.
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
   28:../../libDaisy//core/startup_stm32h750xx.c **** }
   29:../../libDaisy//core/startup_stm32h750xx.c **** 
   30:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) MemManage_Handler() 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 2
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 2
 
 
   31:../../libDaisy//core/startup_stm32h750xx.c **** {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
   85:../../libDaisy//core/startup_stm32h750xx.c **** 
   86:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) WWDG_IRQHandler() 
   87:../../libDaisy//core/startup_stm32h750xx.c **** {
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 3
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 3
 
 
   88:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  142:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) EXTI1_IRQHandler() 
  143:../../libDaisy//core/startup_stm32h750xx.c **** {
  144:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 4
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 4
 
 
  145:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  199:../../libDaisy//core/startup_stm32h750xx.c **** {
  200:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  201:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 5
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 5
 
 
  202:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void DMA1_Stream3_IRQHandler();
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  256:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  257:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  258:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void FDCAN1_IT1_IRQHandler();
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 6
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 6
 
 
  259:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  313:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  314:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void TIM2_IRQHandler();
  315:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 7
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 7
 
 
  316:../../libDaisy//core/startup_stm32h750xx.c **** }
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  370:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void SPI1_IRQHandler();
  371:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  372:../../libDaisy//core/startup_stm32h750xx.c **** }
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 8
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 8
 
 
  373:../../libDaisy//core/startup_stm32h750xx.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  427:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  428:../../libDaisy//core/startup_stm32h750xx.c **** }
  429:../../libDaisy//core/startup_stm32h750xx.c **** 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 9
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 9
 
 
  430:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) TIM8_UP_TIM13_IRQHandler() 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  484:../../libDaisy//core/startup_stm32h750xx.c **** }
  485:../../libDaisy//core/startup_stm32h750xx.c **** 
  486:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) SPI3_IRQHandler() 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 10
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 10
 
 
  487:../../libDaisy//core/startup_stm32h750xx.c **** {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  541:../../libDaisy//core/startup_stm32h750xx.c **** 
  542:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DMA2_Stream2_IRQHandler() 
  543:../../libDaisy//core/startup_stm32h750xx.c **** {
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 11
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 11
 
 
  544:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  598:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DMA2_Stream6_IRQHandler() 
  599:../../libDaisy//core/startup_stm32h750xx.c **** {
  600:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 12
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 12
 
 
  601:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  655:../../libDaisy//core/startup_stm32h750xx.c **** {
  656:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  657:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 13
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 13
 
 
  658:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void OTG_HS_WKUP_IRQHandler();
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  712:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
  713:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  714:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void UART8_IRQHandler();
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 14
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 14
 
 
  715:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  769:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
  770:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void DMA2D_IRQHandler();
  771:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 15
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 15
 
 
  772:../../libDaisy//core/startup_stm32h750xx.c **** }
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  826:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void SPDIF_RX_IRQHandler();
  827:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  828:../../libDaisy//core/startup_stm32h750xx.c **** }
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 16
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 16
 
 
  829:../../libDaisy//core/startup_stm32h750xx.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  883:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
  884:../../libDaisy//core/startup_stm32h750xx.c **** }
  885:../../libDaisy//core/startup_stm32h750xx.c **** 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 17
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 17
 
 
  886:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) HRTIM1_TIMB_IRQHandler() 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  940:../../libDaisy//core/startup_stm32h750xx.c **** }
  941:../../libDaisy//core/startup_stm32h750xx.c **** 
  942:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DFSDM1_FLT2_IRQHandler() 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 18
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 18
 
 
  943:../../libDaisy//core/startup_stm32h750xx.c **** {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
  997:../../libDaisy//core/startup_stm32h750xx.c **** 
  998:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) MDIOS_WKUP_IRQHandler() 
  999:../../libDaisy//core/startup_stm32h750xx.c **** {
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 19
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 19
 
 
 1000:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1054:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__ ((weak)) DMAMUX2_OVR_IRQHandler() 
 1055:../../libDaisy//core/startup_stm32h750xx.c **** {
 1056:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 20
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 20
 
 
 1057:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1111:../../libDaisy//core/startup_stm32h750xx.c **** {
 1112:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
 1113:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 21
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 21
 
 
 1114:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void BDMA_Channel6_IRQHandler();
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1168:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you hit the breakpoint below, one of the interrupts was unhandled in your code. 
 1169:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define the following function in your code to handle it:
 1170:../../libDaisy//core/startup_stm32h750xx.c **** 	//	extern "C" void LPUART1_IRQHandler();
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 22
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 22
 
 
 1171:../../libDaisy//core/startup_stm32h750xx.c **** 	asm("bkpt 255");
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1225:../../libDaisy//core/startup_stm32h750xx.c **** void EXTI3_IRQHandler()               __attribute__ ((weak, alias ("Default_Handler")));
 1226:../../libDaisy//core/startup_stm32h750xx.c **** void EXTI4_IRQHandler()               __attribute__ ((weak, alias ("Default_Handler")));
 1227:../../libDaisy//core/startup_stm32h750xx.c **** void DMA1_Stream0_IRQHandler()        __attribute__ ((weak, alias ("Default_Handler")));
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 23
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 23
 
 
 1228:../../libDaisy//core/startup_stm32h750xx.c **** void DMA1_Stream1_IRQHandler()        __attribute__ ((weak, alias ("Default_Handler")));
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1282:../../libDaisy//core/startup_stm32h750xx.c **** void USART6_IRQHandler()              __attribute__ ((weak, alias ("Default_Handler")));
 1283:../../libDaisy//core/startup_stm32h750xx.c **** void I2C3_EV_IRQHandler()             __attribute__ ((weak, alias ("Default_Handler")));
 1284:../../libDaisy//core/startup_stm32h750xx.c **** void I2C3_ER_IRQHandler()             __attribute__ ((weak, alias ("Default_Handler")));
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 24
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 24
 
 
 1285:../../libDaisy//core/startup_stm32h750xx.c **** void OTG_HS_EP1_OUT_IRQHandler()      __attribute__ ((weak, alias ("Default_Handler")));
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1339:../../libDaisy//core/startup_stm32h750xx.c **** void BDMA_Channel1_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
 1340:../../libDaisy//core/startup_stm32h750xx.c **** void BDMA_Channel2_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
 1341:../../libDaisy//core/startup_stm32h750xx.c **** void BDMA_Channel3_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 25
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 25
 
 
 1342:../../libDaisy//core/startup_stm32h750xx.c **** void BDMA_Channel4_IRQHandler()       __attribute__ ((weak, alias ("Default_Handler")));
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1396:../../libDaisy//core/startup_stm32h750xx.c **** 	&FDCAN2_IT0_IRQHandler,
 1397:../../libDaisy//core/startup_stm32h750xx.c **** 	&FDCAN1_IT1_IRQHandler,
 1398:../../libDaisy//core/startup_stm32h750xx.c **** 	&FDCAN2_IT1_IRQHandler,
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 26
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 26
 
 
 1399:../../libDaisy//core/startup_stm32h750xx.c **** 	&EXTI9_5_IRQHandler,
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1453:../../libDaisy//core/startup_stm32h750xx.c **** 	&OTG_HS_IRQHandler,
 1454:../../libDaisy//core/startup_stm32h750xx.c **** 	&DCMI_IRQHandler,
 1455:../../libDaisy//core/startup_stm32h750xx.c **** 	&CRYP_IRQHandler,
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 27
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 27
 
 
 1456:../../libDaisy//core/startup_stm32h750xx.c **** 	&HASH_RNG_IRQHandler,
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1510:../../libDaisy//core/startup_stm32h750xx.c **** 	&BDMA_Channel5_IRQHandler,
 1511:../../libDaisy//core/startup_stm32h750xx.c **** 	&BDMA_Channel6_IRQHandler,
 1512:../../libDaisy//core/startup_stm32h750xx.c **** 	&BDMA_Channel7_IRQHandler,
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 28
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 28
 
 
 1513:../../libDaisy//core/startup_stm32h750xx.c **** 	&COMP1_IRQHandler,
@@ -1643,7 +1643,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1532:../../libDaisy//core/startup_stm32h750xx.c **** extern void *_sidata, *_sdata, *_edata;
 1533:../../libDaisy//core/startup_stm32h750xx.c **** extern void *_sbss, *_ebss;
 1534:../../libDaisy//core/startup_stm32h750xx.c **** 
-1535:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__((naked, noreturn)) Reset_Handler()
+1535:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__((noreturn)) Reset_Handler()
 1536:../../libDaisy//core/startup_stm32h750xx.c **** {
 1537:../../libDaisy//core/startup_stm32h750xx.c **** 	//Normally the CPU should will setup the based on the value from the first entry in the vector tab
 1538:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you encounter problems with accessing stack variables during initialization, ensure the line 
@@ -1668,781 +1668,799 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 1
 1557:../../libDaisy//core/startup_stm32h750xx.c **** 	for (;;) ;
 1558:../../libDaisy//core/startup_stm32h750xx.c **** }
 1559:../../libDaisy//core/startup_stm32h750xx.c **** 
-1560:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__((naked, noreturn)) Default_Handler()
+1560:../../libDaisy//core/startup_stm32h750xx.c **** void __attribute__((interrupt ("UNDEF"), noreturn)) Default_Handler()
 1561:../../libDaisy//core/startup_stm32h750xx.c **** {
   29              		.loc 1 1561 1 view -0
   30              		.cfi_startproc
-  31              		@ Naked Function: prologue and epilogue provided by programmer.
-  32              		@ Volatile: function does not return.
+  31              		@ Volatile: function does not return.
+  32              		@ Stack Align: May be called with mis-aligned SP.
   33              		@ args = 0, pretend = 0, frame = 0
   34              		@ frame_needed = 0, uses_anonymous_args = 0
-  35              	.L2:
+  35              		@ link register save eliminated.
+  36 0000 6846     		mov	r0, sp
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 29
+
+
+  37              		.cfi_register 13, 0
+  38 0002 20F00701 		bic	r1, r0, #7
+  39 0006 8D46     		mov	sp, r1
+  40              	.L2:
 1562:../../libDaisy//core/startup_stm32h750xx.c **** 	//If you get stuck here, your code is missing a handler for some interrupt.
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 29
-
-
 1563:../../libDaisy//core/startup_stm32h750xx.c **** 	//Define a 'DEBUG_DEFAULT_INTERRUPT_HANDLERS' macro via VisualGDB Project Properties and rebuild y
 1564:../../libDaisy//core/startup_stm32h750xx.c **** 	//This will pinpoint a specific missing vector.
 1565:../../libDaisy//core/startup_stm32h750xx.c **** 	for (;;) ;
-  36              		.loc 1 1565 2 discriminator 1 view .LVU1
-  37              		.loc 1 1565 11 discriminator 1 view .LVU2
-  38              		.loc 1 1565 8 discriminator 1 view .LVU3
-  39 0000 FEE7     		b	.L2
-  40              		.cfi_endproc
-  41              	.LFE321:
-  43              		.weak	WAKEUP_PIN_IRQHandler
-  44              		.thumb_set WAKEUP_PIN_IRQHandler,Default_Handler
-  45              		.weak	SAI4_IRQHandler
-  46              		.thumb_set SAI4_IRQHandler,Default_Handler
-  47              		.weak	ECC_IRQHandler
-  48              		.thumb_set ECC_IRQHandler,Default_Handler
-  49              		.weak	CRS_IRQHandler
-  50              		.thumb_set CRS_IRQHandler,Default_Handler
-  51              		.weak	LPUART1_IRQHandler
-  52              		.thumb_set LPUART1_IRQHandler,Default_Handler
-  53              		.weak	LPTIM5_IRQHandler
-  54              		.thumb_set LPTIM5_IRQHandler,Default_Handler
-  55              		.weak	LPTIM4_IRQHandler
-  56              		.thumb_set LPTIM4_IRQHandler,Default_Handler
-  57              		.weak	LPTIM3_IRQHandler
-  58              		.thumb_set LPTIM3_IRQHandler,Default_Handler
-  59              		.weak	LPTIM2_IRQHandler
-  60              		.thumb_set LPTIM2_IRQHandler,Default_Handler
-  61              		.weak	COMP1_IRQHandler
-  62              		.thumb_set COMP1_IRQHandler,Default_Handler
-  63              		.weak	BDMA_Channel7_IRQHandler
-  64              		.thumb_set BDMA_Channel7_IRQHandler,Default_Handler
-  65              		.weak	BDMA_Channel6_IRQHandler
-  66              		.thumb_set BDMA_Channel6_IRQHandler,Default_Handler
-  67              		.weak	BDMA_Channel5_IRQHandler
-  68              		.thumb_set BDMA_Channel5_IRQHandler,Default_Handler
-  69              		.weak	BDMA_Channel4_IRQHandler
-  70              		.thumb_set BDMA_Channel4_IRQHandler,Default_Handler
-  71              		.weak	BDMA_Channel3_IRQHandler
-  72              		.thumb_set BDMA_Channel3_IRQHandler,Default_Handler
-  73              		.weak	BDMA_Channel2_IRQHandler
-  74              		.thumb_set BDMA_Channel2_IRQHandler,Default_Handler
-  75              		.weak	BDMA_Channel1_IRQHandler
-  76              		.thumb_set BDMA_Channel1_IRQHandler,Default_Handler
-  77              		.weak	BDMA_Channel0_IRQHandler
-  78              		.thumb_set BDMA_Channel0_IRQHandler,Default_Handler
-  79              		.weak	DMAMUX2_OVR_IRQHandler
-  80              		.thumb_set DMAMUX2_OVR_IRQHandler,Default_Handler
-  81              		.weak	ADC3_IRQHandler
-  82              		.thumb_set ADC3_IRQHandler,Default_Handler
-  83              		.weak	HSEM1_IRQHandler
-  84              		.thumb_set HSEM1_IRQHandler,Default_Handler
-  85              		.weak	SDMMC2_IRQHandler
-  86              		.thumb_set SDMMC2_IRQHandler,Default_Handler
-  87              		.weak	MDMA_IRQHandler
-  88              		.thumb_set MDMA_IRQHandler,Default_Handler
-  89              		.weak	JPEG_IRQHandler
-  90              		.thumb_set JPEG_IRQHandler,Default_Handler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 30
+  41              		.loc 1 1565 2 discriminator 1 view .LVU1
+  42              		.loc 1 1565 11 discriminator 1 view .LVU2
+  43              		.loc 1 1565 8 discriminator 1 view .LVU3
+  44              		.loc 1 1565 2 discriminator 1 view .LVU4
+  45              		.loc 1 1565 11 discriminator 1 view .LVU5
+  46              		.loc 1 1565 8 discriminator 1 view .LVU6
+  47 0008 FEE7     		b	.L2
+  48              		.cfi_endproc
+  49              	.LFE338:
+  51              		.weak	WAKEUP_PIN_IRQHandler
+  52              		.thumb_set WAKEUP_PIN_IRQHandler,Default_Handler
+  53              		.weak	SAI4_IRQHandler
+  54              		.thumb_set SAI4_IRQHandler,Default_Handler
+  55              		.weak	ECC_IRQHandler
+  56              		.thumb_set ECC_IRQHandler,Default_Handler
+  57              		.weak	CRS_IRQHandler
+  58              		.thumb_set CRS_IRQHandler,Default_Handler
+  59              		.weak	LPUART1_IRQHandler
+  60              		.thumb_set LPUART1_IRQHandler,Default_Handler
+  61              		.weak	LPTIM5_IRQHandler
+  62              		.thumb_set LPTIM5_IRQHandler,Default_Handler
+  63              		.weak	LPTIM4_IRQHandler
+  64              		.thumb_set LPTIM4_IRQHandler,Default_Handler
+  65              		.weak	LPTIM3_IRQHandler
+  66              		.thumb_set LPTIM3_IRQHandler,Default_Handler
+  67              		.weak	LPTIM2_IRQHandler
+  68              		.thumb_set LPTIM2_IRQHandler,Default_Handler
+  69              		.weak	COMP1_IRQHandler
+  70              		.thumb_set COMP1_IRQHandler,Default_Handler
+  71              		.weak	BDMA_Channel7_IRQHandler
+  72              		.thumb_set BDMA_Channel7_IRQHandler,Default_Handler
+  73              		.weak	BDMA_Channel6_IRQHandler
+  74              		.thumb_set BDMA_Channel6_IRQHandler,Default_Handler
+  75              		.weak	BDMA_Channel5_IRQHandler
+  76              		.thumb_set BDMA_Channel5_IRQHandler,Default_Handler
+  77              		.weak	BDMA_Channel4_IRQHandler
+  78              		.thumb_set BDMA_Channel4_IRQHandler,Default_Handler
+  79              		.weak	BDMA_Channel3_IRQHandler
+  80              		.thumb_set BDMA_Channel3_IRQHandler,Default_Handler
+  81              		.weak	BDMA_Channel2_IRQHandler
+  82              		.thumb_set BDMA_Channel2_IRQHandler,Default_Handler
+  83              		.weak	BDMA_Channel1_IRQHandler
+  84              		.thumb_set BDMA_Channel1_IRQHandler,Default_Handler
+  85              		.weak	BDMA_Channel0_IRQHandler
+  86              		.thumb_set BDMA_Channel0_IRQHandler,Default_Handler
+  87              		.weak	DMAMUX2_OVR_IRQHandler
+  88              		.thumb_set DMAMUX2_OVR_IRQHandler,Default_Handler
+  89              		.weak	ADC3_IRQHandler
+  90              		.thumb_set ADC3_IRQHandler,Default_Handler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 30
 
 
-  91              		.weak	MDIOS_IRQHandler
-  92              		.thumb_set MDIOS_IRQHandler,Default_Handler
-  93              		.weak	MDIOS_WKUP_IRQHandler
-  94              		.thumb_set MDIOS_WKUP_IRQHandler,Default_Handler
-  95              		.weak	TIM17_IRQHandler
-  96              		.thumb_set TIM17_IRQHandler,Default_Handler
-  97              		.weak	TIM16_IRQHandler
-  98              		.thumb_set TIM16_IRQHandler,Default_Handler
-  99              		.weak	TIM15_IRQHandler
- 100              		.thumb_set TIM15_IRQHandler,Default_Handler
- 101              		.weak	SWPMI1_IRQHandler
- 102              		.thumb_set SWPMI1_IRQHandler,Default_Handler
- 103              		.weak	SAI3_IRQHandler
- 104              		.thumb_set SAI3_IRQHandler,Default_Handler
- 105              		.weak	DFSDM1_FLT3_IRQHandler
- 106              		.thumb_set DFSDM1_FLT3_IRQHandler,Default_Handler
- 107              		.weak	DFSDM1_FLT2_IRQHandler
- 108              		.thumb_set DFSDM1_FLT2_IRQHandler,Default_Handler
- 109              		.weak	DFSDM1_FLT1_IRQHandler
- 110              		.thumb_set DFSDM1_FLT1_IRQHandler,Default_Handler
- 111              		.weak	DFSDM1_FLT0_IRQHandler
- 112              		.thumb_set DFSDM1_FLT0_IRQHandler,Default_Handler
- 113              		.weak	HRTIM1_FLT_IRQHandler
- 114              		.thumb_set HRTIM1_FLT_IRQHandler,Default_Handler
- 115              		.weak	HRTIM1_TIME_IRQHandler
- 116              		.thumb_set HRTIM1_TIME_IRQHandler,Default_Handler
- 117              		.weak	HRTIM1_TIMD_IRQHandler
- 118              		.thumb_set HRTIM1_TIMD_IRQHandler,Default_Handler
- 119              		.weak	HRTIM1_TIMC_IRQHandler
- 120              		.thumb_set HRTIM1_TIMC_IRQHandler,Default_Handler
- 121              		.weak	HRTIM1_TIMB_IRQHandler
- 122              		.thumb_set HRTIM1_TIMB_IRQHandler,Default_Handler
- 123              		.weak	HRTIM1_TIMA_IRQHandler
- 124              		.thumb_set HRTIM1_TIMA_IRQHandler,Default_Handler
- 125              		.weak	HRTIM1_Master_IRQHandler
- 126              		.thumb_set HRTIM1_Master_IRQHandler,Default_Handler
- 127              		.weak	DMAMUX1_OVR_IRQHandler
- 128              		.thumb_set DMAMUX1_OVR_IRQHandler,Default_Handler
- 129              		.weak	OTG_FS_IRQHandler
- 130              		.thumb_set OTG_FS_IRQHandler,Default_Handler
- 131              		.weak	OTG_FS_WKUP_IRQHandler
- 132              		.thumb_set OTG_FS_WKUP_IRQHandler,Default_Handler
- 133              		.weak	OTG_FS_EP1_IN_IRQHandler
- 134              		.thumb_set OTG_FS_EP1_IN_IRQHandler,Default_Handler
- 135              		.weak	OTG_FS_EP1_OUT_IRQHandler
- 136              		.thumb_set OTG_FS_EP1_OUT_IRQHandler,Default_Handler
- 137              		.weak	SPDIF_RX_IRQHandler
- 138              		.thumb_set SPDIF_RX_IRQHandler,Default_Handler
- 139              		.weak	I2C4_ER_IRQHandler
- 140              		.thumb_set I2C4_ER_IRQHandler,Default_Handler
- 141              		.weak	I2C4_EV_IRQHandler
- 142              		.thumb_set I2C4_EV_IRQHandler,Default_Handler
- 143              		.weak	CEC_IRQHandler
- 144              		.thumb_set CEC_IRQHandler,Default_Handler
- 145              		.weak	LPTIM1_IRQHandler
- 146              		.thumb_set LPTIM1_IRQHandler,Default_Handler
- 147              		.weak	QUADSPI_IRQHandler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 31
+  91              		.weak	HSEM1_IRQHandler
+  92              		.thumb_set HSEM1_IRQHandler,Default_Handler
+  93              		.weak	SDMMC2_IRQHandler
+  94              		.thumb_set SDMMC2_IRQHandler,Default_Handler
+  95              		.weak	MDMA_IRQHandler
+  96              		.thumb_set MDMA_IRQHandler,Default_Handler
+  97              		.weak	JPEG_IRQHandler
+  98              		.thumb_set JPEG_IRQHandler,Default_Handler
+  99              		.weak	MDIOS_IRQHandler
+ 100              		.thumb_set MDIOS_IRQHandler,Default_Handler
+ 101              		.weak	MDIOS_WKUP_IRQHandler
+ 102              		.thumb_set MDIOS_WKUP_IRQHandler,Default_Handler
+ 103              		.weak	TIM17_IRQHandler
+ 104              		.thumb_set TIM17_IRQHandler,Default_Handler
+ 105              		.weak	TIM16_IRQHandler
+ 106              		.thumb_set TIM16_IRQHandler,Default_Handler
+ 107              		.weak	TIM15_IRQHandler
+ 108              		.thumb_set TIM15_IRQHandler,Default_Handler
+ 109              		.weak	SWPMI1_IRQHandler
+ 110              		.thumb_set SWPMI1_IRQHandler,Default_Handler
+ 111              		.weak	SAI3_IRQHandler
+ 112              		.thumb_set SAI3_IRQHandler,Default_Handler
+ 113              		.weak	DFSDM1_FLT3_IRQHandler
+ 114              		.thumb_set DFSDM1_FLT3_IRQHandler,Default_Handler
+ 115              		.weak	DFSDM1_FLT2_IRQHandler
+ 116              		.thumb_set DFSDM1_FLT2_IRQHandler,Default_Handler
+ 117              		.weak	DFSDM1_FLT1_IRQHandler
+ 118              		.thumb_set DFSDM1_FLT1_IRQHandler,Default_Handler
+ 119              		.weak	DFSDM1_FLT0_IRQHandler
+ 120              		.thumb_set DFSDM1_FLT0_IRQHandler,Default_Handler
+ 121              		.weak	HRTIM1_FLT_IRQHandler
+ 122              		.thumb_set HRTIM1_FLT_IRQHandler,Default_Handler
+ 123              		.weak	HRTIM1_TIME_IRQHandler
+ 124              		.thumb_set HRTIM1_TIME_IRQHandler,Default_Handler
+ 125              		.weak	HRTIM1_TIMD_IRQHandler
+ 126              		.thumb_set HRTIM1_TIMD_IRQHandler,Default_Handler
+ 127              		.weak	HRTIM1_TIMC_IRQHandler
+ 128              		.thumb_set HRTIM1_TIMC_IRQHandler,Default_Handler
+ 129              		.weak	HRTIM1_TIMB_IRQHandler
+ 130              		.thumb_set HRTIM1_TIMB_IRQHandler,Default_Handler
+ 131              		.weak	HRTIM1_TIMA_IRQHandler
+ 132              		.thumb_set HRTIM1_TIMA_IRQHandler,Default_Handler
+ 133              		.weak	HRTIM1_Master_IRQHandler
+ 134              		.thumb_set HRTIM1_Master_IRQHandler,Default_Handler
+ 135              		.weak	DMAMUX1_OVR_IRQHandler
+ 136              		.thumb_set DMAMUX1_OVR_IRQHandler,Default_Handler
+ 137              		.weak	OTG_FS_IRQHandler
+ 138              		.thumb_set OTG_FS_IRQHandler,Default_Handler
+ 139              		.weak	OTG_FS_WKUP_IRQHandler
+ 140              		.thumb_set OTG_FS_WKUP_IRQHandler,Default_Handler
+ 141              		.weak	OTG_FS_EP1_IN_IRQHandler
+ 142              		.thumb_set OTG_FS_EP1_IN_IRQHandler,Default_Handler
+ 143              		.weak	OTG_FS_EP1_OUT_IRQHandler
+ 144              		.thumb_set OTG_FS_EP1_OUT_IRQHandler,Default_Handler
+ 145              		.weak	SPDIF_RX_IRQHandler
+ 146              		.thumb_set SPDIF_RX_IRQHandler,Default_Handler
+ 147              		.weak	I2C4_ER_IRQHandler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 31
 
 
- 148              		.thumb_set QUADSPI_IRQHandler,Default_Handler
- 149              		.weak	SAI2_IRQHandler
- 150              		.thumb_set SAI2_IRQHandler,Default_Handler
- 151              		.weak	DMA2D_IRQHandler
- 152              		.thumb_set DMA2D_IRQHandler,Default_Handler
- 153              		.weak	LTDC_ER_IRQHandler
- 154              		.thumb_set LTDC_ER_IRQHandler,Default_Handler
- 155              		.weak	LTDC_IRQHandler
- 156              		.thumb_set LTDC_IRQHandler,Default_Handler
- 157              		.weak	SAI1_IRQHandler
- 158              		.thumb_set SAI1_IRQHandler,Default_Handler
- 159              		.weak	SPI6_IRQHandler
- 160              		.thumb_set SPI6_IRQHandler,Default_Handler
- 161              		.weak	SPI5_IRQHandler
- 162              		.thumb_set SPI5_IRQHandler,Default_Handler
- 163              		.weak	SPI4_IRQHandler
- 164              		.thumb_set SPI4_IRQHandler,Default_Handler
- 165              		.weak	UART8_IRQHandler
- 166              		.thumb_set UART8_IRQHandler,Default_Handler
- 167              		.weak	UART7_IRQHandler
- 168              		.thumb_set UART7_IRQHandler,Default_Handler
- 169              		.weak	FPU_IRQHandler
- 170              		.thumb_set FPU_IRQHandler,Default_Handler
- 171              		.weak	HASH_RNG_IRQHandler
- 172              		.thumb_set HASH_RNG_IRQHandler,Default_Handler
- 173              		.weak	CRYP_IRQHandler
- 174              		.thumb_set CRYP_IRQHandler,Default_Handler
- 175              		.weak	DCMI_IRQHandler
- 176              		.thumb_set DCMI_IRQHandler,Default_Handler
- 177              		.weak	OTG_HS_IRQHandler
- 178              		.thumb_set OTG_HS_IRQHandler,Default_Handler
- 179              		.weak	OTG_HS_WKUP_IRQHandler
- 180              		.thumb_set OTG_HS_WKUP_IRQHandler,Default_Handler
- 181              		.weak	OTG_HS_EP1_IN_IRQHandler
- 182              		.thumb_set OTG_HS_EP1_IN_IRQHandler,Default_Handler
- 183              		.weak	OTG_HS_EP1_OUT_IRQHandler
- 184              		.thumb_set OTG_HS_EP1_OUT_IRQHandler,Default_Handler
- 185              		.weak	I2C3_ER_IRQHandler
- 186              		.thumb_set I2C3_ER_IRQHandler,Default_Handler
- 187              		.weak	I2C3_EV_IRQHandler
- 188              		.thumb_set I2C3_EV_IRQHandler,Default_Handler
- 189              		.weak	USART6_IRQHandler
- 190              		.thumb_set USART6_IRQHandler,Default_Handler
- 191              		.weak	DMA2_Stream7_IRQHandler
- 192              		.thumb_set DMA2_Stream7_IRQHandler,Default_Handler
- 193              		.weak	DMA2_Stream6_IRQHandler
- 194              		.thumb_set DMA2_Stream6_IRQHandler,Default_Handler
- 195              		.weak	DMA2_Stream5_IRQHandler
- 196              		.thumb_set DMA2_Stream5_IRQHandler,Default_Handler
- 197              		.weak	FDCAN_CAL_IRQHandler
- 198              		.thumb_set FDCAN_CAL_IRQHandler,Default_Handler
- 199              		.weak	ETH_WKUP_IRQHandler
- 200              		.thumb_set ETH_WKUP_IRQHandler,Default_Handler
- 201              		.weak	ETH_IRQHandler
- 202              		.thumb_set ETH_IRQHandler,Default_Handler
- 203              		.weak	DMA2_Stream4_IRQHandler
- 204              		.thumb_set DMA2_Stream4_IRQHandler,Default_Handler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 32
+ 148              		.thumb_set I2C4_ER_IRQHandler,Default_Handler
+ 149              		.weak	I2C4_EV_IRQHandler
+ 150              		.thumb_set I2C4_EV_IRQHandler,Default_Handler
+ 151              		.weak	CEC_IRQHandler
+ 152              		.thumb_set CEC_IRQHandler,Default_Handler
+ 153              		.weak	LPTIM1_IRQHandler
+ 154              		.thumb_set LPTIM1_IRQHandler,Default_Handler
+ 155              		.weak	QUADSPI_IRQHandler
+ 156              		.thumb_set QUADSPI_IRQHandler,Default_Handler
+ 157              		.weak	SAI2_IRQHandler
+ 158              		.thumb_set SAI2_IRQHandler,Default_Handler
+ 159              		.weak	DMA2D_IRQHandler
+ 160              		.thumb_set DMA2D_IRQHandler,Default_Handler
+ 161              		.weak	LTDC_ER_IRQHandler
+ 162              		.thumb_set LTDC_ER_IRQHandler,Default_Handler
+ 163              		.weak	LTDC_IRQHandler
+ 164              		.thumb_set LTDC_IRQHandler,Default_Handler
+ 165              		.weak	SAI1_IRQHandler
+ 166              		.thumb_set SAI1_IRQHandler,Default_Handler
+ 167              		.weak	SPI6_IRQHandler
+ 168              		.thumb_set SPI6_IRQHandler,Default_Handler
+ 169              		.weak	SPI5_IRQHandler
+ 170              		.thumb_set SPI5_IRQHandler,Default_Handler
+ 171              		.weak	SPI4_IRQHandler
+ 172              		.thumb_set SPI4_IRQHandler,Default_Handler
+ 173              		.weak	UART8_IRQHandler
+ 174              		.thumb_set UART8_IRQHandler,Default_Handler
+ 175              		.weak	UART7_IRQHandler
+ 176              		.thumb_set UART7_IRQHandler,Default_Handler
+ 177              		.weak	FPU_IRQHandler
+ 178              		.thumb_set FPU_IRQHandler,Default_Handler
+ 179              		.weak	HASH_RNG_IRQHandler
+ 180              		.thumb_set HASH_RNG_IRQHandler,Default_Handler
+ 181              		.weak	CRYP_IRQHandler
+ 182              		.thumb_set CRYP_IRQHandler,Default_Handler
+ 183              		.weak	DCMI_IRQHandler
+ 184              		.thumb_set DCMI_IRQHandler,Default_Handler
+ 185              		.weak	OTG_HS_IRQHandler
+ 186              		.thumb_set OTG_HS_IRQHandler,Default_Handler
+ 187              		.weak	OTG_HS_WKUP_IRQHandler
+ 188              		.thumb_set OTG_HS_WKUP_IRQHandler,Default_Handler
+ 189              		.weak	OTG_HS_EP1_IN_IRQHandler
+ 190              		.thumb_set OTG_HS_EP1_IN_IRQHandler,Default_Handler
+ 191              		.weak	OTG_HS_EP1_OUT_IRQHandler
+ 192              		.thumb_set OTG_HS_EP1_OUT_IRQHandler,Default_Handler
+ 193              		.weak	I2C3_ER_IRQHandler
+ 194              		.thumb_set I2C3_ER_IRQHandler,Default_Handler
+ 195              		.weak	I2C3_EV_IRQHandler
+ 196              		.thumb_set I2C3_EV_IRQHandler,Default_Handler
+ 197              		.weak	USART6_IRQHandler
+ 198              		.thumb_set USART6_IRQHandler,Default_Handler
+ 199              		.weak	DMA2_Stream7_IRQHandler
+ 200              		.thumb_set DMA2_Stream7_IRQHandler,Default_Handler
+ 201              		.weak	DMA2_Stream6_IRQHandler
+ 202              		.thumb_set DMA2_Stream6_IRQHandler,Default_Handler
+ 203              		.weak	DMA2_Stream5_IRQHandler
+ 204              		.thumb_set DMA2_Stream5_IRQHandler,Default_Handler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 32
 
 
- 205              		.weak	DMA2_Stream3_IRQHandler
- 206              		.thumb_set DMA2_Stream3_IRQHandler,Default_Handler
- 207              		.weak	DMA2_Stream2_IRQHandler
- 208              		.thumb_set DMA2_Stream2_IRQHandler,Default_Handler
- 209              		.weak	DMA2_Stream1_IRQHandler
- 210              		.thumb_set DMA2_Stream1_IRQHandler,Default_Handler
- 211              		.weak	DMA2_Stream0_IRQHandler
- 212              		.thumb_set DMA2_Stream0_IRQHandler,Default_Handler
- 213              		.weak	TIM7_IRQHandler
- 214              		.thumb_set TIM7_IRQHandler,Default_Handler
- 215              		.weak	TIM6_DAC_IRQHandler
- 216              		.thumb_set TIM6_DAC_IRQHandler,Default_Handler
- 217              		.weak	UART5_IRQHandler
- 218              		.thumb_set UART5_IRQHandler,Default_Handler
- 219              		.weak	UART4_IRQHandler
- 220              		.thumb_set UART4_IRQHandler,Default_Handler
- 221              		.weak	SPI3_IRQHandler
- 222              		.thumb_set SPI3_IRQHandler,Default_Handler
- 223              		.weak	TIM5_IRQHandler
- 224              		.thumb_set TIM5_IRQHandler,Default_Handler
- 225              		.weak	SDMMC1_IRQHandler
- 226              		.thumb_set SDMMC1_IRQHandler,Default_Handler
- 227              		.weak	FMC_IRQHandler
- 228              		.thumb_set FMC_IRQHandler,Default_Handler
- 229              		.weak	DMA1_Stream7_IRQHandler
- 230              		.thumb_set DMA1_Stream7_IRQHandler,Default_Handler
- 231              		.weak	TIM8_CC_IRQHandler
- 232              		.thumb_set TIM8_CC_IRQHandler,Default_Handler
- 233              		.weak	TIM8_TRG_COM_TIM14_IRQHandler
- 234              		.thumb_set TIM8_TRG_COM_TIM14_IRQHandler,Default_Handler
- 235              		.weak	TIM8_UP_TIM13_IRQHandler
- 236              		.thumb_set TIM8_UP_TIM13_IRQHandler,Default_Handler
- 237              		.weak	TIM8_BRK_TIM12_IRQHandler
- 238              		.thumb_set TIM8_BRK_TIM12_IRQHandler,Default_Handler
- 239              		.weak	RTC_Alarm_IRQHandler
- 240              		.thumb_set RTC_Alarm_IRQHandler,Default_Handler
- 241              		.weak	EXTI15_10_IRQHandler
- 242              		.thumb_set EXTI15_10_IRQHandler,Default_Handler
- 243              		.weak	USART3_IRQHandler
- 244              		.thumb_set USART3_IRQHandler,Default_Handler
- 245              		.weak	USART2_IRQHandler
- 246              		.thumb_set USART2_IRQHandler,Default_Handler
- 247              		.weak	USART1_IRQHandler
- 248              		.thumb_set USART1_IRQHandler,Default_Handler
- 249              		.weak	SPI2_IRQHandler
- 250              		.thumb_set SPI2_IRQHandler,Default_Handler
- 251              		.weak	SPI1_IRQHandler
- 252              		.thumb_set SPI1_IRQHandler,Default_Handler
- 253              		.weak	I2C2_ER_IRQHandler
- 254              		.thumb_set I2C2_ER_IRQHandler,Default_Handler
- 255              		.weak	I2C2_EV_IRQHandler
- 256              		.thumb_set I2C2_EV_IRQHandler,Default_Handler
- 257              		.weak	I2C1_ER_IRQHandler
- 258              		.thumb_set I2C1_ER_IRQHandler,Default_Handler
- 259              		.weak	I2C1_EV_IRQHandler
- 260              		.thumb_set I2C1_EV_IRQHandler,Default_Handler
- 261              		.weak	TIM4_IRQHandler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 33
+ 205              		.weak	FDCAN_CAL_IRQHandler
+ 206              		.thumb_set FDCAN_CAL_IRQHandler,Default_Handler
+ 207              		.weak	ETH_WKUP_IRQHandler
+ 208              		.thumb_set ETH_WKUP_IRQHandler,Default_Handler
+ 209              		.weak	ETH_IRQHandler
+ 210              		.thumb_set ETH_IRQHandler,Default_Handler
+ 211              		.weak	DMA2_Stream4_IRQHandler
+ 212              		.thumb_set DMA2_Stream4_IRQHandler,Default_Handler
+ 213              		.weak	DMA2_Stream3_IRQHandler
+ 214              		.thumb_set DMA2_Stream3_IRQHandler,Default_Handler
+ 215              		.weak	DMA2_Stream2_IRQHandler
+ 216              		.thumb_set DMA2_Stream2_IRQHandler,Default_Handler
+ 217              		.weak	DMA2_Stream1_IRQHandler
+ 218              		.thumb_set DMA2_Stream1_IRQHandler,Default_Handler
+ 219              		.weak	DMA2_Stream0_IRQHandler
+ 220              		.thumb_set DMA2_Stream0_IRQHandler,Default_Handler
+ 221              		.weak	TIM7_IRQHandler
+ 222              		.thumb_set TIM7_IRQHandler,Default_Handler
+ 223              		.weak	TIM6_DAC_IRQHandler
+ 224              		.thumb_set TIM6_DAC_IRQHandler,Default_Handler
+ 225              		.weak	UART5_IRQHandler
+ 226              		.thumb_set UART5_IRQHandler,Default_Handler
+ 227              		.weak	UART4_IRQHandler
+ 228              		.thumb_set UART4_IRQHandler,Default_Handler
+ 229              		.weak	SPI3_IRQHandler
+ 230              		.thumb_set SPI3_IRQHandler,Default_Handler
+ 231              		.weak	TIM5_IRQHandler
+ 232              		.thumb_set TIM5_IRQHandler,Default_Handler
+ 233              		.weak	SDMMC1_IRQHandler
+ 234              		.thumb_set SDMMC1_IRQHandler,Default_Handler
+ 235              		.weak	FMC_IRQHandler
+ 236              		.thumb_set FMC_IRQHandler,Default_Handler
+ 237              		.weak	DMA1_Stream7_IRQHandler
+ 238              		.thumb_set DMA1_Stream7_IRQHandler,Default_Handler
+ 239              		.weak	TIM8_CC_IRQHandler
+ 240              		.thumb_set TIM8_CC_IRQHandler,Default_Handler
+ 241              		.weak	TIM8_TRG_COM_TIM14_IRQHandler
+ 242              		.thumb_set TIM8_TRG_COM_TIM14_IRQHandler,Default_Handler
+ 243              		.weak	TIM8_UP_TIM13_IRQHandler
+ 244              		.thumb_set TIM8_UP_TIM13_IRQHandler,Default_Handler
+ 245              		.weak	TIM8_BRK_TIM12_IRQHandler
+ 246              		.thumb_set TIM8_BRK_TIM12_IRQHandler,Default_Handler
+ 247              		.weak	RTC_Alarm_IRQHandler
+ 248              		.thumb_set RTC_Alarm_IRQHandler,Default_Handler
+ 249              		.weak	EXTI15_10_IRQHandler
+ 250              		.thumb_set EXTI15_10_IRQHandler,Default_Handler
+ 251              		.weak	USART3_IRQHandler
+ 252              		.thumb_set USART3_IRQHandler,Default_Handler
+ 253              		.weak	USART2_IRQHandler
+ 254              		.thumb_set USART2_IRQHandler,Default_Handler
+ 255              		.weak	USART1_IRQHandler
+ 256              		.thumb_set USART1_IRQHandler,Default_Handler
+ 257              		.weak	SPI2_IRQHandler
+ 258              		.thumb_set SPI2_IRQHandler,Default_Handler
+ 259              		.weak	SPI1_IRQHandler
+ 260              		.thumb_set SPI1_IRQHandler,Default_Handler
+ 261              		.weak	I2C2_ER_IRQHandler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 33
 
 
- 262              		.thumb_set TIM4_IRQHandler,Default_Handler
- 263              		.weak	TIM3_IRQHandler
- 264              		.thumb_set TIM3_IRQHandler,Default_Handler
- 265              		.weak	TIM2_IRQHandler
- 266              		.thumb_set TIM2_IRQHandler,Default_Handler
- 267              		.weak	TIM1_CC_IRQHandler
- 268              		.thumb_set TIM1_CC_IRQHandler,Default_Handler
- 269              		.weak	TIM1_TRG_COM_IRQHandler
- 270              		.thumb_set TIM1_TRG_COM_IRQHandler,Default_Handler
- 271              		.weak	TIM1_UP_IRQHandler
- 272              		.thumb_set TIM1_UP_IRQHandler,Default_Handler
- 273              		.weak	TIM1_BRK_IRQHandler
- 274              		.thumb_set TIM1_BRK_IRQHandler,Default_Handler
- 275              		.weak	EXTI9_5_IRQHandler
- 276              		.thumb_set EXTI9_5_IRQHandler,Default_Handler
- 277              		.weak	FDCAN2_IT1_IRQHandler
- 278              		.thumb_set FDCAN2_IT1_IRQHandler,Default_Handler
- 279              		.weak	FDCAN1_IT1_IRQHandler
- 280              		.thumb_set FDCAN1_IT1_IRQHandler,Default_Handler
- 281              		.weak	FDCAN2_IT0_IRQHandler
- 282              		.thumb_set FDCAN2_IT0_IRQHandler,Default_Handler
- 283              		.weak	FDCAN1_IT0_IRQHandler
- 284              		.thumb_set FDCAN1_IT0_IRQHandler,Default_Handler
- 285              		.weak	ADC_IRQHandler
- 286              		.thumb_set ADC_IRQHandler,Default_Handler
- 287              		.weak	DMA1_Stream6_IRQHandler
- 288              		.thumb_set DMA1_Stream6_IRQHandler,Default_Handler
- 289              		.weak	DMA1_Stream5_IRQHandler
- 290              		.thumb_set DMA1_Stream5_IRQHandler,Default_Handler
- 291              		.weak	DMA1_Stream4_IRQHandler
- 292              		.thumb_set DMA1_Stream4_IRQHandler,Default_Handler
- 293              		.weak	DMA1_Stream3_IRQHandler
- 294              		.thumb_set DMA1_Stream3_IRQHandler,Default_Handler
- 295              		.weak	DMA1_Stream2_IRQHandler
- 296              		.thumb_set DMA1_Stream2_IRQHandler,Default_Handler
- 297              		.weak	DMA1_Stream1_IRQHandler
- 298              		.thumb_set DMA1_Stream1_IRQHandler,Default_Handler
- 299              		.weak	DMA1_Stream0_IRQHandler
- 300              		.thumb_set DMA1_Stream0_IRQHandler,Default_Handler
- 301              		.weak	EXTI4_IRQHandler
- 302              		.thumb_set EXTI4_IRQHandler,Default_Handler
- 303              		.weak	EXTI3_IRQHandler
- 304              		.thumb_set EXTI3_IRQHandler,Default_Handler
- 305              		.weak	EXTI2_IRQHandler
- 306              		.thumb_set EXTI2_IRQHandler,Default_Handler
- 307              		.weak	EXTI1_IRQHandler
- 308              		.thumb_set EXTI1_IRQHandler,Default_Handler
- 309              		.weak	EXTI0_IRQHandler
- 310              		.thumb_set EXTI0_IRQHandler,Default_Handler
- 311              		.weak	RCC_IRQHandler
- 312              		.thumb_set RCC_IRQHandler,Default_Handler
- 313              		.weak	FLASH_IRQHandler
- 314              		.thumb_set FLASH_IRQHandler,Default_Handler
- 315              		.weak	RTC_WKUP_IRQHandler
- 316              		.thumb_set RTC_WKUP_IRQHandler,Default_Handler
- 317              		.weak	TAMP_STAMP_IRQHandler
- 318              		.thumb_set TAMP_STAMP_IRQHandler,Default_Handler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 34
+ 262              		.thumb_set I2C2_ER_IRQHandler,Default_Handler
+ 263              		.weak	I2C2_EV_IRQHandler
+ 264              		.thumb_set I2C2_EV_IRQHandler,Default_Handler
+ 265              		.weak	I2C1_ER_IRQHandler
+ 266              		.thumb_set I2C1_ER_IRQHandler,Default_Handler
+ 267              		.weak	I2C1_EV_IRQHandler
+ 268              		.thumb_set I2C1_EV_IRQHandler,Default_Handler
+ 269              		.weak	TIM4_IRQHandler
+ 270              		.thumb_set TIM4_IRQHandler,Default_Handler
+ 271              		.weak	TIM3_IRQHandler
+ 272              		.thumb_set TIM3_IRQHandler,Default_Handler
+ 273              		.weak	TIM2_IRQHandler
+ 274              		.thumb_set TIM2_IRQHandler,Default_Handler
+ 275              		.weak	TIM1_CC_IRQHandler
+ 276              		.thumb_set TIM1_CC_IRQHandler,Default_Handler
+ 277              		.weak	TIM1_TRG_COM_IRQHandler
+ 278              		.thumb_set TIM1_TRG_COM_IRQHandler,Default_Handler
+ 279              		.weak	TIM1_UP_IRQHandler
+ 280              		.thumb_set TIM1_UP_IRQHandler,Default_Handler
+ 281              		.weak	TIM1_BRK_IRQHandler
+ 282              		.thumb_set TIM1_BRK_IRQHandler,Default_Handler
+ 283              		.weak	EXTI9_5_IRQHandler
+ 284              		.thumb_set EXTI9_5_IRQHandler,Default_Handler
+ 285              		.weak	FDCAN2_IT1_IRQHandler
+ 286              		.thumb_set FDCAN2_IT1_IRQHandler,Default_Handler
+ 287              		.weak	FDCAN1_IT1_IRQHandler
+ 288              		.thumb_set FDCAN1_IT1_IRQHandler,Default_Handler
+ 289              		.weak	FDCAN2_IT0_IRQHandler
+ 290              		.thumb_set FDCAN2_IT0_IRQHandler,Default_Handler
+ 291              		.weak	FDCAN1_IT0_IRQHandler
+ 292              		.thumb_set FDCAN1_IT0_IRQHandler,Default_Handler
+ 293              		.weak	ADC_IRQHandler
+ 294              		.thumb_set ADC_IRQHandler,Default_Handler
+ 295              		.weak	DMA1_Stream6_IRQHandler
+ 296              		.thumb_set DMA1_Stream6_IRQHandler,Default_Handler
+ 297              		.weak	DMA1_Stream5_IRQHandler
+ 298              		.thumb_set DMA1_Stream5_IRQHandler,Default_Handler
+ 299              		.weak	DMA1_Stream4_IRQHandler
+ 300              		.thumb_set DMA1_Stream4_IRQHandler,Default_Handler
+ 301              		.weak	DMA1_Stream3_IRQHandler
+ 302              		.thumb_set DMA1_Stream3_IRQHandler,Default_Handler
+ 303              		.weak	DMA1_Stream2_IRQHandler
+ 304              		.thumb_set DMA1_Stream2_IRQHandler,Default_Handler
+ 305              		.weak	DMA1_Stream1_IRQHandler
+ 306              		.thumb_set DMA1_Stream1_IRQHandler,Default_Handler
+ 307              		.weak	DMA1_Stream0_IRQHandler
+ 308              		.thumb_set DMA1_Stream0_IRQHandler,Default_Handler
+ 309              		.weak	EXTI4_IRQHandler
+ 310              		.thumb_set EXTI4_IRQHandler,Default_Handler
+ 311              		.weak	EXTI3_IRQHandler
+ 312              		.thumb_set EXTI3_IRQHandler,Default_Handler
+ 313              		.weak	EXTI2_IRQHandler
+ 314              		.thumb_set EXTI2_IRQHandler,Default_Handler
+ 315              		.weak	EXTI1_IRQHandler
+ 316              		.thumb_set EXTI1_IRQHandler,Default_Handler
+ 317              		.weak	EXTI0_IRQHandler
+ 318              		.thumb_set EXTI0_IRQHandler,Default_Handler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 34
 
 
- 319              		.weak	PVD_AVD_IRQHandler
- 320              		.thumb_set PVD_AVD_IRQHandler,Default_Handler
- 321              		.weak	WWDG_IRQHandler
- 322              		.thumb_set WWDG_IRQHandler,Default_Handler
- 323              		.weak	SysTick_Handler
- 324              		.thumb_set SysTick_Handler,Default_Handler
- 325              		.weak	PendSV_Handler
- 326              		.thumb_set PendSV_Handler,Default_Handler
- 327              		.weak	DebugMon_Handler
- 328              		.thumb_set DebugMon_Handler,Default_Handler
- 329              		.weak	SVC_Handler
- 330              		.thumb_set SVC_Handler,Default_Handler
- 331              		.weak	UsageFault_Handler
- 332              		.thumb_set UsageFault_Handler,Default_Handler
- 333              		.weak	BusFault_Handler
- 334              		.thumb_set BusFault_Handler,Default_Handler
- 335              		.weak	MemManage_Handler
- 336              		.thumb_set MemManage_Handler,Default_Handler
- 337              		.weak	HardFault_Handler
- 338              		.thumb_set HardFault_Handler,Default_Handler
- 339              		.weak	NMI_Handler
- 340              		.thumb_set NMI_Handler,Default_Handler
- 341 0002 00BF     		.section	.text.Reset_Handler,"ax",%progbits
- 342              		.align	1
- 343              		.p2align 2,,3
- 344              		.global	Reset_Handler
- 345              		.syntax unified
- 346              		.thumb
- 347              		.thumb_func
- 348              		.fpu fpv5-d16
- 350              	Reset_Handler:
- 351              	.LFB320:
+ 319              		.weak	RCC_IRQHandler
+ 320              		.thumb_set RCC_IRQHandler,Default_Handler
+ 321              		.weak	FLASH_IRQHandler
+ 322              		.thumb_set FLASH_IRQHandler,Default_Handler
+ 323              		.weak	RTC_WKUP_IRQHandler
+ 324              		.thumb_set RTC_WKUP_IRQHandler,Default_Handler
+ 325              		.weak	TAMP_STAMP_IRQHandler
+ 326              		.thumb_set TAMP_STAMP_IRQHandler,Default_Handler
+ 327              		.weak	PVD_AVD_IRQHandler
+ 328              		.thumb_set PVD_AVD_IRQHandler,Default_Handler
+ 329              		.weak	WWDG_IRQHandler
+ 330              		.thumb_set WWDG_IRQHandler,Default_Handler
+ 331              		.weak	SysTick_Handler
+ 332              		.thumb_set SysTick_Handler,Default_Handler
+ 333              		.weak	PendSV_Handler
+ 334              		.thumb_set PendSV_Handler,Default_Handler
+ 335              		.weak	DebugMon_Handler
+ 336              		.thumb_set DebugMon_Handler,Default_Handler
+ 337              		.weak	SVC_Handler
+ 338              		.thumb_set SVC_Handler,Default_Handler
+ 339              		.weak	UsageFault_Handler
+ 340              		.thumb_set UsageFault_Handler,Default_Handler
+ 341              		.weak	BusFault_Handler
+ 342              		.thumb_set BusFault_Handler,Default_Handler
+ 343              		.weak	MemManage_Handler
+ 344              		.thumb_set MemManage_Handler,Default_Handler
+ 345              		.weak	HardFault_Handler
+ 346              		.thumb_set HardFault_Handler,Default_Handler
+ 347              		.weak	NMI_Handler
+ 348              		.thumb_set NMI_Handler,Default_Handler
+ 349 000a 00BF     		.section	.text.Reset_Handler,"ax",%progbits
+ 350              		.align	1
+ 351              		.p2align 2,,3
+ 352              		.global	Reset_Handler
+ 353              		.syntax unified
+ 354              		.thumb
+ 355              		.thumb_func
+ 356              		.fpu fpv5-d16
+ 358              	Reset_Handler:
+ 359              	.LFB337:
 1536:../../libDaisy//core/startup_stm32h750xx.c **** 	//Normally the CPU should will setup the based on the value from the first entry in the vector tab
- 352              		.loc 1 1536 1 view -0
- 353              		.cfi_startproc
- 354              		@ Naked Function: prologue and epilogue provided by programmer.
- 355              		@ Volatile: function does not return.
- 356              		@ args = 0, pretend = 0, frame = 0
- 357              		@ frame_needed = 0, uses_anonymous_args = 0
+ 360              		.loc 1 1536 1 view -0
+ 361              		.cfi_startproc
+ 362              		@ Volatile: function does not return.
+ 363              		@ args = 0, pretend = 0, frame = 0
+ 364              		@ frame_needed = 0, uses_anonymous_args = 0
 1543:../../libDaisy//core/startup_stm32h750xx.c **** 	for (pSource = &_sidata, pDest = &_sdata; pDest != &_edata; pSource++, pDest++)
- 358              		.loc 1 1543 2 view .LVU5
+ 365              		.loc 1 1543 2 view .LVU8
 1544:../../libDaisy//core/startup_stm32h750xx.c **** 		*pDest = *pSource;
- 359              		.loc 1 1544 2 view .LVU6
- 360              	.LVL0:
+ 366              		.loc 1 1544 2 view .LVU9
+ 367              	.LVL0:
 1544:../../libDaisy//core/startup_stm32h750xx.c **** 		*pDest = *pSource;
- 361              		.loc 1 1544 44 view .LVU7
+ 368              		.loc 1 1544 44 view .LVU10
 1544:../../libDaisy//core/startup_stm32h750xx.c **** 		*pDest = *pSource;
- 362              		.loc 1 1544 2 is_stmt 0 view .LVU8
- 363 0000 0A48     		ldr	r0, .L8
- 364 0002 0B4A     		ldr	r2, .L8+4
- 365 0004 9042     		cmp	r0, r2
- 366 0006 03D0     		beq	.L5
+ 369              		.loc 1 1544 2 is_stmt 0 view .LVU11
+ 370 0000 0A48     		ldr	r0, .L9
+ 371 0002 0B4A     		ldr	r2, .L9+4
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 35
+
+
+ 372 0004 9042     		cmp	r0, r2
+1536:../../libDaisy//core/startup_stm32h750xx.c **** 	//Normally the CPU should will setup the based on the value from the first entry in the vector tab
+ 373              		.loc 1 1536 1 view .LVU12
+ 374 0006 08B5     		push	{r3, lr}
+ 375              		.cfi_def_cfa_offset 8
+ 376              		.cfi_offset 3, -8
+ 377              		.cfi_offset 14, -4
+1544:../../libDaisy//core/startup_stm32h750xx.c **** 		*pDest = *pSource;
+ 378              		.loc 1 1544 2 view .LVU13
+ 379 0008 03D0     		beq	.L5
 1545:../../libDaisy//core/startup_stm32h750xx.c **** 
- 367              		.loc 1 1545 10 view .LVU9
- 368 0008 121A     		subs	r2, r2, r0
- 369 000a 0A49     		ldr	r1, .L8+8
- 370 000c FFF7FEFF 		bl	memcpy
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 35
-
-
- 371              	.LVL1:
- 372              	.L5:
+ 380              		.loc 1 1545 10 view .LVU14
+ 381 000a 121A     		subs	r2, r2, r0
+ 382 000c 0949     		ldr	r1, .L9+8
+ 383 000e FFF7FEFF 		bl	memcpy
+ 384              	.LVL1:
+ 385              	.L5:
 1547:../../libDaisy//core/startup_stm32h750xx.c **** 		*pDest = 0;
- 373              		.loc 1 1547 23 is_stmt 1 view .LVU10
+ 386              		.loc 1 1547 23 is_stmt 1 view .LVU15
 1547:../../libDaisy//core/startup_stm32h750xx.c **** 		*pDest = 0;
- 374              		.loc 1 1547 2 is_stmt 0 view .LVU11
- 375 0010 0948     		ldr	r0, .L8+12
- 376 0012 0A4A     		ldr	r2, .L8+16
- 377 0014 9042     		cmp	r0, r2
- 378 0016 03D0     		beq	.L6
+ 387              		.loc 1 1547 2 is_stmt 0 view .LVU16
+ 388 0012 0948     		ldr	r0, .L9+12
+ 389 0014 094A     		ldr	r2, .L9+16
+ 390 0016 9042     		cmp	r0, r2
+ 391 0018 03D0     		beq	.L6
 1548:../../libDaisy//core/startup_stm32h750xx.c **** 
- 379              		.loc 1 1548 10 view .LVU12
- 380 0018 121A     		subs	r2, r2, r0
- 381 001a 0021     		movs	r1, #0
- 382 001c FFF7FEFF 		bl	memset
- 383              	.LVL2:
- 384              	.L6:
+ 392              		.loc 1 1548 10 view .LVU17
+ 393 001a 121A     		subs	r2, r2, r0
+ 394 001c 0021     		movs	r1, #0
+ 395 001e FFF7FEFF 		bl	memset
+ 396              	.LVL2:
+ 397              	.L6:
 1553:../../libDaisy//core/startup_stm32h750xx.c **** 
- 385              		.loc 1 1553 2 is_stmt 1 view .LVU13
- 386 0020 FFF7FEFF 		bl	__libc_init_array
- 387              	.LVL3:
+ 398              		.loc 1 1553 2 is_stmt 1 view .LVU18
+ 399 0022 FFF7FEFF 		bl	__libc_init_array
+ 400              	.LVL3:
 1556:../../libDaisy//core/startup_stm32h750xx.c **** 	for (;;) ;
- 388              		.loc 1 1556 2 view .LVU14
+ 401              		.loc 1 1556 2 view .LVU19
 1556:../../libDaisy//core/startup_stm32h750xx.c **** 	for (;;) ;
- 389              		.loc 1 1556 8 is_stmt 0 view .LVU15
- 390 0024 FFF7FEFF 		bl	main
- 391              	.LVL4:
- 392              	.L7:
+ 402              		.loc 1 1556 8 is_stmt 0 view .LVU20
+ 403 0026 FFF7FEFF 		bl	main
+ 404              	.LVL4:
+ 405              	.L7:
 1557:../../libDaisy//core/startup_stm32h750xx.c **** }
- 393              		.loc 1 1557 2 is_stmt 1 discriminator 1 view .LVU16
+ 406              		.loc 1 1557 2 is_stmt 1 discriminator 1 view .LVU21
 1557:../../libDaisy//core/startup_stm32h750xx.c **** }
- 394              		.loc 1 1557 11 discriminator 1 view .LVU17
+ 407              		.loc 1 1557 11 discriminator 1 view .LVU22
 1557:../../libDaisy//core/startup_stm32h750xx.c **** }
- 395              		.loc 1 1557 8 discriminator 1 view .LVU18
+ 408              		.loc 1 1557 8 discriminator 1 view .LVU23
 1557:../../libDaisy//core/startup_stm32h750xx.c **** }
- 396              		.loc 1 1557 2 discriminator 1 view .LVU19
+ 409              		.loc 1 1557 2 discriminator 1 view .LVU24
 1557:../../libDaisy//core/startup_stm32h750xx.c **** }
- 397              		.loc 1 1557 11 discriminator 1 view .LVU20
+ 410              		.loc 1 1557 11 discriminator 1 view .LVU25
 1557:../../libDaisy//core/startup_stm32h750xx.c **** }
- 398              		.loc 1 1557 8 discriminator 1 view .LVU21
- 399 0028 FEE7     		b	.L7
- 400              	.L9:
- 401 002a 00BF     		.align	2
- 402              	.L8:
- 403 002c 00000000 		.word	_sdata
- 404 0030 00000000 		.word	_edata
- 405 0034 00000000 		.word	_sidata
- 406 0038 00000000 		.word	_sbss
- 407 003c 00000000 		.word	_ebss
- 408              		.cfi_endproc
- 409              	.LFE320:
- 411              		.global	g_pfnVectors
- 412              		.section	.isr_vector,"aw"
- 413              		.align	2
- 416              	g_pfnVectors:
- 417 0000 00000000 		.word	_estack
- 418 0004 00000000 		.word	Reset_Handler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 36
+ 411              		.loc 1 1557 8 discriminator 1 view .LVU26
+ 412 002a FEE7     		b	.L7
+ 413              	.L10:
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 36
 
 
- 419 0008 00000000 		.word	NMI_Handler
- 420 000c 00000000 		.word	HardFault_Handler
- 421 0010 00000000 		.word	MemManage_Handler
- 422 0014 00000000 		.word	BusFault_Handler
- 423 0018 00000000 		.word	UsageFault_Handler
- 424 001c 00000000 		.word	0
- 425 0020 00000000 		.word	0
- 426 0024 00000000 		.word	0
- 427 0028 00000000 		.word	0
- 428 002c 00000000 		.word	SVC_Handler
- 429 0030 00000000 		.word	DebugMon_Handler
- 430 0034 00000000 		.word	0
- 431 0038 00000000 		.word	PendSV_Handler
- 432 003c 00000000 		.word	SysTick_Handler
- 433 0040 00000000 		.word	WWDG_IRQHandler
- 434 0044 00000000 		.word	PVD_AVD_IRQHandler
- 435 0048 00000000 		.word	TAMP_STAMP_IRQHandler
- 436 004c 00000000 		.word	RTC_WKUP_IRQHandler
- 437 0050 00000000 		.word	FLASH_IRQHandler
- 438 0054 00000000 		.word	RCC_IRQHandler
- 439 0058 00000000 		.word	EXTI0_IRQHandler
- 440 005c 00000000 		.word	EXTI1_IRQHandler
- 441 0060 00000000 		.word	EXTI2_IRQHandler
- 442 0064 00000000 		.word	EXTI3_IRQHandler
- 443 0068 00000000 		.word	EXTI4_IRQHandler
- 444 006c 00000000 		.word	DMA1_Stream0_IRQHandler
- 445 0070 00000000 		.word	DMA1_Stream1_IRQHandler
- 446 0074 00000000 		.word	DMA1_Stream2_IRQHandler
- 447 0078 00000000 		.word	DMA1_Stream3_IRQHandler
- 448 007c 00000000 		.word	DMA1_Stream4_IRQHandler
- 449 0080 00000000 		.word	DMA1_Stream5_IRQHandler
- 450 0084 00000000 		.word	DMA1_Stream6_IRQHandler
- 451 0088 00000000 		.word	ADC_IRQHandler
- 452 008c 00000000 		.word	FDCAN1_IT0_IRQHandler
- 453 0090 00000000 		.word	FDCAN2_IT0_IRQHandler
- 454 0094 00000000 		.word	FDCAN1_IT1_IRQHandler
- 455 0098 00000000 		.word	FDCAN2_IT1_IRQHandler
- 456 009c 00000000 		.word	EXTI9_5_IRQHandler
- 457 00a0 00000000 		.word	TIM1_BRK_IRQHandler
- 458 00a4 00000000 		.word	TIM1_UP_IRQHandler
- 459 00a8 00000000 		.word	TIM1_TRG_COM_IRQHandler
- 460 00ac 00000000 		.word	TIM1_CC_IRQHandler
- 461 00b0 00000000 		.word	TIM2_IRQHandler
- 462 00b4 00000000 		.word	TIM3_IRQHandler
- 463 00b8 00000000 		.word	TIM4_IRQHandler
- 464 00bc 00000000 		.word	I2C1_EV_IRQHandler
- 465 00c0 00000000 		.word	I2C1_ER_IRQHandler
- 466 00c4 00000000 		.word	I2C2_EV_IRQHandler
- 467 00c8 00000000 		.word	I2C2_ER_IRQHandler
- 468 00cc 00000000 		.word	SPI1_IRQHandler
- 469 00d0 00000000 		.word	SPI2_IRQHandler
- 470 00d4 00000000 		.word	USART1_IRQHandler
- 471 00d8 00000000 		.word	USART2_IRQHandler
- 472 00dc 00000000 		.word	USART3_IRQHandler
- 473 00e0 00000000 		.word	EXTI15_10_IRQHandler
- 474 00e4 00000000 		.word	RTC_Alarm_IRQHandler
- 475 00e8 00000000 		.word	0
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 37
+ 414              		.align	2
+ 415              	.L9:
+ 416 002c 00000000 		.word	_sdata
+ 417 0030 00000000 		.word	_edata
+ 418 0034 00000000 		.word	_sidata
+ 419 0038 00000000 		.word	_sbss
+ 420 003c 00000000 		.word	_ebss
+ 421              		.cfi_endproc
+ 422              	.LFE337:
+ 424              		.global	g_pfnVectors
+ 425              		.section	.isr_vector,"aw"
+ 426              		.align	2
+ 429              	g_pfnVectors:
+ 430 0000 00000000 		.word	_estack
+ 431 0004 00000000 		.word	Reset_Handler
+ 432 0008 00000000 		.word	NMI_Handler
+ 433 000c 00000000 		.word	HardFault_Handler
+ 434 0010 00000000 		.word	MemManage_Handler
+ 435 0014 00000000 		.word	BusFault_Handler
+ 436 0018 00000000 		.word	UsageFault_Handler
+ 437 001c 00000000 		.word	0
+ 438 0020 00000000 		.word	0
+ 439 0024 00000000 		.word	0
+ 440 0028 00000000 		.word	0
+ 441 002c 00000000 		.word	SVC_Handler
+ 442 0030 00000000 		.word	DebugMon_Handler
+ 443 0034 00000000 		.word	0
+ 444 0038 00000000 		.word	PendSV_Handler
+ 445 003c 00000000 		.word	SysTick_Handler
+ 446 0040 00000000 		.word	WWDG_IRQHandler
+ 447 0044 00000000 		.word	PVD_AVD_IRQHandler
+ 448 0048 00000000 		.word	TAMP_STAMP_IRQHandler
+ 449 004c 00000000 		.word	RTC_WKUP_IRQHandler
+ 450 0050 00000000 		.word	FLASH_IRQHandler
+ 451 0054 00000000 		.word	RCC_IRQHandler
+ 452 0058 00000000 		.word	EXTI0_IRQHandler
+ 453 005c 00000000 		.word	EXTI1_IRQHandler
+ 454 0060 00000000 		.word	EXTI2_IRQHandler
+ 455 0064 00000000 		.word	EXTI3_IRQHandler
+ 456 0068 00000000 		.word	EXTI4_IRQHandler
+ 457 006c 00000000 		.word	DMA1_Stream0_IRQHandler
+ 458 0070 00000000 		.word	DMA1_Stream1_IRQHandler
+ 459 0074 00000000 		.word	DMA1_Stream2_IRQHandler
+ 460 0078 00000000 		.word	DMA1_Stream3_IRQHandler
+ 461 007c 00000000 		.word	DMA1_Stream4_IRQHandler
+ 462 0080 00000000 		.word	DMA1_Stream5_IRQHandler
+ 463 0084 00000000 		.word	DMA1_Stream6_IRQHandler
+ 464 0088 00000000 		.word	ADC_IRQHandler
+ 465 008c 00000000 		.word	FDCAN1_IT0_IRQHandler
+ 466 0090 00000000 		.word	FDCAN2_IT0_IRQHandler
+ 467 0094 00000000 		.word	FDCAN1_IT1_IRQHandler
+ 468 0098 00000000 		.word	FDCAN2_IT1_IRQHandler
+ 469 009c 00000000 		.word	EXTI9_5_IRQHandler
+ 470 00a0 00000000 		.word	TIM1_BRK_IRQHandler
+ 471 00a4 00000000 		.word	TIM1_UP_IRQHandler
+ 472 00a8 00000000 		.word	TIM1_TRG_COM_IRQHandler
+ 473 00ac 00000000 		.word	TIM1_CC_IRQHandler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 37
 
 
- 476 00ec 00000000 		.word	TIM8_BRK_TIM12_IRQHandler
- 477 00f0 00000000 		.word	TIM8_UP_TIM13_IRQHandler
- 478 00f4 00000000 		.word	TIM8_TRG_COM_TIM14_IRQHandler
- 479 00f8 00000000 		.word	TIM8_CC_IRQHandler
- 480 00fc 00000000 		.word	DMA1_Stream7_IRQHandler
- 481 0100 00000000 		.word	FMC_IRQHandler
- 482 0104 00000000 		.word	SDMMC1_IRQHandler
- 483 0108 00000000 		.word	TIM5_IRQHandler
- 484 010c 00000000 		.word	SPI3_IRQHandler
- 485 0110 00000000 		.word	UART4_IRQHandler
- 486 0114 00000000 		.word	UART5_IRQHandler
- 487 0118 00000000 		.word	TIM6_DAC_IRQHandler
- 488 011c 00000000 		.word	TIM7_IRQHandler
- 489 0120 00000000 		.word	DMA2_Stream0_IRQHandler
- 490 0124 00000000 		.word	DMA2_Stream1_IRQHandler
- 491 0128 00000000 		.word	DMA2_Stream2_IRQHandler
- 492 012c 00000000 		.word	DMA2_Stream3_IRQHandler
- 493 0130 00000000 		.word	DMA2_Stream4_IRQHandler
- 494 0134 00000000 		.word	ETH_IRQHandler
- 495 0138 00000000 		.word	ETH_WKUP_IRQHandler
- 496 013c 00000000 		.word	FDCAN_CAL_IRQHandler
- 497 0140 00000000 		.word	0
- 498 0144 00000000 		.word	0
- 499 0148 00000000 		.word	0
- 500 014c 00000000 		.word	0
- 501 0150 00000000 		.word	DMA2_Stream5_IRQHandler
- 502 0154 00000000 		.word	DMA2_Stream6_IRQHandler
- 503 0158 00000000 		.word	DMA2_Stream7_IRQHandler
- 504 015c 00000000 		.word	USART6_IRQHandler
- 505 0160 00000000 		.word	I2C3_EV_IRQHandler
- 506 0164 00000000 		.word	I2C3_ER_IRQHandler
- 507 0168 00000000 		.word	OTG_HS_EP1_OUT_IRQHandler
- 508 016c 00000000 		.word	OTG_HS_EP1_IN_IRQHandler
- 509 0170 00000000 		.word	OTG_HS_WKUP_IRQHandler
- 510 0174 00000000 		.word	OTG_HS_IRQHandler
- 511 0178 00000000 		.word	DCMI_IRQHandler
- 512 017c 00000000 		.word	CRYP_IRQHandler
- 513 0180 00000000 		.word	HASH_RNG_IRQHandler
- 514 0184 00000000 		.word	FPU_IRQHandler
- 515 0188 00000000 		.word	UART7_IRQHandler
- 516 018c 00000000 		.word	UART8_IRQHandler
- 517 0190 00000000 		.word	SPI4_IRQHandler
- 518 0194 00000000 		.word	SPI5_IRQHandler
- 519 0198 00000000 		.word	SPI6_IRQHandler
- 520 019c 00000000 		.word	SAI1_IRQHandler
- 521 01a0 00000000 		.word	LTDC_IRQHandler
- 522 01a4 00000000 		.word	LTDC_ER_IRQHandler
- 523 01a8 00000000 		.word	DMA2D_IRQHandler
- 524 01ac 00000000 		.word	SAI2_IRQHandler
- 525 01b0 00000000 		.word	QUADSPI_IRQHandler
- 526 01b4 00000000 		.word	LPTIM1_IRQHandler
- 527 01b8 00000000 		.word	CEC_IRQHandler
- 528 01bc 00000000 		.word	I2C4_EV_IRQHandler
- 529 01c0 00000000 		.word	I2C4_ER_IRQHandler
- 530 01c4 00000000 		.word	SPDIF_RX_IRQHandler
- 531 01c8 00000000 		.word	OTG_FS_EP1_OUT_IRQHandler
- 532 01cc 00000000 		.word	OTG_FS_EP1_IN_IRQHandler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 38
+ 474 00b0 00000000 		.word	TIM2_IRQHandler
+ 475 00b4 00000000 		.word	TIM3_IRQHandler
+ 476 00b8 00000000 		.word	TIM4_IRQHandler
+ 477 00bc 00000000 		.word	I2C1_EV_IRQHandler
+ 478 00c0 00000000 		.word	I2C1_ER_IRQHandler
+ 479 00c4 00000000 		.word	I2C2_EV_IRQHandler
+ 480 00c8 00000000 		.word	I2C2_ER_IRQHandler
+ 481 00cc 00000000 		.word	SPI1_IRQHandler
+ 482 00d0 00000000 		.word	SPI2_IRQHandler
+ 483 00d4 00000000 		.word	USART1_IRQHandler
+ 484 00d8 00000000 		.word	USART2_IRQHandler
+ 485 00dc 00000000 		.word	USART3_IRQHandler
+ 486 00e0 00000000 		.word	EXTI15_10_IRQHandler
+ 487 00e4 00000000 		.word	RTC_Alarm_IRQHandler
+ 488 00e8 00000000 		.word	0
+ 489 00ec 00000000 		.word	TIM8_BRK_TIM12_IRQHandler
+ 490 00f0 00000000 		.word	TIM8_UP_TIM13_IRQHandler
+ 491 00f4 00000000 		.word	TIM8_TRG_COM_TIM14_IRQHandler
+ 492 00f8 00000000 		.word	TIM8_CC_IRQHandler
+ 493 00fc 00000000 		.word	DMA1_Stream7_IRQHandler
+ 494 0100 00000000 		.word	FMC_IRQHandler
+ 495 0104 00000000 		.word	SDMMC1_IRQHandler
+ 496 0108 00000000 		.word	TIM5_IRQHandler
+ 497 010c 00000000 		.word	SPI3_IRQHandler
+ 498 0110 00000000 		.word	UART4_IRQHandler
+ 499 0114 00000000 		.word	UART5_IRQHandler
+ 500 0118 00000000 		.word	TIM6_DAC_IRQHandler
+ 501 011c 00000000 		.word	TIM7_IRQHandler
+ 502 0120 00000000 		.word	DMA2_Stream0_IRQHandler
+ 503 0124 00000000 		.word	DMA2_Stream1_IRQHandler
+ 504 0128 00000000 		.word	DMA2_Stream2_IRQHandler
+ 505 012c 00000000 		.word	DMA2_Stream3_IRQHandler
+ 506 0130 00000000 		.word	DMA2_Stream4_IRQHandler
+ 507 0134 00000000 		.word	ETH_IRQHandler
+ 508 0138 00000000 		.word	ETH_WKUP_IRQHandler
+ 509 013c 00000000 		.word	FDCAN_CAL_IRQHandler
+ 510 0140 00000000 		.word	0
+ 511 0144 00000000 		.word	0
+ 512 0148 00000000 		.word	0
+ 513 014c 00000000 		.word	0
+ 514 0150 00000000 		.word	DMA2_Stream5_IRQHandler
+ 515 0154 00000000 		.word	DMA2_Stream6_IRQHandler
+ 516 0158 00000000 		.word	DMA2_Stream7_IRQHandler
+ 517 015c 00000000 		.word	USART6_IRQHandler
+ 518 0160 00000000 		.word	I2C3_EV_IRQHandler
+ 519 0164 00000000 		.word	I2C3_ER_IRQHandler
+ 520 0168 00000000 		.word	OTG_HS_EP1_OUT_IRQHandler
+ 521 016c 00000000 		.word	OTG_HS_EP1_IN_IRQHandler
+ 522 0170 00000000 		.word	OTG_HS_WKUP_IRQHandler
+ 523 0174 00000000 		.word	OTG_HS_IRQHandler
+ 524 0178 00000000 		.word	DCMI_IRQHandler
+ 525 017c 00000000 		.word	CRYP_IRQHandler
+ 526 0180 00000000 		.word	HASH_RNG_IRQHandler
+ 527 0184 00000000 		.word	FPU_IRQHandler
+ 528 0188 00000000 		.word	UART7_IRQHandler
+ 529 018c 00000000 		.word	UART8_IRQHandler
+ 530 0190 00000000 		.word	SPI4_IRQHandler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 38
 
 
- 533 01d0 00000000 		.word	OTG_FS_WKUP_IRQHandler
- 534 01d4 00000000 		.word	OTG_FS_IRQHandler
- 535 01d8 00000000 		.word	DMAMUX1_OVR_IRQHandler
- 536 01dc 00000000 		.word	HRTIM1_Master_IRQHandler
- 537 01e0 00000000 		.word	HRTIM1_TIMA_IRQHandler
- 538 01e4 00000000 		.word	HRTIM1_TIMB_IRQHandler
- 539 01e8 00000000 		.word	HRTIM1_TIMC_IRQHandler
- 540 01ec 00000000 		.word	HRTIM1_TIMD_IRQHandler
- 541 01f0 00000000 		.word	HRTIM1_TIME_IRQHandler
- 542 01f4 00000000 		.word	HRTIM1_FLT_IRQHandler
- 543 01f8 00000000 		.word	DFSDM1_FLT0_IRQHandler
- 544 01fc 00000000 		.word	DFSDM1_FLT1_IRQHandler
- 545 0200 00000000 		.word	DFSDM1_FLT2_IRQHandler
- 546 0204 00000000 		.word	DFSDM1_FLT3_IRQHandler
- 547 0208 00000000 		.word	SAI3_IRQHandler
- 548 020c 00000000 		.word	SWPMI1_IRQHandler
- 549 0210 00000000 		.word	TIM15_IRQHandler
- 550 0214 00000000 		.word	TIM16_IRQHandler
- 551 0218 00000000 		.word	TIM17_IRQHandler
- 552 021c 00000000 		.word	MDIOS_WKUP_IRQHandler
- 553 0220 00000000 		.word	MDIOS_IRQHandler
- 554 0224 00000000 		.word	JPEG_IRQHandler
- 555 0228 00000000 		.word	MDMA_IRQHandler
- 556 022c 00000000 		.word	0
- 557 0230 00000000 		.word	SDMMC2_IRQHandler
- 558 0234 00000000 		.word	HSEM1_IRQHandler
- 559 0238 00000000 		.word	0
- 560 023c 00000000 		.word	ADC3_IRQHandler
- 561 0240 00000000 		.word	DMAMUX2_OVR_IRQHandler
- 562 0244 00000000 		.word	BDMA_Channel0_IRQHandler
- 563 0248 00000000 		.word	BDMA_Channel1_IRQHandler
- 564 024c 00000000 		.word	BDMA_Channel2_IRQHandler
- 565 0250 00000000 		.word	BDMA_Channel3_IRQHandler
- 566 0254 00000000 		.word	BDMA_Channel4_IRQHandler
- 567 0258 00000000 		.word	BDMA_Channel5_IRQHandler
- 568 025c 00000000 		.word	BDMA_Channel6_IRQHandler
- 569 0260 00000000 		.word	BDMA_Channel7_IRQHandler
- 570 0264 00000000 		.word	COMP1_IRQHandler
- 571 0268 00000000 		.word	LPTIM2_IRQHandler
- 572 026c 00000000 		.word	LPTIM3_IRQHandler
- 573 0270 00000000 		.word	LPTIM4_IRQHandler
- 574 0274 00000000 		.word	LPTIM5_IRQHandler
- 575 0278 00000000 		.word	LPUART1_IRQHandler
- 576 027c 00000000 		.word	0
- 577 0280 00000000 		.word	CRS_IRQHandler
- 578 0284 00000000 		.word	ECC_IRQHandler
- 579 0288 00000000 		.word	SAI4_IRQHandler
- 580 028c 00000000 		.word	0
- 581 0290 00000000 		.word	0
- 582 0294 00000000 		.word	WAKEUP_PIN_IRQHandler
- 583              		.text
- 584              	.Letext0:
- 585              		.file 2 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
- 586              		.file 3 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
- 587              		.file 4 "<built-in>"
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 39
+ 531 0194 00000000 		.word	SPI5_IRQHandler
+ 532 0198 00000000 		.word	SPI6_IRQHandler
+ 533 019c 00000000 		.word	SAI1_IRQHandler
+ 534 01a0 00000000 		.word	LTDC_IRQHandler
+ 535 01a4 00000000 		.word	LTDC_ER_IRQHandler
+ 536 01a8 00000000 		.word	DMA2D_IRQHandler
+ 537 01ac 00000000 		.word	SAI2_IRQHandler
+ 538 01b0 00000000 		.word	QUADSPI_IRQHandler
+ 539 01b4 00000000 		.word	LPTIM1_IRQHandler
+ 540 01b8 00000000 		.word	CEC_IRQHandler
+ 541 01bc 00000000 		.word	I2C4_EV_IRQHandler
+ 542 01c0 00000000 		.word	I2C4_ER_IRQHandler
+ 543 01c4 00000000 		.word	SPDIF_RX_IRQHandler
+ 544 01c8 00000000 		.word	OTG_FS_EP1_OUT_IRQHandler
+ 545 01cc 00000000 		.word	OTG_FS_EP1_IN_IRQHandler
+ 546 01d0 00000000 		.word	OTG_FS_WKUP_IRQHandler
+ 547 01d4 00000000 		.word	OTG_FS_IRQHandler
+ 548 01d8 00000000 		.word	DMAMUX1_OVR_IRQHandler
+ 549 01dc 00000000 		.word	HRTIM1_Master_IRQHandler
+ 550 01e0 00000000 		.word	HRTIM1_TIMA_IRQHandler
+ 551 01e4 00000000 		.word	HRTIM1_TIMB_IRQHandler
+ 552 01e8 00000000 		.word	HRTIM1_TIMC_IRQHandler
+ 553 01ec 00000000 		.word	HRTIM1_TIMD_IRQHandler
+ 554 01f0 00000000 		.word	HRTIM1_TIME_IRQHandler
+ 555 01f4 00000000 		.word	HRTIM1_FLT_IRQHandler
+ 556 01f8 00000000 		.word	DFSDM1_FLT0_IRQHandler
+ 557 01fc 00000000 		.word	DFSDM1_FLT1_IRQHandler
+ 558 0200 00000000 		.word	DFSDM1_FLT2_IRQHandler
+ 559 0204 00000000 		.word	DFSDM1_FLT3_IRQHandler
+ 560 0208 00000000 		.word	SAI3_IRQHandler
+ 561 020c 00000000 		.word	SWPMI1_IRQHandler
+ 562 0210 00000000 		.word	TIM15_IRQHandler
+ 563 0214 00000000 		.word	TIM16_IRQHandler
+ 564 0218 00000000 		.word	TIM17_IRQHandler
+ 565 021c 00000000 		.word	MDIOS_WKUP_IRQHandler
+ 566 0220 00000000 		.word	MDIOS_IRQHandler
+ 567 0224 00000000 		.word	JPEG_IRQHandler
+ 568 0228 00000000 		.word	MDMA_IRQHandler
+ 569 022c 00000000 		.word	0
+ 570 0230 00000000 		.word	SDMMC2_IRQHandler
+ 571 0234 00000000 		.word	HSEM1_IRQHandler
+ 572 0238 00000000 		.word	0
+ 573 023c 00000000 		.word	ADC3_IRQHandler
+ 574 0240 00000000 		.word	DMAMUX2_OVR_IRQHandler
+ 575 0244 00000000 		.word	BDMA_Channel0_IRQHandler
+ 576 0248 00000000 		.word	BDMA_Channel1_IRQHandler
+ 577 024c 00000000 		.word	BDMA_Channel2_IRQHandler
+ 578 0250 00000000 		.word	BDMA_Channel3_IRQHandler
+ 579 0254 00000000 		.word	BDMA_Channel4_IRQHandler
+ 580 0258 00000000 		.word	BDMA_Channel5_IRQHandler
+ 581 025c 00000000 		.word	BDMA_Channel6_IRQHandler
+ 582 0260 00000000 		.word	BDMA_Channel7_IRQHandler
+ 583 0264 00000000 		.word	COMP1_IRQHandler
+ 584 0268 00000000 		.word	LPTIM2_IRQHandler
+ 585 026c 00000000 		.word	LPTIM3_IRQHandler
+ 586 0270 00000000 		.word	LPTIM4_IRQHandler
+ 587 0274 00000000 		.word	LPTIM5_IRQHandler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 39
+
+
+ 588 0278 00000000 		.word	LPUART1_IRQHandler
+ 589 027c 00000000 		.word	0
+ 590 0280 00000000 		.word	CRS_IRQHandler
+ 591 0284 00000000 		.word	ECC_IRQHandler
+ 592 0288 00000000 		.word	SAI4_IRQHandler
+ 593 028c 00000000 		.word	0
+ 594 0290 00000000 		.word	0
+ 595 0294 00000000 		.word	WAKEUP_PIN_IRQHandler
+ 596              		.text
+ 597              	.Letext0:
+ 598              		.file 2 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 599              		.file 3 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 600              		.file 4 "<built-in>"
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 startup_stm32h750xx.c
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:17     .text.Default_Handler:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 Default_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 WAKEUP_PIN_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SAI4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 ECC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 CRS_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LPUART1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LPTIM5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LPTIM4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LPTIM3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LPTIM2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 COMP1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel7_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel6_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BDMA_Channel0_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMAMUX2_OVR_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 ADC3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HSEM1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SDMMC2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 MDMA_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 JPEG_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 MDIOS_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 MDIOS_WKUP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM17_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM16_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM15_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SWPMI1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SAI3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DFSDM1_FLT3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DFSDM1_FLT2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DFSDM1_FLT1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DFSDM1_FLT0_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HRTIM1_FLT_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HRTIM1_TIME_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HRTIM1_TIMD_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HRTIM1_TIMC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HRTIM1_TIMB_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HRTIM1_TIMA_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HRTIM1_Master_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMAMUX1_OVR_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_FS_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_FS_WKUP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_FS_EP1_IN_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_FS_EP1_OUT_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SPDIF_RX_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C4_ER_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C4_EV_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 CEC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LPTIM1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 QUADSPI_IRQHandler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 40
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:17     .text.Default_Handler:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 Default_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 WAKEUP_PIN_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SAI4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 ECC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 CRS_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LPUART1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LPTIM5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LPTIM4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LPTIM3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LPTIM2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 COMP1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel7_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel6_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BDMA_Channel0_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMAMUX2_OVR_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 ADC3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HSEM1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SDMMC2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 MDMA_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 JPEG_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 MDIOS_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 MDIOS_WKUP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM17_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM16_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM15_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SWPMI1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SAI3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DFSDM1_FLT3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DFSDM1_FLT2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DFSDM1_FLT1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DFSDM1_FLT0_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HRTIM1_FLT_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HRTIM1_TIME_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HRTIM1_TIMD_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HRTIM1_TIMC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HRTIM1_TIMB_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HRTIM1_TIMA_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HRTIM1_Master_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMAMUX1_OVR_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_FS_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_FS_WKUP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_FS_EP1_IN_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_FS_EP1_OUT_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SPDIF_RX_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C4_ER_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C4_EV_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 CEC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LPTIM1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 QUADSPI_IRQHandler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 41
 
 
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SAI2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2D_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LTDC_ER_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 LTDC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SAI1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SPI6_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SPI5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SPI4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 UART8_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 UART7_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FPU_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HASH_RNG_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 CRYP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DCMI_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_HS_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_HS_WKUP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_HS_EP1_IN_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 OTG_HS_EP1_OUT_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C3_ER_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C3_EV_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 USART6_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream7_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream6_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FDCAN_CAL_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 ETH_WKUP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 ETH_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA2_Stream0_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM7_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM6_DAC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 UART5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 UART4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SPI3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SDMMC1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FMC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream7_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM8_CC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM8_TRG_COM_TIM14_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM8_UP_TIM13_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM8_BRK_TIM12_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 RTC_Alarm_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 EXTI15_10_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 USART3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 USART2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 USART1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SPI2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SPI1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C2_ER_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C2_EV_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C1_ER_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 I2C1_EV_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM4_IRQHandler
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s 			page 41
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SAI2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2D_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LTDC_ER_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 LTDC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SAI1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SPI6_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SPI5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SPI4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 UART8_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 UART7_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FPU_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HASH_RNG_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 CRYP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DCMI_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_HS_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_HS_WKUP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_HS_EP1_IN_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 OTG_HS_EP1_OUT_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C3_ER_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C3_EV_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 USART6_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream7_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream6_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FDCAN_CAL_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 ETH_WKUP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 ETH_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA2_Stream0_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM7_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM6_DAC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 UART5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 UART4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SPI3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SDMMC1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FMC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream7_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM8_CC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM8_TRG_COM_TIM14_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM8_UP_TIM13_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM8_BRK_TIM12_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 RTC_Alarm_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 EXTI15_10_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 USART3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 USART2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 USART1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SPI2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SPI1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C2_ER_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C2_EV_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C1_ER_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 I2C1_EV_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM4_IRQHandler
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s 			page 42
 
 
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM1_CC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM1_TRG_COM_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM1_UP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TIM1_BRK_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 EXTI9_5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FDCAN2_IT1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FDCAN1_IT1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FDCAN2_IT0_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FDCAN1_IT0_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 ADC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream6_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream5_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DMA1_Stream0_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 EXTI4_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 EXTI3_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 EXTI2_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 EXTI1_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 EXTI0_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 RCC_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 FLASH_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 RTC_WKUP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 TAMP_STAMP_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 PVD_AVD_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 WWDG_IRQHandler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SysTick_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 PendSV_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 DebugMon_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 SVC_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 UsageFault_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 BusFault_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 MemManage_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 HardFault_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:26     .text.Default_Handler:00000000 NMI_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:342    .text.Reset_Handler:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:350    .text.Reset_Handler:00000000 Reset_Handler
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:403    .text.Reset_Handler:0000002c $d
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:416    .isr_vector:00000000 g_pfnVectors
-C:\Users\isaia\AppData\Local\Temp\cczDBn2m.s:413    .isr_vector:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM1_CC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM1_TRG_COM_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM1_UP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TIM1_BRK_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 EXTI9_5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FDCAN2_IT1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FDCAN1_IT1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FDCAN2_IT0_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FDCAN1_IT0_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 ADC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream6_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream5_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DMA1_Stream0_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 EXTI4_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 EXTI3_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 EXTI2_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 EXTI1_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 EXTI0_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 RCC_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 FLASH_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 RTC_WKUP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 TAMP_STAMP_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 PVD_AVD_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 WWDG_IRQHandler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SysTick_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 PendSV_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 DebugMon_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 SVC_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 UsageFault_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 BusFault_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 MemManage_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 HardFault_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:26     .text.Default_Handler:00000000 NMI_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:350    .text.Reset_Handler:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:358    .text.Reset_Handler:00000000 Reset_Handler
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:416    .text.Reset_Handler:0000002c $d
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:429    .isr_vector:00000000 g_pfnVectors
+C:\Users\isaia\AppData\Local\Temp\ccw9GHOM.s:426    .isr_vector:00000000 $d
 
 UNDEFINED SYMBOLS
 memcpy

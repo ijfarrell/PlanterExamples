@@ -6,6 +6,7 @@ using namespace daisy;
 using namespace patch_sm;
 using namespace daisysp;
 using namespace anachrome;
+//using daisy::GPIO;
 
 DaisyPatchSM   hw;
 // Switch         button, toggle1, toggle2, toggle3;
@@ -14,7 +15,7 @@ DSY_TEXT FIL            file; /**< Can't be made on the stack (DTCMRAM) */
 DSY_TEXT FatFSInterface fsi;
 MidiUsbHandler midi;
 Oscillator     osc;
-dsy_gpio led_1, led_2;
+//GPIO led_1, led_2;
 planter euro;
 
 void AudioCallback(AudioHandle::InputBuffer  in,
@@ -201,8 +202,8 @@ int main(void)
         }
         if(now - gatet > 1000)
         {
-            dsy_gpio_toggle(&euro.patch.gate_out_1);
-            dsy_gpio_toggle(&euro.patch.gate_out_2);
+            euro.patch.gate_out_1.Toggle();
+            euro.patch.gate_out_2.Toggle();
             gatet = now;
         }
 
