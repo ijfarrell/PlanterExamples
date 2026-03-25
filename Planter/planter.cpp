@@ -199,8 +199,39 @@ namespace anachrome
       return scaled;
   }
 
-  void planter::BootloaderResetCheck() {
-    if (button.TimeHeldMs() >= 3000) {
+    void planter::BootloaderResetCheck() {
+        // Keep this check self-contained so bootloader entry remains reliable
+        // even if caller debounce cadence changes.
+        button.Debounce();
+
+        static uint32_t hold_start_ms = 0;
+        static bool     armed         = false;
+
+        // Use raw state as the primary hold detector; polarity is already handled
+        // by Switch::RawState() for the configured button type.
+        const bool pressed_raw = button.RawState();
+
+        if(pressed_raw)
+        {
+            if(!armed)
+            {
+                armed         = true;
+                hold_start_ms = System::GetNow();
+            }
+        }
+        else
+        {
+            armed         = false;
+            hold_start_ms = 0;
+        }
+
+        const bool held_3s_raw = armed && (System::GetNow() - hold_start_ms >= 3000);
+        const bool held_3s_db  = (button.TimeHeldMs() >= 300.0f);
+
+        if (held_3s_raw || held_3s_db) {
+                armed         = false;
+                hold_start_ms = 0;
+
         patch.StopAdc();
         patch.StopAudio();
         

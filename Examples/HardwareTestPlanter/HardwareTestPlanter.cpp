@@ -34,13 +34,13 @@ void AudioCallback(AudioHandle::InputBuffer  in,
 }
 
 
-bool midiflag = false; //flag for midi listening test, disables serial logging
+bool midiflag = true; //flag for midi listening test, disables serial logging
 
 
 int main(void)
 {
     euro.Init();    
-    euro.StartLog(true);
+    euro.StartLog();
     //System::Delay(10000);
 
     euro.PrintLine("Planter started. Test Beginning");

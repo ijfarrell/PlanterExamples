@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
   44              	.LFE2736:
   46 0006 00BF     		.section	.text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE,"ax",%progbits
   47              		.align	1
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 2
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 2
 
 
   48              		.p2align 2,,3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
   27:../../Planter/planter.cpp ****       if(bipolar_voltage > 5.0f)
   91              		.loc 1 27 7 view .LVU11
   92 0000 F1EE047A 		vmov.f32	s15, #5.0e+0
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 3
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 3
 
 
   93 0004 B4EEE70A 		vcmpe.f32	s0, s15
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  106              	.LVL8:
   69:../../Planter/planter.cpp ****       else if(dac_output < 0.0f)
   70:../../Planter/planter.cpp ****           dac_output = 0.0f;
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 4
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 4
 
 
   71:../../Planter/planter.cpp **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  144              		.loc 1 67 7 is_stmt 1 view .LVU31
  145 0044 F1EE047A 		vmov.f32	s15, #5.0e+0
  146 0048 B4EEE70A 		vcmpe.f32	s0, s15
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 5
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 5
 
 
  147 004c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  194              		.syntax unified
  195              		.thumb
  196              		.thumb_func
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 6
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 6
 
 
  197              		.fpu fpv5-d16
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
   95:../../Planter/planter.cpp ****               break;
   96:../../Planter/planter.cpp ****           case 1: // CV_2
   97:../../Planter/planter.cpp ****               cal_adc_high = CAL.adc_ch1_high;
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 7
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 7
 
 
   98:../../Planter/planter.cpp ****               cal_adc_mid  = CAL.adc_ch1_mid;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  127:../../Planter/planter.cpp ****           float t = (raw - cal_adc_mid) / (cal_adc_high - cal_adc_mid);
  250              		.loc 1 127 11 is_stmt 1 view .LVU62
  128:../../Planter/planter.cpp ****           calibrated = cal_out_mid + t * (cal_out_high - cal_out_mid);
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 8
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 8
 
 
  251              		.loc 1 128 11 view .LVU63
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  291 0050 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  292 0054 48BF     		it	mi
  293 0056 B0EE670A 		vmovmi.f32	s0, s15
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 9
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 9
 
 
  294              	.LVL29:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  342 000c 0546     		mov	r5, r0
  343              		.loc 1 141 15 view .LVU85
  344 000e 42EA0121 		orr	r1, r2, r1, lsl #8
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 10
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 10
 
 
  345 0012 2346     		mov	r3, r4
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  147:../../Planter/planter.cpp ****       led_1.Write(state);
  396              		.loc 1 147 18 is_stmt 0 view .LVU92
  397 0002 1146     		mov	r1, r2
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 11
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 11
 
 
  398              	.LVL36:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  442              		.loc 1 157 36 view .LVU104
  443 000a 211F     		subs	r1, r4, #4
  444              	.LVL42:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 12
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 12
 
 
  158:../../Planter/planter.cpp **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  460 001e B5EEC00A 		vcmpe.f32	s0, #0
  461 0022 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
  462 0026 08D4     		bmi	.L41
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 13
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 13
 
 
  197:../../Planter/planter.cpp ****       if(scaled > 1.0f) scaled = 1.0f;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
    1:../../libDaisy//src/hid/switch.h **** #pragma once
    2:../../libDaisy//src/hid/switch.h **** #ifndef DSY_SWITCH_H
    3:../../libDaisy//src/hid/switch.h **** #define DSY_SWITCH_H
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 14
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 14
 
 
    4:../../libDaisy//src/hid/switch.h **** #include "daisy_core.h"
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
   58:../../libDaisy//src/hid/switch.h ****     Called at update_rate to debounce and handle timing for the switch.
   59:../../libDaisy//src/hid/switch.h ****     In order for events not to be missed, its important that the Edge/Pressed checks
   60:../../libDaisy//src/hid/switch.h ****     be made at the same rate as the debounce function is being called.
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 15
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 15
 
 
   61:../../libDaisy//src/hid/switch.h ****     */
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  535              	.LBE54:
  202:../../Planter/planter.cpp ****     if (button.TimeHeldMs() >= 3000) {
  536              		.loc 1 202 40 is_stmt 0 view .LVU126
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 16
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 16
 
 
  537 000a 70B5     		push	{r4, r5, r6, lr}
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  588              		.loc 1 142 15 view .LVU137
  589 0038 04F11406 		add	r6, r4, #20
  590              	.LBE70:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 17
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 17
 
 
  591              	.LBE69:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  209:../../Planter/planter.cpp ****         // Flash front panel LEDS 4 times
  210:../../Planter/planter.cpp ****         for (int i = 0; i < 4; i++) {
  635              		.loc 1 210 27 is_stmt 1 view .LVU148
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 18
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 18
 
 
  636              	.L51:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  145:../../Planter/planter.cpp ****     if (idx == 1)
  675              		.loc 1 145 8 view .LVU164
  676              	.LBB79:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 19
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 19
 
 
  146:../../Planter/planter.cpp ****       led_1.Write(state);
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  221:../../Planter/planter.cpp ****         System::ResetToBootloader(System::BootloaderMode::DAISY_INFINITE_TIMEOUT);
  714              		.loc 1 221 9 is_stmt 1 view .LVU180
  715              		.loc 1 221 34 is_stmt 0 view .LVU181
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 20
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 20
 
 
  716 00a6 0320     		movs	r0, #3
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  768 0014 0000803F 		.word	1065353216
  769              		.text
  770              	.Letext0:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 21
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 21
 
 
  771              		.file 3 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
@@ -1254,34 +1254,34 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 1
  821              		.file 53 "../../Planter/planter_cal.h"
  822              		.file 54 "../../Planter/planter.h"
  823              		.file 55 "<built-in>"
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s 			page 22
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s 			page 22
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 planter.cpp
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:17     .text._ZN9anachrome7planter10StartAudioEPFvPKfPfjE:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:26     .text._ZN9anachrome7planter10StartAudioEPFvPKfPfjE:00000000 _ZN9anachrome7planter10StartAudioEPFvPKfPfjE
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:47     .text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:55     .text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE:00000000 _ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:75     .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:83     .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000000 _ZN9anachrome7planter17WriteCvOutBipolarEif
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:184    .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000078 $d
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:191    .text._ZN9anachrome7planter7GetCvInEi:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:199    .text._ZN9anachrome7planter7GetCvInEi:00000000 _ZN9anachrome7planter7GetCvInEi
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:302    .text._ZN9anachrome7planter7GetCvInEi:0000005c $d
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:309    .text._ZN9anachrome7planter8InitLedsEv:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:317    .text._ZN9anachrome7planter8InitLedsEv:00000000 _ZN9anachrome7planter8InitLedsEv
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:372    .text._ZN9anachrome7planter8InitLedsEv:00000038 $d
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:378    .text._ZN9anachrome7planter6SetLedEib:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:386    .text._ZN9anachrome7planter6SetLedEib:00000000 _ZN9anachrome7planter6SetLedEib
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:413    .text._ZN9anachrome7planter12GetKnobValueEi:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:421    .text._ZN9anachrome7planter12GetKnobValueEi:00000000 _ZN9anachrome7planter12GetKnobValueEi
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:485    .text._ZN9anachrome7planter12GetKnobValueEi:00000040 $d
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:491    .text._ZN9anachrome7planter20BootloaderResetCheckEv:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:499    .text._ZN9anachrome7planter20BootloaderResetCheckEv:00000000 _ZN9anachrome7planter20BootloaderResetCheckEv
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:751    .text._ZN9anachrome7planter20BootloaderResetCheckEv:000000b8 $d
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:758    .rodata.CSWTCH.11:00000000 $d
-C:\Users\isaia\AppData\Local\Temp\ccvp70xW.s:762    .rodata.CSWTCH.11:00000000 CSWTCH.11
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:17     .text._ZN9anachrome7planter10StartAudioEPFvPKfPfjE:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:26     .text._ZN9anachrome7planter10StartAudioEPFvPKfPfjE:00000000 _ZN9anachrome7planter10StartAudioEPFvPKfPfjE
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:47     .text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:55     .text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE:00000000 _ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:75     .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:83     .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000000 _ZN9anachrome7planter17WriteCvOutBipolarEif
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:184    .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000078 $d
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:191    .text._ZN9anachrome7planter7GetCvInEi:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:199    .text._ZN9anachrome7planter7GetCvInEi:00000000 _ZN9anachrome7planter7GetCvInEi
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:302    .text._ZN9anachrome7planter7GetCvInEi:0000005c $d
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:309    .text._ZN9anachrome7planter8InitLedsEv:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:317    .text._ZN9anachrome7planter8InitLedsEv:00000000 _ZN9anachrome7planter8InitLedsEv
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:372    .text._ZN9anachrome7planter8InitLedsEv:00000038 $d
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:378    .text._ZN9anachrome7planter6SetLedEib:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:386    .text._ZN9anachrome7planter6SetLedEib:00000000 _ZN9anachrome7planter6SetLedEib
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:413    .text._ZN9anachrome7planter12GetKnobValueEi:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:421    .text._ZN9anachrome7planter12GetKnobValueEi:00000000 _ZN9anachrome7planter12GetKnobValueEi
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:485    .text._ZN9anachrome7planter12GetKnobValueEi:00000040 $d
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:491    .text._ZN9anachrome7planter20BootloaderResetCheckEv:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:499    .text._ZN9anachrome7planter20BootloaderResetCheckEv:00000000 _ZN9anachrome7planter20BootloaderResetCheckEv
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:751    .text._ZN9anachrome7planter20BootloaderResetCheckEv:000000b8 $d
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:758    .rodata.CSWTCH.11:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\cc5x1SEU.s:762    .rodata.CSWTCH.11:00000000 CSWTCH.11
 
 UNDEFINED SYMBOLS
 _ZN5daisy8patch_sm12DaisyPatchSM10StartAudioEPFvPKfPfjE

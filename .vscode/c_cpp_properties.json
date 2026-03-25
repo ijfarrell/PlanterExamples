@@ -20,7 +20,9 @@
                 "${workspaceFolder}/libDaisy/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc",
                 "${workspaceFolder}/libDaisy/Middlewares/ST/STM32_USB_Host_Library/Class/MIDI/Inc",
                 "${workspaceFolder}/libDaisy/Middlewares/Third_Party/FatFs/src",
-                "${workspaceFolder}/DaisySP/Source"
+                "${workspaceFolder}/DaisySP/Source",
+                "${workspaceFolder}/DaisySP/DaisySP-LGPL/Source",
+                "${workspaceFolder}/DaisySP/Source/Utility"
             ],
             "defines": [
                 "CORE_CM7",

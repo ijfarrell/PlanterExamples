@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
   27:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** #if _CODE_PAGE == 437
   28:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** #define _TBLDEF 1
   29:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** static
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 2
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 2
 
 
   30:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** const WCHAR Tbl[] = {	/*  CP437(0x80-0xFF) to Unicode conversion table */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
   84:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** #define _TBLDEF 1
   85:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** static
   86:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** const WCHAR Tbl[] = {	/*  CP775(0x80-0xFF) to Unicode conversion table */
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 3
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 3
 
 
   87:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x0106, 0x00FC, 0x00E9, 0x0101, 0x00E4, 0x0123, 0x00E5, 0x0107, 0x0142, 0x0113, 0x0156, 0x0157, 0x
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  141:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** static
  142:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** const WCHAR Tbl[] = {	/*  CP857(0x80-0xFF) to Unicode conversion table */
  143:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x00C7, 0x00FC, 0x00E9, 0x00E2, 0x00E4, 0x00E0, 0x00E5, 0x00E7, 0x00EA, 0x00EB, 0x00E8, 0x00EF, 0x
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 4
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 4
 
 
  144:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x00C9, 0x00E6, 0x00C6, 0x00F4, 0x00F6, 0x00F2, 0x00FB, 0x00F9, 0x0130, 0x00D6, 0x00DC, 0x00F8, 0x
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  198:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** const WCHAR Tbl[] = {	/*  CP863(0x80-0xFF) to Unicode conversion table */
  199:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x00C7, 0x00FC, 0x00E9, 0x00E2, 0x00C2, 0x00E0, 0x00B6, 0x00E7, 0x00EA, 0x00EB, 0x00E8, 0x00EF, 0x
  200:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x00C9, 0x00C8, 0x00CA, 0x00F4, 0x00CB, 0x00CF, 0x00FB, 0x00F9, 0x00A4, 0x00D4, 0x00DC, 0x00A2, 0x
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 5
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 5
 
 
  201:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x00A6, 0x00B4, 0x00F3, 0x00FA, 0x00A8, 0x00BB, 0x00B3, 0x00AF, 0x00CE, 0x3210, 0x00AC, 0x00BD, 0x
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  255:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x00B7, 0x00B7, 0x00B7, 0x00B7, 0x00B7, 0x00B7, 0x0386, 0x00B7, 0x00B7, 0x00AC, 0x00A6, 0x2018, 0x
  256:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x038A, 0x03AA, 0x038C, 0x00B7, 0x00B7, 0x038E, 0x03AB, 0x00A9, 0x038F, 0x00B2, 0x00B3, 0x03AC, 0x
  257:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x03CA, 0x0390, 0x03CC, 0x03CD, 0x0391, 0x0392, 0x0393, 0x0394, 0x0395, 0x0396, 0x0397, 0x00BD, 0x
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 6
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 6
 
 
  258:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	0x2591, 0x2592, 0x2593, 0x2502, 0x2524, 0x039A, 0x039B, 0x039C, 0x039D, 0x2563, 0x2551, 0x2557, 0x
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
   50 000e 0DD0     		beq	.L7
  292:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 				if (chr == Tbl[c]) break;
   51              		.loc 1 292 19 view .LVU7
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 7
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 7
 
 
   52 0010 32F8023F 		ldrh	r3, [r2, #2]!
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
   92 0032 8038     		subs	r0, r0, #128
   93              	.LVL10:
  288:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 8
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 8
 
 
   94              		.loc 1 288 6 discriminator 1 view .LVU22
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  329:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 
  330:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 		0x0000
  331:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	};
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 9
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 9
 
 
  332:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	static const WCHAR cvt2[] = {	/* U+1000 - U+FFFF */
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  141              	.LVL12:
  142              	.L18:
  365:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 	for (;;) {
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 10
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 10
 
 
  366:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 		bc = *p++;								/* Get block base */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  169 002c 5FFA82FC 		uxtb	ip, r2
  368:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 		if (chr < bc + nc) {	/* In the block? */
  170              		.loc 1 368 18 view .LVU44
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 11
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 11
 
 
  171 0030 120A     		lsrs	r2, r2, #8
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  210              		.loc 1 383 15 is_stmt 0 discriminator 1 view .LVU57
  211 0054 04EB4C03 		add	r3, r4, ip, lsl #1
  212              	.LVL20:
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 12
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 12
 
 
  366:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 		if (!bc || chr < bc) break;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  373:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** 			case 3:	chr -= 32; break;				/* Shift -32 */
  252              		.loc 1 373 16 view .LVU75
  253 0074 80B2     		uxth	r0, r0
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 13
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 13
 
 
  254              	.LVL29:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  386:../../libDaisy//Middlewares/Third_Party/FatFs/src/option/ccsbcs.c **** }
  292              		.loc 1 386 2 view .LVU95
  293              		.loc 1 387 1 is_stmt 0 view .LVU96
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 14
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 14
 
 
  294 0088 10BD     		pop	{r4, pc}
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  341 0010 EA00     		.short	234
  342 0012 EB00     		.short	235
  343 0014 E800     		.short	232
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 15
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 15
 
 
  344 0016 EF00     		.short	239
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  398 0082 3425     		.short	9524
  399 0084 2C25     		.short	9516
  400 0086 1C25     		.short	9500
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 16
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 16
 
 
  401 0088 0025     		.short	9472
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  455 00f4 B700     		.short	183
  456 00f6 B900     		.short	185
  457 00f8 B300     		.short	179
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 17
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 17
 
 
  458 00fa B200     		.short	178
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  514 005e 3D02     		.short	573
  515 0060 9B01     		.short	411
  516 0062 9C01     		.short	412
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 18
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 18
 
 
  517 0064 9D01     		.short	413
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  571 00d0 1201     		.short	274
  572 00d2 F301     		.short	499
  573 00d4 0300     		.short	3
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 19
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 19
 
 
  574 00d6 F101     		.short	497
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  628 0142 7302     		.short	627
  629 0144 7402     		.short	628
  630 0146 9F01     		.short	415
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 20
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 20
 
 
  631 0148 7602     		.short	630
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  685 01b4 1801     		.short	280
  686 01b6 F203     		.short	1010
  687 01b8 0A00     		.short	10
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 21
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 21
 
 
  688 01ba F903     		.short	1017
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  744 002c 541F     		.short	8020
  745 002e 5D1F     		.short	8029
  746 0030 561F     		.short	8022
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 22
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 22
 
 
  747 0032 5F1F     		.short	8031
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  801 009e 302C     		.short	11312
  802 00a0 2F04     		.short	1071
  803 00a2 602C     		.short	11360
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 23
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 23
 
 
  804 00a4 0201     		.short	258
@@ -1338,25 +1338,25 @@ ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 1
  818              		.file 2 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
  819              		.file 3 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
  820              		.file 4 "../../libDaisy//Middlewares/Third_Party/FatFs/src/option/../integer.h"
-ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s 			page 24
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ccsbcs.c
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:17     .text.ff_convert:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:26     .text.ff_convert:00000000 ff_convert
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:100    .text.ff_convert:0000003c $d
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:105    .text.ff_wtoupper:00000000 $t
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:113    .text.ff_wtoupper:00000000 ff_wtoupper
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:185    .text.ff_wtoupper:00000042 $d
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:322    .text.ff_wtoupper:00000098 $d
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:328    .rodata.Tbl:00000000 $d
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:332    .rodata.Tbl:00000000 Tbl
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:462    .rodata.cvt1.1:00000000 $d
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:466    .rodata.cvt1.1:00000000 cvt1.1
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:717    .rodata.cvt2.0:00000000 $d
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:721    .rodata.cvt2.0:00000000 cvt2.0
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:194    .text.ff_wtoupper:0000004b $d
-C:\Users\isaia\AppData\Local\Temp\ccSsAAo1.s:194    .text.ff_wtoupper:0000004c $t
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:17     .text.ff_convert:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:26     .text.ff_convert:00000000 ff_convert
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:100    .text.ff_convert:0000003c $d
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:105    .text.ff_wtoupper:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:113    .text.ff_wtoupper:00000000 ff_wtoupper
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:185    .text.ff_wtoupper:00000042 $d
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:322    .text.ff_wtoupper:00000098 $d
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:328    .rodata.Tbl:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:332    .rodata.Tbl:00000000 Tbl
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:462    .rodata.cvt1.1:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:466    .rodata.cvt1.1:00000000 cvt1.1
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:717    .rodata.cvt2.0:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:721    .rodata.cvt2.0:00000000 cvt2.0
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:194    .text.ff_wtoupper:0000004b $d
+C:\Users\isaia\AppData\Local\Temp\ccSUeQIJ.s:194    .text.ff_wtoupper:0000004c $t
 
 NO UNDEFINED SYMBOLS
