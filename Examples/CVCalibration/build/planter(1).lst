@@ -1,0 +1,1517 @@
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 1
+
+
+   1              		.cpu cortex-m7
+   2              		.eabi_attribute 28, 1
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 2
+  10              		.eabi_attribute 34, 1
+  11              		.eabi_attribute 18, 4
+  12              		.file	"planter.cpp"
+  13              		.text
+  14              	.Ltext0:
+  15              		.cfi_sections	.debug_frame
+  16              		.section	.text._ZN9anachrome7planter10StartAudioEPFvPKfPfjE,"ax",%progbits
+  17              		.align	1
+  18              		.p2align 2,,3
+  19              		.global	_ZN9anachrome7planter10StartAudioEPFvPKfPfjE
+  20              		.arch armv7e-m
+  21              		.syntax unified
+  22              		.thumb
+  23              		.thumb_func
+  24              		.fpu fpv5-d16
+  26              	_ZN9anachrome7planter10StartAudioEPFvPKfPfjE:
+  27              	.LVL0:
+  28              	.LFB2736:
+  29              		.file 1 "../../Planter/planter.cpp"
+   1:../../Planter/planter.cpp **** #include "planter.h"
+   2:../../Planter/planter.cpp **** #include "planter_cal.h"
+   3:../../Planter/planter.cpp **** 
+   4:../../Planter/planter.cpp **** using anachrome::planter;
+   5:../../Planter/planter.cpp **** using daisy::System;
+   6:../../Planter/planter.cpp **** using namespace anachrome::calibration;
+   7:../../Planter/planter.cpp **** 
+   8:../../Planter/planter.cpp **** namespace anachrome
+   9:../../Planter/planter.cpp **** {
+  10:../../Planter/planter.cpp **** 
+  11:../../Planter/planter.cpp ****   void planter::StartAudio(AudioHandle::InterleavingAudioCallback cb) {
+  30              		.loc 1 11 71 view -0
+  31              		.cfi_startproc
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34              		@ link register save eliminated.
+  12:../../Planter/planter.cpp ****     patch.StartAudio(cb);
+  35              		.loc 1 12 5 view .LVU1
+  36              		.loc 1 12 21 is_stmt 0 view .LVU2
+  37 0000 B830     		adds	r0, r0, #184
+  38              	.LVL1:
+  39              		.loc 1 12 21 view .LVU3
+  40 0002 FFF7FEBF 		b	_ZN5daisy8patch_sm12DaisyPatchSM10StartAudioEPFvPKfPfjE
+  41              	.LVL2:
+  42              		.loc 1 12 21 view .LVU4
+  43              		.cfi_endproc
+  44              	.LFE2736:
+  46 0006 00BF     		.section	.text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE,"ax",%progbits
+  47              		.align	1
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 2
+
+
+  48              		.p2align 2,,3
+  49              		.global	_ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE
+  50              		.syntax unified
+  51              		.thumb
+  52              		.thumb_func
+  53              		.fpu fpv5-d16
+  55              	_ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE:
+  56              	.LVL3:
+  57              	.LFB2737:
+  13:../../Planter/planter.cpp ****   }
+  14:../../Planter/planter.cpp **** 
+  15:../../Planter/planter.cpp ****   void planter::StartAudio(AudioHandle::AudioCallback cb) {
+  58              		.loc 1 15 59 is_stmt 1 view -0
+  59              		.cfi_startproc
+  60              		@ args = 0, pretend = 0, frame = 0
+  61              		@ frame_needed = 0, uses_anonymous_args = 0
+  62              		@ link register save eliminated.
+  16:../../Planter/planter.cpp ****     patch.StartAudio(cb);
+  63              		.loc 1 16 5 view .LVU6
+  64              		.loc 1 16 21 is_stmt 0 view .LVU7
+  65 0000 B830     		adds	r0, r0, #184
+  66              	.LVL4:
+  67              		.loc 1 16 21 view .LVU8
+  68 0002 FFF7FEBF 		b	_ZN5daisy8patch_sm12DaisyPatchSM10StartAudioEPFvPKPKfPPfjE
+  69              	.LVL5:
+  70              		.loc 1 16 21 view .LVU9
+  71              		.cfi_endproc
+  72              	.LFE2737:
+  74 0006 00BF     		.section	.text._ZN9anachrome7planter17WriteCvOutBipolarEif,"ax",%progbits
+  75              		.align	1
+  76              		.p2align 2,,3
+  77              		.global	_ZN9anachrome7planter17WriteCvOutBipolarEif
+  78              		.syntax unified
+  79              		.thumb
+  80              		.thumb_func
+  81              		.fpu fpv5-d16
+  83              	_ZN9anachrome7planter17WriteCvOutBipolarEif:
+  84              	.LVL6:
+  85              	.LFB2738:
+  17:../../Planter/planter.cpp ****   }
+  18:../../Planter/planter.cpp **** 
+  19:../../Planter/planter.cpp ****   // void planter::StartAdc() { patch.adc.Start(); }
+  20:../../Planter/planter.cpp **** 
+  21:../../Planter/planter.cpp ****   // void planter::StopAdc() { patch.adc.Stop(); }
+  22:../../Planter/planter.cpp **** 
+  23:../../Planter/planter.cpp ****   
+  24:../../Planter/planter.cpp ****   void planter::WriteCvOutBipolar(const int channel, float bipolar_voltage)
+  25:../../Planter/planter.cpp ****   {
+  86              		.loc 1 25 3 is_stmt 1 view -0
+  87              		.cfi_startproc
+  88              		@ args = 0, pretend = 0, frame = 0
+  89              		@ frame_needed = 0, uses_anonymous_args = 0
+  90              		@ link register save eliminated.
+  26:../../Planter/planter.cpp ****       // Clamp desired voltage to valid range
+  27:../../Planter/planter.cpp ****       if(bipolar_voltage > 5.0f)
+  91              		.loc 1 27 7 view .LVU11
+  92 0000 F1EE047A 		vmov.f32	s15, #5.0e+0
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 3
+
+
+  93 0004 B4EEE70A 		vcmpe.f32	s0, s15
+  94 0008 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+  95 000c 26DC     		bgt	.L5
+  28:../../Planter/planter.cpp ****           bipolar_voltage = 5.0f;
+  29:../../Planter/planter.cpp ****       else if(bipolar_voltage < -5.0f)
+  96              		.loc 1 29 12 view .LVU12
+  97 000e F9EE047A 		vmov.f32	s15, #-5.0e+0
+  98 0012 B4EEE70A 		vcmpe.f32	s0, s15
+  99 0016 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 100 001a 26D5     		bpl	.L19
+  30:../../Planter/planter.cpp ****           bipolar_voltage = -5.0f;
+ 101              		.loc 1 30 11 view .LVU13
+ 102              	.LVL7:
+  31:../../Planter/planter.cpp **** 
+  32:../../Planter/planter.cpp ****       // Fixed reference voltages (same for all units)
+  33:../../Planter/planter.cpp ****       constexpr float cal_voltage_low  = -5.0f;
+ 103              		.loc 1 33 7 view .LVU14
+  34:../../Planter/planter.cpp ****       constexpr float cal_voltage_mid  =  0.0f;
+ 104              		.loc 1 34 7 view .LVU15
+  35:../../Planter/planter.cpp ****       constexpr float cal_voltage_high =  5.0f;
+ 105              		.loc 1 35 7 view .LVU16
+  36:../../Planter/planter.cpp **** 
+  37:../../Planter/planter.cpp ****       // Per-unit measured DAC values from planter_calibration.h
+  38:../../Planter/planter.cpp ****       float cal_dac_low, cal_dac_mid, cal_dac_high;
+ 106              		.loc 1 38 7 view .LVU17
+  39:../../Planter/planter.cpp **** 
+  40:../../Planter/planter.cpp ****       if (channel == 1){
+ 107              		.loc 1 40 7 view .LVU18
+ 108 001c 0129     		cmp	r1, #1
+ 109 001e 5ED0     		beq	.L16
+  30:../../Planter/planter.cpp **** 
+ 110              		.loc 1 30 27 is_stmt 0 view .LVU19
+ 111 0020 B0EE670A 		vmov.f32	s0, s15
+  41:../../Planter/planter.cpp ****         cal_dac_low  = CAL.dac_ch1_low;
+  42:../../Planter/planter.cpp ****         cal_dac_mid  = CAL.dac_ch1_mid;
+  43:../../Planter/planter.cpp ****         cal_dac_high = CAL.dac_ch1_high;
+  44:../../Planter/planter.cpp ****       }
+  45:../../Planter/planter.cpp ****       else{
+  46:../../Planter/planter.cpp ****         cal_dac_low  = CAL.dac_ch2_low;
+  47:../../Planter/planter.cpp ****         cal_dac_mid  = CAL.dac_ch2_mid;
+ 112              		.loc 1 47 22 view .LVU20
+ 113 0024 9FED2F7A 		vldr.32	s14, .L21
+  46:../../Planter/planter.cpp ****         cal_dac_mid  = CAL.dac_ch2_mid;
+ 114              		.loc 1 46 22 view .LVU21
+ 115 0028 DFED2F7A 		vldr.32	s15, .L21+4
+ 116              	.LVL8:
+ 117              	.L13:
+ 118              	.LBB21:
+ 119              	.LBB22:
+  48:../../Planter/planter.cpp ****         cal_dac_high = CAL.dac_ch2_high;
+  49:../../Planter/planter.cpp ****       }
+  50:../../Planter/planter.cpp ****  
+  51:../../Planter/planter.cpp ****       // Piecewise linear interpolation
+  52:../../Planter/planter.cpp ****       float dac_output;
+  53:../../Planter/planter.cpp ****       if(bipolar_voltage <= cal_voltage_mid)
+  54:../../Planter/planter.cpp ****       {
+  55:../../Planter/planter.cpp ****           // Interpolate between low and mid points
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 4
+
+
+  56:../../Planter/planter.cpp ****           float t = (bipolar_voltage - cal_voltage_low) / (cal_voltage_mid - cal_voltage_low);
+ 120              		.loc 1 56 38 view .LVU22
+ 121 002c F1EE046A 		vmov.f32	s13, #5.0e+0
+  57:../../Planter/planter.cpp ****           dac_output = cal_dac_low + t * (cal_dac_mid - cal_dac_low);
+ 122              		.loc 1 57 55 view .LVU23
+ 123 0030 37EE677A 		vsub.f32	s14, s14, s15
+ 124              	.LVL9:
+  56:../../Planter/planter.cpp ****           dac_output = cal_dac_low + t * (cal_dac_mid - cal_dac_low);
+ 125              		.loc 1 56 38 view .LVU24
+ 126 0034 30EE260A 		vadd.f32	s0, s0, s13
+  56:../../Planter/planter.cpp ****           dac_output = cal_dac_low + t * (cal_dac_mid - cal_dac_low);
+ 127              		.loc 1 56 17 view .LVU25
+ 128 0038 80EE266A 		vdiv.f32	s12, s0, s13
+ 129              		.loc 1 57 22 view .LVU26
+ 130 003c E7EE067A 		vfma.f32	s15, s14, s12
+ 131              	.LVL10:
+ 132              		.loc 1 57 22 view .LVU27
+ 133 0040 B0EE670A 		vmov.f32	s0, s15
+  56:../../Planter/planter.cpp ****           dac_output = cal_dac_low + t * (cal_dac_mid - cal_dac_low);
+ 134              		.loc 1 56 11 is_stmt 1 view .LVU28
+ 135              	.LVL11:
+ 136              		.loc 1 57 11 view .LVU29
+ 137              		.loc 1 57 11 is_stmt 0 view .LVU30
+ 138              	.LBE22:
+ 139              	.LBE21:
+  58:../../Planter/planter.cpp ****       }
+  59:../../Planter/planter.cpp ****       else
+  60:../../Planter/planter.cpp ****       {
+  61:../../Planter/planter.cpp ****           // Interpolate between mid and high points
+  62:../../Planter/planter.cpp ****           float t = (bipolar_voltage - cal_voltage_mid) / (cal_voltage_high - cal_voltage_mid);
+  63:../../Planter/planter.cpp ****           dac_output = cal_dac_mid + t * (cal_dac_high - cal_dac_mid);
+  64:../../Planter/planter.cpp ****       }
+  65:../../Planter/planter.cpp **** 
+  66:../../Planter/planter.cpp ****       // Clamp DAC output to valid 0-5V range
+  67:../../Planter/planter.cpp ****       if(dac_output > 5.0f)
+ 140              		.loc 1 67 7 is_stmt 1 view .LVU31
+ 141 0044 F1EE047A 		vmov.f32	s15, #5.0e+0
+ 142 0048 B4EEE70A 		vcmpe.f32	s0, s15
+ 143 004c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 144 0050 34DD     		ble	.L20
+ 145              	.L15:
+  68:../../Planter/planter.cpp ****           dac_output = 5.0f;
+ 146              		.loc 1 68 22 is_stmt 0 view .LVU32
+ 147 0052 B0EE670A 		vmov.f32	s0, s15
+ 148              	.LVL12:
+  69:../../Planter/planter.cpp ****       else if(dac_output < 0.0f)
+  70:../../Planter/planter.cpp ****           dac_output = 0.0f;
+  71:../../Planter/planter.cpp **** 
+  72:../../Planter/planter.cpp ****       patch.WriteCvOut(channel, dac_output);
+ 149              		.loc 1 72 7 is_stmt 1 view .LVU33
+ 150              		.loc 1 72 23 is_stmt 0 view .LVU34
+ 151 0056 B830     		adds	r0, r0, #184
+ 152              	.LVL13:
+ 153              		.loc 1 72 23 view .LVU35
+ 154 0058 FFF7FEBF 		b	_ZN5daisy8patch_sm12DaisyPatchSM10WriteCvOutEif
+ 155              	.LVL14:
+ 156              	.L5:
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 5
+
+
+  33:../../Planter/planter.cpp ****       constexpr float cal_voltage_mid  =  0.0f;
+ 157              		.loc 1 33 7 is_stmt 1 view .LVU36
+  34:../../Planter/planter.cpp ****       constexpr float cal_voltage_high =  5.0f;
+ 158              		.loc 1 34 7 view .LVU37
+  35:../../Planter/planter.cpp **** 
+ 159              		.loc 1 35 7 view .LVU38
+  38:../../Planter/planter.cpp **** 
+ 160              		.loc 1 38 7 view .LVU39
+  40:../../Planter/planter.cpp ****         cal_dac_low  = CAL.dac_ch1_low;
+ 161              		.loc 1 40 7 view .LVU40
+ 162 005c 0129     		cmp	r1, #1
+ 163 005e 37D0     		beq	.L17
+ 164 0060 9FED220A 		vldr.32	s0, .L21+8
+ 165              	.LVL15:
+ 166              	.L11:
+ 167              		.loc 1 72 7 view .LVU41
+ 168              		.loc 1 72 23 is_stmt 0 view .LVU42
+ 169 0064 B830     		adds	r0, r0, #184
+ 170              	.LVL16:
+ 171              		.loc 1 72 23 view .LVU43
+ 172 0066 FFF7FEBF 		b	_ZN5daisy8patch_sm12DaisyPatchSM10WriteCvOutEif
+ 173              	.LVL17:
+ 174              	.L19:
+  33:../../Planter/planter.cpp ****       constexpr float cal_voltage_mid  =  0.0f;
+ 175              		.loc 1 33 7 is_stmt 1 view .LVU44
+  34:../../Planter/planter.cpp ****       constexpr float cal_voltage_high =  5.0f;
+ 176              		.loc 1 34 7 view .LVU45
+  35:../../Planter/planter.cpp **** 
+ 177              		.loc 1 35 7 view .LVU46
+  38:../../Planter/planter.cpp **** 
+ 178              		.loc 1 38 7 view .LVU47
+  40:../../Planter/planter.cpp ****         cal_dac_low  = CAL.dac_ch1_low;
+ 179              		.loc 1 40 7 view .LVU48
+ 180              	.LBB25:
+  53:../../Planter/planter.cpp ****       {
+ 181              		.loc 1 53 7 is_stmt 0 view .LVU49
+ 182 006a B5EEC00A 		vcmpe.f32	s0, #0
+ 183              	.LBE25:
+  48:../../Planter/planter.cpp ****       }
+ 184              		.loc 1 48 22 view .LVU50
+ 185 006e 0129     		cmp	r1, #1
+ 186 0070 DFED1F6A 		vldr.32	s13, .L21+12
+ 187 0074 9FED1D5A 		vldr.32	s10, .L21+8
+ 188 0078 9FED1E7A 		vldr.32	s14, .L21+16
+ 189 007c DFED195A 		vldr.32	s11, .L21
+ 190 0080 46FE856A 		vseleq.f32	s13, s13, s10
+ 191 0084 DFED1C7A 		vldr.32	s15, .L21+20
+ 192 0088 9FED176A 		vldr.32	s12, .L21+4
+ 193 008c 07FE257A 		vseleq.f32	s14, s14, s11
+ 194 0090 47FE867A 		vseleq.f32	s15, s15, s12
+ 195              	.LVL18:
+  52:../../Planter/planter.cpp ****       if(bipolar_voltage <= cal_voltage_mid)
+ 196              		.loc 1 52 7 is_stmt 1 view .LVU51
+  53:../../Planter/planter.cpp ****       {
+ 197              		.loc 1 53 7 view .LVU52
+ 198              	.LBB26:
+ 199 0094 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 6
+
+
+ 200 0098 C8D9     		bls	.L13
+ 201              	.LVL19:
+ 202              	.L8:
+ 203              	.LBB23:
+  62:../../Planter/planter.cpp ****           dac_output = cal_dac_mid + t * (cal_dac_high - cal_dac_mid);
+ 204              		.loc 1 62 17 is_stmt 0 view .LVU53
+ 205 009a B1EE046A 		vmov.f32	s12, #5.0e+0
+  63:../../Planter/planter.cpp ****       }
+ 206              		.loc 1 63 56 view .LVU54
+ 207 009e 76EEC76A 		vsub.f32	s13, s13, s14
+ 208              	.LVL20:
+  62:../../Planter/planter.cpp ****           dac_output = cal_dac_mid + t * (cal_dac_high - cal_dac_mid);
+ 209              		.loc 1 62 17 view .LVU55
+ 210 00a2 C0EE067A 		vdiv.f32	s15, s0, s12
+  63:../../Planter/planter.cpp ****       }
+ 211              		.loc 1 63 22 view .LVU56
+ 212 00a6 A6EEA77A 		vfma.f32	s14, s13, s15
+ 213              	.LVL21:
+  63:../../Planter/planter.cpp ****       }
+ 214              		.loc 1 63 22 view .LVU57
+ 215              	.LBE23:
+ 216              	.LBE26:
+  67:../../Planter/planter.cpp ****           dac_output = 5.0f;
+ 217              		.loc 1 67 7 view .LVU58
+ 218 00aa F1EE047A 		vmov.f32	s15, #5.0e+0
+ 219              	.LBB27:
+ 220              	.LBB24:
+  63:../../Planter/planter.cpp ****       }
+ 221              		.loc 1 63 22 view .LVU59
+ 222 00ae B0EE470A 		vmov.f32	s0, s14
+  62:../../Planter/planter.cpp ****           dac_output = cal_dac_mid + t * (cal_dac_high - cal_dac_mid);
+ 223              		.loc 1 62 11 is_stmt 1 view .LVU60
+ 224              	.LVL22:
+  63:../../Planter/planter.cpp ****       }
+ 225              		.loc 1 63 11 view .LVU61
+  63:../../Planter/planter.cpp ****       }
+ 226              		.loc 1 63 11 is_stmt 0 view .LVU62
+ 227              	.LBE24:
+ 228              	.LBE27:
+  67:../../Planter/planter.cpp ****           dac_output = 5.0f;
+ 229              		.loc 1 67 7 is_stmt 1 view .LVU63
+ 230 00b2 B4EEE70A 		vcmpe.f32	s0, s15
+ 231 00b6 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 232 00ba CADC     		bgt	.L15
+ 233              	.L20:
+  69:../../Planter/planter.cpp ****           dac_output = 0.0f;
+ 234              		.loc 1 69 12 view .LVU64
+ 235 00bc B5EEC00A 		vcmpe.f32	s0, #0
+ 236 00c0 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 237 00c4 CED5     		bpl	.L11
+  70:../../Planter/planter.cpp **** 
+ 238              		.loc 1 70 22 is_stmt 0 view .LVU65
+ 239 00c6 9FED0D0A 		vldr.32	s0, .L21+24
+ 240              	.LVL23:
+ 241              		.loc 1 72 7 is_stmt 1 view .LVU66
+ 242              		.loc 1 72 23 is_stmt 0 view .LVU67
+ 243 00ca B830     		adds	r0, r0, #184
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 7
+
+
+ 244              	.LVL24:
+ 245              		.loc 1 72 23 view .LVU68
+ 246 00cc FFF7FEBF 		b	_ZN5daisy8patch_sm12DaisyPatchSM10WriteCvOutEif
+ 247              	.LVL25:
+ 248              	.L17:
+  28:../../Planter/planter.cpp ****       else if(bipolar_voltage < -5.0f)
+ 249              		.loc 1 28 27 view .LVU69
+ 250 00d0 B0EE670A 		vmov.f32	s0, s15
+  43:../../Planter/planter.cpp ****       }
+ 251              		.loc 1 43 22 view .LVU70
+ 252 00d4 DFED066A 		vldr.32	s13, .L21+12
+  42:../../Planter/planter.cpp ****         cal_dac_high = CAL.dac_ch1_high;
+ 253              		.loc 1 42 22 view .LVU71
+ 254 00d8 9FED067A 		vldr.32	s14, .L21+16
+ 255 00dc DDE7     		b	.L8
+ 256              	.LVL26:
+ 257              	.L16:
+  40:../../Planter/planter.cpp ****         cal_dac_low  = CAL.dac_ch1_low;
+ 258              		.loc 1 40 7 view .LVU72
+ 259 00de 9FED060A 		vldr.32	s0, .L21+20
+ 260 00e2 BFE7     		b	.L11
+ 261              	.L22:
+ 262              		.align	2
+ 263              	.L21:
+ 264 00e4 96432340 		.word	1076052886
+ 265 00e8 E17A8840 		.word	1082686177
+ 266 00ec A245563F 		.word	1062618530
+ 267 00f0 508D573F 		.word	1062702416
+ 268 00f4 492E2340 		.word	1076047433
+ 269 00f8 89418840 		.word	1082671497
+ 270 00fc 00000000 		.word	0
+ 271              		.cfi_endproc
+ 272              	.LFE2738:
+ 274              		.section	.text._ZN9anachrome7planter7GetCvInEi,"ax",%progbits
+ 275              		.align	1
+ 276              		.p2align 2,,3
+ 277              		.global	_ZN9anachrome7planter7GetCvInEi
+ 278              		.syntax unified
+ 279              		.thumb
+ 280              		.thumb_func
+ 281              		.fpu fpv5-d16
+ 283              	_ZN9anachrome7planter7GetCvInEi:
+ 284              	.LVL27:
+ 285              	.LFB2739:
+  73:../../Planter/planter.cpp ****   }
+  74:../../Planter/planter.cpp **** 
+  75:../../Planter/planter.cpp ****   float planter::GetCvIn(int channel)
+  76:../../Planter/planter.cpp ****   {
+ 286              		.loc 1 76 3 is_stmt 1 view -0
+ 287              		.cfi_startproc
+ 288              		@ args = 0, pretend = 0, frame = 0
+ 289              		@ frame_needed = 0, uses_anonymous_args = 0
+  77:../../Planter/planter.cpp ****       // Read raw ADC value from GetAdcValue (returns -1.0 to 1.0 for -5V to +5V)
+  78:../../Planter/planter.cpp ****       float raw = patch.GetAdcValue(channel);
+ 290              		.loc 1 78 7 view .LVU74
+  76:../../Planter/planter.cpp ****       // Read raw ADC value from GetAdcValue (returns -1.0 to 1.0 for -5V to +5V)
+ 291              		.loc 1 76 3 is_stmt 0 view .LVU75
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 8
+
+
+ 292 0000 10B5     		push	{r4, lr}
+ 293              		.cfi_def_cfa_offset 8
+ 294              		.cfi_offset 4, -8
+ 295              		.cfi_offset 14, -4
+  76:../../Planter/planter.cpp ****       // Read raw ADC value from GetAdcValue (returns -1.0 to 1.0 for -5V to +5V)
+ 296              		.loc 1 76 3 view .LVU76
+ 297 0002 0C46     		mov	r4, r1
+ 298              		.loc 1 78 36 view .LVU77
+ 299 0004 B830     		adds	r0, r0, #184
+ 300              	.LVL28:
+ 301              		.loc 1 78 36 view .LVU78
+ 302 0006 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM11GetAdcValueEi
+ 303              	.LVL29:
+  79:../../Planter/planter.cpp **** 
+  80:../../Planter/planter.cpp ****       // Fixed normalized output targets (same for all units)
+  81:../../Planter/planter.cpp ****       // Calibrate at ±4V (not ±5V) to avoid ADC saturation; piecewise linear extrapolates to ±1
+  82:../../Planter/planter.cpp ****       constexpr float cal_out_high =  0.8f;   // 4V / 5V
+ 304              		.loc 1 82 7 is_stmt 1 view .LVU79
+  83:../../Planter/planter.cpp ****       constexpr float cal_out_mid  =  0.0f;
+ 305              		.loc 1 83 7 view .LVU80
+  84:../../Planter/planter.cpp ****       constexpr float cal_out_low  = -0.8f;   // -4V / 5V
+ 306              		.loc 1 84 7 view .LVU81
+  85:../../Planter/planter.cpp **** 
+  86:../../Planter/planter.cpp ****       // Per-unit measured ADC readings from planter_calibration.h
+  87:../../Planter/planter.cpp ****       float cal_adc_low, cal_adc_mid, cal_adc_high;
+ 307              		.loc 1 87 7 view .LVU82
+  88:../../Planter/planter.cpp **** 
+  89:../../Planter/planter.cpp ****       switch(channel)
+ 308              		.loc 1 89 7 view .LVU83
+ 309 000a 032C     		cmp	r4, #3
+ 310 000c 28D8     		bhi	.L23
+ 311 000e 234A     		ldr	r2, .L36
+ 312 0010 234B     		ldr	r3, .L36+4
+ 313 0012 02EB8402 		add	r2, r2, r4, lsl #2
+ 314 0016 2349     		ldr	r1, .L36+8
+ 315 0018 03EB8403 		add	r3, r3, r4, lsl #2
+ 316 001c D2ED007A 		vldr.32	s15, [r2]
+ 317 0020 01EB8404 		add	r4, r1, r4, lsl #2
+ 318              	.LVL30:
+ 319              		.loc 1 89 7 is_stmt 0 view .LVU84
+ 320 0024 D3ED006A 		vldr.32	s13, [r3]
+ 321              	.LBB28:
+  90:../../Planter/planter.cpp ****       {
+  91:../../Planter/planter.cpp ****           case 0: // CV_1
+  92:../../Planter/planter.cpp ****               cal_adc_high = CAL.adc_ch0_high;
+  93:../../Planter/planter.cpp ****               cal_adc_mid  = CAL.adc_ch0_mid;
+  94:../../Planter/planter.cpp ****               cal_adc_low  = CAL.adc_ch0_low;
+  95:../../Planter/planter.cpp ****               break;
+  96:../../Planter/planter.cpp ****           case 1: // CV_2
+  97:../../Planter/planter.cpp ****               cal_adc_high = CAL.adc_ch1_high;
+  98:../../Planter/planter.cpp ****               cal_adc_mid  = CAL.adc_ch1_mid;
+  99:../../Planter/planter.cpp ****               cal_adc_low  = CAL.adc_ch1_low;
+ 100:../../Planter/planter.cpp ****               break;
+ 101:../../Planter/planter.cpp ****           case 2: // CV_3
+ 102:../../Planter/planter.cpp ****               cal_adc_high = CAL.adc_ch2_high;
+ 103:../../Planter/planter.cpp ****               cal_adc_mid  = CAL.adc_ch2_mid;
+ 104:../../Planter/planter.cpp ****               cal_adc_low  = CAL.adc_ch2_low;
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 9
+
+
+ 105:../../Planter/planter.cpp ****               break;
+ 106:../../Planter/planter.cpp ****           case 3: // CV_4
+ 107:../../Planter/planter.cpp ****               cal_adc_high = CAL.adc_ch3_high;
+ 108:../../Planter/planter.cpp ****               cal_adc_mid  = CAL.adc_ch3_mid;
+ 109:../../Planter/planter.cpp ****               cal_adc_low  = CAL.adc_ch3_low;
+ 110:../../Planter/planter.cpp ****               break;
+ 111:../../Planter/planter.cpp ****           default:
+ 112:../../Planter/planter.cpp ****               // No calibration for out-of-range channels
+ 113:../../Planter/planter.cpp ****               return raw;
+ 114:../../Planter/planter.cpp ****       }
+ 115:../../Planter/planter.cpp **** 
+ 116:../../Planter/planter.cpp ****       // Piecewise linear interpolation
+ 117:../../Planter/planter.cpp ****       float calibrated;
+ 118:../../Planter/planter.cpp ****       if(raw <= cal_adc_mid)
+ 322              		.loc 1 118 7 view .LVU85
+ 323 0028 B4EEE70A 		vcmpe.f32	s0, s15
+ 324 002c 94ED007A 		vldr.32	s14, [r4]
+ 325              	.LVL31:
+ 326              		.loc 1 118 7 view .LVU86
+ 327              	.LBE28:
+ 117:../../Planter/planter.cpp ****       if(raw <= cal_adc_mid)
+ 328              		.loc 1 117 7 is_stmt 1 view .LVU87
+ 329              		.loc 1 118 7 view .LVU88
+ 330              	.LBB33:
+ 331 0030 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 332 0034 15D9     		bls	.L34
+ 333              	.LBB29:
+ 119:../../Planter/planter.cpp ****       {
+ 120:../../Planter/planter.cpp ****           // Interpolate between low and mid
+ 121:../../Planter/planter.cpp ****           float t = (raw - cal_adc_low) / (cal_adc_mid - cal_adc_low);
+ 122:../../Planter/planter.cpp ****           calibrated = cal_out_low + t * (cal_out_mid - cal_out_low);
+ 123:../../Planter/planter.cpp ****       }
+ 124:../../Planter/planter.cpp ****       else
+ 125:../../Planter/planter.cpp ****       {
+ 126:../../Planter/planter.cpp ****           // Interpolate between mid and high
+ 127:../../Planter/planter.cpp ****           float t = (raw - cal_adc_mid) / (cal_adc_high - cal_adc_mid);
+ 334              		.loc 1 127 11 view .LVU89
+ 335              	.LVL32:
+ 128:../../Planter/planter.cpp ****           calibrated = cal_out_mid + t * (cal_out_high - cal_out_mid);
+ 336              		.loc 1 128 11 view .LVU90
+ 127:../../Planter/planter.cpp ****           calibrated = cal_out_mid + t * (cal_out_high - cal_out_mid);
+ 337              		.loc 1 127 26 is_stmt 0 view .LVU91
+ 338 0036 30EE676A 		vsub.f32	s12, s0, s15
+ 339              		.loc 1 128 22 view .LVU92
+ 340 003a 9FED1B0A 		vldr.32	s0, .L36+12
+ 341              	.LVL33:
+ 127:../../Planter/planter.cpp ****           calibrated = cal_out_mid + t * (cal_out_high - cal_out_mid);
+ 342              		.loc 1 127 57 view .LVU93
+ 343 003e 77EE677A 		vsub.f32	s15, s14, s15
+ 344              	.LVL34:
+ 345              		.loc 1 128 22 view .LVU94
+ 346 0042 9FED1A7A 		vldr.32	s14, .L36+16
+ 347              	.LVL35:
+ 127:../../Planter/planter.cpp ****           calibrated = cal_out_mid + t * (cal_out_high - cal_out_mid);
+ 348              		.loc 1 127 17 view .LVU95
+ 349 0046 C6EE276A 		vdiv.f32	s13, s12, s15
+ 350              	.LVL36:
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 10
+
+
+ 127:../../Planter/planter.cpp ****           calibrated = cal_out_mid + t * (cal_out_high - cal_out_mid);
+ 351              		.loc 1 127 17 view .LVU96
+ 352              	.LBE29:
+ 353              	.LBE33:
+ 129:../../Planter/planter.cpp ****       }
+ 130:../../Planter/planter.cpp **** 
+ 131:../../Planter/planter.cpp ****       // Clamp to valid -1 to 1 range
+ 132:../../Planter/planter.cpp ****       if(calibrated > 1.0f)  calibrated = 1.0f;
+ 354              		.loc 1 132 7 view .LVU97
+ 355 004a F7EE007A 		vmov.f32	s15, #1.0e+0
+ 356              	.LBB34:
+ 357              	.LBB30:
+ 128:../../Planter/planter.cpp ****       }
+ 358              		.loc 1 128 22 view .LVU98
+ 359 004e A6EE870A 		vfma.f32	s0, s13, s14
+ 360              	.LVL37:
+ 128:../../Planter/planter.cpp ****       }
+ 361              		.loc 1 128 22 view .LVU99
+ 362              	.LBE30:
+ 363              	.LBE34:
+ 364              		.loc 1 132 7 is_stmt 1 view .LVU100
+ 365 0052 B4EEE70A 		vcmpe.f32	s0, s15
+ 366 0056 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 367 005a 15DD     		ble	.L35
+ 368              	.LVL38:
+ 369              	.L29:
+ 370              		.loc 1 132 41 is_stmt 0 view .LVU101
+ 371 005c B0EE670A 		vmov.f32	s0, s15
+ 372              	.LVL39:
+ 373              	.L23:
+ 133:../../Planter/planter.cpp ****       if(calibrated < -1.0f) calibrated = -1.0f;
+ 134:../../Planter/planter.cpp **** 
+ 135:../../Planter/planter.cpp ****       return calibrated;
+ 136:../../Planter/planter.cpp ****   }
+ 374              		.loc 1 136 3 view .LVU102
+ 375 0060 10BD     		pop	{r4, pc}
+ 376              	.LVL40:
+ 377              	.L34:
+ 378              	.LBB35:
+ 379              	.LBB31:
+ 121:../../Planter/planter.cpp ****           calibrated = cal_out_low + t * (cal_out_mid - cal_out_low);
+ 380              		.loc 1 121 11 is_stmt 1 view .LVU103
+ 122:../../Planter/planter.cpp ****       }
+ 381              		.loc 1 122 11 view .LVU104
+ 121:../../Planter/planter.cpp ****           calibrated = cal_out_low + t * (cal_out_mid - cal_out_low);
+ 382              		.loc 1 121 26 is_stmt 0 view .LVU105
+ 383 0062 30EE666A 		vsub.f32	s12, s0, s13
+ 122:../../Planter/planter.cpp ****       }
+ 384              		.loc 1 122 22 view .LVU106
+ 385 0066 9FED117A 		vldr.32	s14, .L36+16
+ 386              	.LVL41:
+ 121:../../Planter/planter.cpp ****           calibrated = cal_out_low + t * (cal_out_mid - cal_out_low);
+ 387              		.loc 1 121 56 view .LVU107
+ 388 006a 77EEE67A 		vsub.f32	s15, s15, s13
+ 389              	.LVL42:
+ 122:../../Planter/planter.cpp ****       }
+ 390              		.loc 1 122 22 view .LVU108
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 11
+
+
+ 391 006e 9FED100A 		vldr.32	s0, .L36+20
+ 392              	.LVL43:
+ 121:../../Planter/planter.cpp ****           calibrated = cal_out_low + t * (cal_out_mid - cal_out_low);
+ 393              		.loc 1 121 17 view .LVU109
+ 394 0072 C6EE276A 		vdiv.f32	s13, s12, s15
+ 395              	.LVL44:
+ 121:../../Planter/planter.cpp ****           calibrated = cal_out_low + t * (cal_out_mid - cal_out_low);
+ 396              		.loc 1 121 17 view .LVU110
+ 397              	.LBE31:
+ 398              	.LBE35:
+ 132:../../Planter/planter.cpp ****       if(calibrated < -1.0f) calibrated = -1.0f;
+ 399              		.loc 1 132 7 view .LVU111
+ 400 0076 F7EE007A 		vmov.f32	s15, #1.0e+0
+ 401              	.LBB36:
+ 402              	.LBB32:
+ 122:../../Planter/planter.cpp ****       }
+ 403              		.loc 1 122 22 view .LVU112
+ 404 007a A6EE870A 		vfma.f32	s0, s13, s14
+ 405              	.LVL45:
+ 122:../../Planter/planter.cpp ****       }
+ 406              		.loc 1 122 22 view .LVU113
+ 407              	.LBE32:
+ 408              	.LBE36:
+ 132:../../Planter/planter.cpp ****       if(calibrated < -1.0f) calibrated = -1.0f;
+ 409              		.loc 1 132 7 is_stmt 1 view .LVU114
+ 410 007e B4EEE70A 		vcmpe.f32	s0, s15
+ 411 0082 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 412 0086 E9DC     		bgt	.L29
+ 413              	.LVL46:
+ 414              	.L35:
+ 133:../../Planter/planter.cpp **** 
+ 415              		.loc 1 133 7 view .LVU115
+ 416 0088 FFEE007A 		vmov.f32	s15, #-1.0e+0
+ 133:../../Planter/planter.cpp **** 
+ 417              		.loc 1 133 41 is_stmt 0 view .LVU116
+ 418 008c B4EE670A 		vcmp.f32	s0, s15
+ 419 0090 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 420 0094 48BF     		it	mi
+ 421 0096 B0EE670A 		vmovmi.f32	s0, s15
+ 422              	.LVL47:
+ 423              		.loc 1 136 3 view .LVU117
+ 424 009a 10BD     		pop	{r4, pc}
+ 425              	.LVL48:
+ 426              	.L37:
+ 427              		.loc 1 136 3 view .LVU118
+ 428              		.align	2
+ 429              	.L36:
+ 430 009c 00000000 		.word	.LANCHOR1
+ 431 00a0 00000000 		.word	.LANCHOR0
+ 432 00a4 00000000 		.word	.LANCHOR2
+ 433 00a8 00000000 		.word	0
+ 434 00ac CDCC4C3F 		.word	1061997773
+ 435 00b0 CDCC4CBF 		.word	-1085485875
+ 436              		.cfi_endproc
+ 437              	.LFE2739:
+ 439              		.section	.text._ZN9anachrome7planter8InitLedsEv,"ax",%progbits
+ 440              		.align	1
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 12
+
+
+ 441              		.p2align 2,,3
+ 442              		.global	_ZN9anachrome7planter8InitLedsEv
+ 443              		.syntax unified
+ 444              		.thumb
+ 445              		.thumb_func
+ 446              		.fpu fpv5-d16
+ 448              	_ZN9anachrome7planter8InitLedsEv:
+ 449              	.LVL49:
+ 450              	.LFB2740:
+ 137:../../Planter/planter.cpp **** 
+ 138:../../Planter/planter.cpp ****   /** Fixed-function Digital I/O */
+ 139:../../Planter/planter.cpp ****   void planter::InitLeds()
+ 140:../../Planter/planter.cpp ****   {
+ 451              		.loc 1 140 3 is_stmt 1 view -0
+ 452              		.cfi_startproc
+ 453              		@ args = 0, pretend = 0, frame = 0
+ 454              		@ frame_needed = 0, uses_anonymous_args = 0
+ 141:../../Planter/planter.cpp ****     led_1.Init(patch.D8, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 455              		.loc 1 141 5 view .LVU120
+ 456              		.loc 1 141 15 is_stmt 0 view .LVU121
+ 457 0000 0D4B     		ldr	r3, .L40
+ 140:../../Planter/planter.cpp ****     led_1.Init(patch.D8, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 458              		.loc 1 140 3 view .LVU122
+ 459 0002 30B5     		push	{r4, r5, lr}
+ 460              		.cfi_def_cfa_offset 12
+ 461              		.cfi_offset 4, -12
+ 462              		.cfi_offset 5, -8
+ 463              		.cfi_offset 14, -4
+ 464              		.loc 1 141 15 view .LVU123
+ 465 0004 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+ 140:../../Planter/planter.cpp ****     led_1.Init(patch.D8, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 466              		.loc 1 140 3 view .LVU124
+ 467 0006 83B0     		sub	sp, sp, #12
+ 468              		.cfi_def_cfa_offset 24
+ 469              		.loc 1 141 15 view .LVU125
+ 470 0008 0024     		movs	r4, #0
+ 471 000a 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
+ 140:../../Planter/planter.cpp ****     led_1.Init(patch.D8, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 472              		.loc 1 140 3 view .LVU126
+ 473 000c 0546     		mov	r5, r0
+ 474              		.loc 1 141 15 view .LVU127
+ 475 000e 42EA0121 		orr	r1, r2, r1, lsl #8
+ 476 0012 2346     		mov	r3, r4
+ 477 0014 0122     		movs	r2, #1
+ 478 0016 0094     		str	r4, [sp]
+ 479 0018 FFF7FEFF 		bl	_ZN5daisy4GPIO4InitENS_3PinENS0_4ModeENS0_4PullENS0_5SpeedE
+ 480              	.LVL50:
+ 142:../../Planter/planter.cpp ****     led_2.Init(patch.D9, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 481              		.loc 1 142 5 is_stmt 1 view .LVU128
+ 482              		.loc 1 142 15 is_stmt 0 view .LVU129
+ 483 001c 074B     		ldr	r3, .L40+4
+ 484 001e 0094     		str	r4, [sp]
+ 485 0020 05F11400 		add	r0, r5, #20
+ 486 0024 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+ 487 0026 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
+ 488 0028 2346     		mov	r3, r4
+ 489 002a 42EA0121 		orr	r1, r2, r1, lsl #8
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 13
+
+
+ 490 002e 0122     		movs	r2, #1
+ 491 0030 FFF7FEFF 		bl	_ZN5daisy4GPIO4InitENS_3PinENS0_4ModeENS0_4PullENS0_5SpeedE
+ 492              	.LVL51:
+ 143:../../Planter/planter.cpp ****   }
+ 493              		.loc 1 143 3 view .LVU130
+ 494 0034 03B0     		add	sp, sp, #12
+ 495              		.cfi_def_cfa_offset 12
+ 496              		@ sp needed
+ 497 0036 30BD     		pop	{r4, r5, pc}
+ 498              	.LVL52:
+ 499              	.L41:
+ 500              		.loc 1 143 3 view .LVU131
+ 501              		.align	2
+ 502              	.L40:
+ 503 0038 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSM2D8E
+ 504 003c 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSM2D9E
+ 505              		.cfi_endproc
+ 506              	.LFE2740:
+ 508              		.section	.text._ZN9anachrome7planter6SetLedEib,"ax",%progbits
+ 509              		.align	1
+ 510              		.p2align 2,,3
+ 511              		.global	_ZN9anachrome7planter6SetLedEib
+ 512              		.syntax unified
+ 513              		.thumb
+ 514              		.thumb_func
+ 515              		.fpu fpv5-d16
+ 517              	_ZN9anachrome7planter6SetLedEib:
+ 518              	.LVL53:
+ 519              	.LFB2741:
+ 144:../../Planter/planter.cpp **** 
+ 145:../../Planter/planter.cpp ****   void planter::SetLed(const int idx, bool state) { 
+ 520              		.loc 1 145 51 is_stmt 1 view -0
+ 521              		.cfi_startproc
+ 522              		@ args = 0, pretend = 0, frame = 0
+ 523              		@ frame_needed = 0, uses_anonymous_args = 0
+ 524              		@ link register save eliminated.
+ 146:../../Planter/planter.cpp ****     if (idx == 1)
+ 525              		.loc 1 146 5 view .LVU133
+ 526 0000 0129     		cmp	r1, #1
+ 147:../../Planter/planter.cpp ****       led_1.Write(state);
+ 527              		.loc 1 147 18 is_stmt 0 view .LVU134
+ 528 0002 1146     		mov	r1, r2
+ 529              	.LVL54:
+ 530              		.loc 1 147 7 is_stmt 1 view .LVU135
+ 148:../../Planter/planter.cpp ****     else
+ 149:../../Planter/planter.cpp ****       led_2.Write(state);
+ 531              		.loc 1 149 7 view .LVU136
+ 532              		.loc 1 149 18 is_stmt 0 view .LVU137
+ 533 0004 18BF     		it	ne
+ 534 0006 1430     		addne	r0, r0, #20
+ 535              	.LVL55:
+ 536              		.loc 1 149 18 view .LVU138
+ 537 0008 FFF7FEBF 		b	_ZN5daisy4GPIO5WriteEb
+ 538              	.LVL56:
+ 539              		.loc 1 149 18 view .LVU139
+ 540              		.cfi_endproc
+ 541              	.LFE2741:
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 14
+
+
+ 543              		.section	.text._ZN9anachrome7planter12GetKnobValueEi,"ax",%progbits
+ 544              		.align	1
+ 545              		.p2align 2,,3
+ 546              		.global	_ZN9anachrome7planter12GetKnobValueEi
+ 547              		.syntax unified
+ 548              		.thumb
+ 549              		.thumb_func
+ 550              		.fpu fpv5-d16
+ 552              	_ZN9anachrome7planter12GetKnobValueEi:
+ 553              	.LVL57:
+ 554              	.LFB2742:
+ 150:../../Planter/planter.cpp ****   }
+ 151:../../Planter/planter.cpp **** 
+ 152:../../Planter/planter.cpp ****   float planter::GetKnobValue(int index)
+ 153:../../Planter/planter.cpp ****   {
+ 555              		.loc 1 153 3 is_stmt 1 view -0
+ 556              		.cfi_startproc
+ 557              		@ args = 0, pretend = 0, frame = 0
+ 558              		@ frame_needed = 0, uses_anonymous_args = 0
+ 154:../../Planter/planter.cpp ****       // Read filtered value from AnalogControl
+ 155:../../Planter/planter.cpp ****       // Knobs 1-4 (indices 4-7): bipolar-initialized channels, output range depends on 3V3 pot int
+ 156:../../Planter/planter.cpp ****       // Knobs 5-6 (indices 8-9): unipolar-initialized channels, output range ~0-0.5 for 3V3 pot
+ 157:../../Planter/planter.cpp ****       float raw = patch.GetAdcValue(index);
+ 559              		.loc 1 157 7 view .LVU141
+ 153:../../Planter/planter.cpp ****       // Read filtered value from AnalogControl
+ 560              		.loc 1 153 3 is_stmt 0 view .LVU142
+ 561 0000 10B5     		push	{r4, lr}
+ 562              		.cfi_def_cfa_offset 8
+ 563              		.cfi_offset 4, -8
+ 564              		.cfi_offset 14, -4
+ 153:../../Planter/planter.cpp ****       // Read filtered value from AnalogControl
+ 565              		.loc 1 153 3 view .LVU143
+ 566 0002 0C46     		mov	r4, r1
+ 567              		.loc 1 157 36 view .LVU144
+ 568 0004 B830     		adds	r0, r0, #184
+ 569              	.LVL58:
+ 570              		.loc 1 157 36 view .LVU145
+ 571 0006 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM11GetAdcValueEi
+ 572              	.LVL59:
+ 573              		.loc 1 157 36 view .LVU146
+ 574 000a 211F     		subs	r1, r4, #4
+ 575              	.LVL60:
+ 158:../../Planter/planter.cpp **** 
+ 159:../../Planter/planter.cpp ****       // Per-unit measured min/max from planter_calibration.h
+ 160:../../Planter/planter.cpp ****       float cal_raw_low, cal_raw_high;
+ 576              		.loc 1 160 7 is_stmt 1 view .LVU147
+ 161:../../Planter/planter.cpp **** 
+ 162:../../Planter/planter.cpp ****       switch(index)
+ 577              		.loc 1 162 7 view .LVU148
+ 578 000c 0529     		cmp	r1, #5
+ 579 000e 1CD8     		bhi	.L45
+ 580 0010 104A     		ldr	r2, .L51
+ 163:../../Planter/planter.cpp ****       {
+ 164:../../Planter/planter.cpp ****           case KNOB_1:
+ 165:../../Planter/planter.cpp ****               cal_raw_low  = CAL.knob1_low;
+ 166:../../Planter/planter.cpp ****               cal_raw_high = CAL.knob1_high;
+ 167:../../Planter/planter.cpp ****               break;
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 15
+
+
+ 168:../../Planter/planter.cpp ****           case KNOB_2:
+ 169:../../Planter/planter.cpp ****               cal_raw_low  = CAL.knob2_low;
+ 170:../../Planter/planter.cpp ****               cal_raw_high = CAL.knob2_high;
+ 171:../../Planter/planter.cpp ****               break;
+ 172:../../Planter/planter.cpp ****           case KNOB_3:
+ 173:../../Planter/planter.cpp ****               cal_raw_low  = CAL.knob3_low;
+ 174:../../Planter/planter.cpp ****               cal_raw_high = CAL.knob3_high;
+ 175:../../Planter/planter.cpp ****               break;
+ 176:../../Planter/planter.cpp ****           case KNOB_4:
+ 177:../../Planter/planter.cpp ****               cal_raw_low  = CAL.knob4_low;
+ 178:../../Planter/planter.cpp ****               cal_raw_high = CAL.knob4_high;
+ 179:../../Planter/planter.cpp ****               break;
+ 180:../../Planter/planter.cpp ****           case KNOB_5:
+ 181:../../Planter/planter.cpp ****               cal_raw_low  = CAL.knob5_low;
+ 182:../../Planter/planter.cpp ****               cal_raw_high = CAL.knob5_high;
+ 183:../../Planter/planter.cpp ****               break;
+ 184:../../Planter/planter.cpp ****           case KNOB_6:
+ 185:../../Planter/planter.cpp ****               cal_raw_low  = CAL.knob6_low;
+ 186:../../Planter/planter.cpp ****               cal_raw_high = CAL.knob6_high;
+ 187:../../Planter/planter.cpp ****               break;
+ 188:../../Planter/planter.cpp ****           default:
+ 189:../../Planter/planter.cpp ****               return raw;
+ 190:../../Planter/planter.cpp ****       }
+ 191:../../Planter/planter.cpp **** 
+ 192:../../Planter/planter.cpp ****       // Linear interpolation from [cal_raw_low, cal_raw_high] -> [0.0, 1.0]
+ 193:../../Planter/planter.cpp ****       float scaled = (raw - cal_raw_low) / (cal_raw_high - cal_raw_low);
+ 581              		.loc 1 193 58 is_stmt 0 view .LVU149
+ 582 0012 114B     		ldr	r3, .L51+4
+ 583 0014 02EB8102 		add	r2, r2, r1, lsl #2
+ 584 0018 03EB8101 		add	r1, r3, r1, lsl #2
+ 585 001c 92ED007A 		vldr.32	s14, [r2]
+ 586              	.LVL61:
+ 587              		.loc 1 193 7 is_stmt 1 view .LVU150
+ 588              		.loc 1 193 58 is_stmt 0 view .LVU151
+ 589 0020 D1ED007A 		vldr.32	s15, [r1]
+ 590              		.loc 1 193 27 view .LVU152
+ 591 0024 70EE476A 		vsub.f32	s13, s0, s14
+ 592              		.loc 1 193 58 view .LVU153
+ 593 0028 77EEC77A 		vsub.f32	s15, s15, s14
+ 594              		.loc 1 193 13 view .LVU154
+ 595 002c 86EEA70A 		vdiv.f32	s0, s13, s15
+ 596              	.LVL62:
+ 194:../../Planter/planter.cpp **** 
+ 195:../../Planter/planter.cpp ****       // Clamp to 0-1
+ 196:../../Planter/planter.cpp ****       if(scaled < 0.0f) scaled = 0.0f;
+ 597              		.loc 1 196 7 is_stmt 1 view .LVU155
+ 598 0030 B5EEC00A 		vcmpe.f32	s0, #0
+ 599 0034 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 600 0038 08D4     		bmi	.L48
+ 197:../../Planter/planter.cpp ****       if(scaled > 1.0f) scaled = 1.0f;
+ 601              		.loc 1 197 7 view .LVU156
+ 602 003a F7EE007A 		vmov.f32	s15, #1.0e+0
+ 603              		.loc 1 197 32 is_stmt 0 view .LVU157
+ 604 003e B4EE670A 		vcmp.f32	s0, s15
+ 605 0042 F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 606 0046 37FE800A 		vselgt.f32	s0, s15, s0
+ 607              	.LVL63:
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 16
+
+
+ 608              	.L45:
+ 198:../../Planter/planter.cpp **** 
+ 199:../../Planter/planter.cpp ****       return scaled;
+ 200:../../Planter/planter.cpp ****   }
+ 609              		.loc 1 200 3 view .LVU158
+ 610 004a 10BD     		pop	{r4, pc}
+ 611              	.LVL64:
+ 612              	.L48:
+ 196:../../Planter/planter.cpp ****       if(scaled > 1.0f) scaled = 1.0f;
+ 613              		.loc 1 196 32 view .LVU159
+ 614 004c 9FED030A 		vldr.32	s0, .L51+8
+ 615              	.LVL65:
+ 616              		.loc 1 200 3 view .LVU160
+ 617 0050 10BD     		pop	{r4, pc}
+ 618              	.LVL66:
+ 619              	.L52:
+ 620              		.loc 1 200 3 view .LVU161
+ 621 0052 00BF     		.align	2
+ 622              	.L51:
+ 623 0054 00000000 		.word	.LANCHOR3
+ 624 0058 00000000 		.word	.LANCHOR4
+ 625 005c 00000000 		.word	0
+ 626              		.cfi_endproc
+ 627              	.LFE2742:
+ 629              		.section	.text._ZN9anachrome7planter20BootloaderResetCheckEv,"ax",%progbits
+ 630              		.align	1
+ 631              		.p2align 2,,3
+ 632              		.global	_ZN9anachrome7planter20BootloaderResetCheckEv
+ 633              		.syntax unified
+ 634              		.thumb
+ 635              		.thumb_func
+ 636              		.fpu fpv5-d16
+ 638              	_ZN9anachrome7planter20BootloaderResetCheckEv:
+ 639              	.LVL67:
+ 640              	.LFB2743:
+ 201:../../Planter/planter.cpp **** 
+ 202:../../Planter/planter.cpp ****   void planter::BootloaderResetCheck() {
+ 641              		.loc 1 202 40 is_stmt 1 view -0
+ 642              		.cfi_startproc
+ 643              		@ args = 0, pretend = 0, frame = 8
+ 644              		@ frame_needed = 0, uses_anonymous_args = 0
+ 203:../../Planter/planter.cpp ****     if (button.TimeHeldMs() >= 3000) {
+ 645              		.loc 1 203 5 view .LVU163
+ 646              	.LBB58:
+ 647              	.LBB59:
+ 648              	.LBI59:
+ 649              		.file 2 "../../libDaisy//src/hid/switch.h"
+   1:../../libDaisy//src/hid/switch.h **** #pragma once
+   2:../../libDaisy//src/hid/switch.h **** #ifndef DSY_SWITCH_H
+   3:../../libDaisy//src/hid/switch.h **** #define DSY_SWITCH_H
+   4:../../libDaisy//src/hid/switch.h **** #include "daisy_core.h"
+   5:../../libDaisy//src/hid/switch.h **** #include "per/gpio.h"
+   6:../../libDaisy//src/hid/switch.h **** #include "sys/system.h"
+   7:../../libDaisy//src/hid/switch.h **** 
+   8:../../libDaisy//src/hid/switch.h **** namespace daisy
+   9:../../libDaisy//src/hid/switch.h **** {
+  10:../../libDaisy//src/hid/switch.h **** /** 
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 17
+
+
+  11:../../libDaisy//src/hid/switch.h ****     Generic Class for handling momentary/latching switches \n 
+  12:../../libDaisy//src/hid/switch.h ****     Inspired/influenced by Mutable Instruments (pichenettes) Switch classes
+  13:../../libDaisy//src/hid/switch.h ****     @author Stephen Hensley
+  14:../../libDaisy//src/hid/switch.h ****     @date December 2019
+  15:../../libDaisy//src/hid/switch.h ****     @ingroup controls
+  16:../../libDaisy//src/hid/switch.h **** */
+  17:../../libDaisy//src/hid/switch.h **** class Switch
+  18:../../libDaisy//src/hid/switch.h **** {
+  19:../../libDaisy//src/hid/switch.h ****   public:
+  20:../../libDaisy//src/hid/switch.h ****     /** Specifies the expected behavior of the switch */
+  21:../../libDaisy//src/hid/switch.h ****     enum Type
+  22:../../libDaisy//src/hid/switch.h ****     {
+  23:../../libDaisy//src/hid/switch.h ****         TYPE_TOGGLE,    /**< & */
+  24:../../libDaisy//src/hid/switch.h ****         TYPE_MOMENTARY, /**< & */
+  25:../../libDaisy//src/hid/switch.h ****     };
+  26:../../libDaisy//src/hid/switch.h ****     /** Specifies whether the pressed is HIGH or LOW. */
+  27:../../libDaisy//src/hid/switch.h ****     enum Polarity
+  28:../../libDaisy//src/hid/switch.h ****     {
+  29:../../libDaisy//src/hid/switch.h ****         POLARITY_NORMAL,   /**< & */
+  30:../../libDaisy//src/hid/switch.h ****         POLARITY_INVERTED, /**< & */
+  31:../../libDaisy//src/hid/switch.h ****     };
+  32:../../libDaisy//src/hid/switch.h **** 
+  33:../../libDaisy//src/hid/switch.h ****     Switch() {}
+  34:../../libDaisy//src/hid/switch.h ****     ~Switch() {}
+  35:../../libDaisy//src/hid/switch.h **** 
+  36:../../libDaisy//src/hid/switch.h ****     /** 
+  37:../../libDaisy//src/hid/switch.h ****     Initializes the switch object with a given port/pin combo.
+  38:../../libDaisy//src/hid/switch.h ****     \param pin port/pin object to tell the switch which hardware pin to use.
+  39:../../libDaisy//src/hid/switch.h ****     \param update_rate Does nothing. Backwards compatibility until next breaking update.
+  40:../../libDaisy//src/hid/switch.h ****     \param t switch type -- Default: TYPE_MOMENTARY
+  41:../../libDaisy//src/hid/switch.h ****     \param pol switch polarity -- Default: POLARITY_INVERTED
+  42:../../libDaisy//src/hid/switch.h ****     \param pu switch pull up/down -- Default: PULL_UP
+  43:../../libDaisy//src/hid/switch.h ****     */
+  44:../../libDaisy//src/hid/switch.h ****     void Init(Pin        pin,
+  45:../../libDaisy//src/hid/switch.h ****               float      update_rate,
+  46:../../libDaisy//src/hid/switch.h ****               Type       t,
+  47:../../libDaisy//src/hid/switch.h ****               Polarity   pol,
+  48:../../libDaisy//src/hid/switch.h ****               GPIO::Pull pu = GPIO::Pull::PULLUP);
+  49:../../libDaisy//src/hid/switch.h **** 
+  50:../../libDaisy//src/hid/switch.h ****     /**
+  51:../../libDaisy//src/hid/switch.h ****        Simplified Init.
+  52:../../libDaisy//src/hid/switch.h ****        \param pin port/pin object to tell the switch which hardware pin to use.
+  53:../../libDaisy//src/hid/switch.h ****        \param update_rate Left for backwards compatibility until next breaking change.
+  54:../../libDaisy//src/hid/switch.h ****     */
+  55:../../libDaisy//src/hid/switch.h ****     void Init(Pin pin, float update_rate = 0.f);
+  56:../../libDaisy//src/hid/switch.h **** 
+  57:../../libDaisy//src/hid/switch.h ****     /** 
+  58:../../libDaisy//src/hid/switch.h ****     Called at update_rate to debounce and handle timing for the switch.
+  59:../../libDaisy//src/hid/switch.h ****     In order for events not to be missed, its important that the Edge/Pressed checks
+  60:../../libDaisy//src/hid/switch.h ****     be made at the same rate as the debounce function is being called.
+  61:../../libDaisy//src/hid/switch.h ****     */
+  62:../../libDaisy//src/hid/switch.h ****     void Debounce();
+  63:../../libDaisy//src/hid/switch.h **** 
+  64:../../libDaisy//src/hid/switch.h ****     /** \return true if a button was just pressed. */
+  65:../../libDaisy//src/hid/switch.h ****     inline bool RisingEdge() const { return updated_ ? state_ == 0x7f : false; }
+  66:../../libDaisy//src/hid/switch.h **** 
+  67:../../libDaisy//src/hid/switch.h ****     /** \return true if the button was just released */
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 18
+
+
+  68:../../libDaisy//src/hid/switch.h ****     inline bool FallingEdge() const
+  69:../../libDaisy//src/hid/switch.h ****     {
+  70:../../libDaisy//src/hid/switch.h ****         return updated_ ? state_ == 0x80 : false;
+  71:../../libDaisy//src/hid/switch.h ****     }
+  72:../../libDaisy//src/hid/switch.h **** 
+  73:../../libDaisy//src/hid/switch.h ****     /** \return true if the button is held down (or if the toggle is on) */
+  74:../../libDaisy//src/hid/switch.h ****     inline bool Pressed() const { return state_ == 0xff; }
+  75:../../libDaisy//src/hid/switch.h **** 
+  76:../../libDaisy//src/hid/switch.h ****     /** \return true if the button is held down, without debouncing */
+  77:../../libDaisy//src/hid/switch.h ****     inline bool RawState()
+  78:../../libDaisy//src/hid/switch.h ****     {
+  79:../../libDaisy//src/hid/switch.h ****         const bool raw = hw_gpio_.Read();
+  80:../../libDaisy//src/hid/switch.h ****         return flip_ ? !raw : raw;
+  81:../../libDaisy//src/hid/switch.h ****     }
+  82:../../libDaisy//src/hid/switch.h **** 
+  83:../../libDaisy//src/hid/switch.h ****     /** \return the time in milliseconds that the button has been held (or toggle has been on) */
+  84:../../libDaisy//src/hid/switch.h ****     inline float TimeHeldMs() const
+ 650              		.loc 2 84 18 view .LVU164
+ 651              	.LBB60:
+  85:../../libDaisy//src/hid/switch.h ****     {
+  86:../../libDaisy//src/hid/switch.h ****         return Pressed() ? System::GetNow() - rising_edge_time_ : 0;
+ 652              		.loc 2 86 9 view .LVU165
+ 653              	.LBB61:
+ 654              	.LBI61:
+  74:../../libDaisy//src/hid/switch.h **** 
+ 655              		.loc 2 74 17 view .LVU166
+ 656              	.LBB62:
+  74:../../libDaisy//src/hid/switch.h **** 
+ 657              		.loc 2 74 35 view .LVU167
+  74:../../libDaisy//src/hid/switch.h **** 
+ 658              		.loc 2 74 35 is_stmt 0 view .LVU168
+ 659              	.LBE62:
+ 660              	.LBE61:
+ 661              		.loc 2 86 26 view .LVU169
+ 662 0000 90F84430 		ldrb	r3, [r0, #68]	@ zero_extendqisi2
+ 663 0004 FF2B     		cmp	r3, #255
+ 664 0006 00D0     		beq	.L65
+ 665 0008 7047     		bx	lr
+ 666              	.L65:
+ 667              	.LVL68:
+ 668              	.LBB63:
+ 669              	.LBI63:
+  84:../../libDaisy//src/hid/switch.h ****     {
+ 670              		.loc 2 84 18 is_stmt 1 view .LVU170
+ 671              	.LBE63:
+ 672              	.LBE60:
+ 673              	.LBE59:
+ 674              	.LBE58:
+ 202:../../Planter/planter.cpp ****     if (button.TimeHeldMs() >= 3000) {
+ 675              		.loc 1 202 40 is_stmt 0 view .LVU171
+ 676 000a 70B5     		push	{r4, r5, r6, lr}
+ 677              		.cfi_def_cfa_offset 16
+ 678              		.cfi_offset 4, -16
+ 679              		.cfi_offset 5, -12
+ 680              		.cfi_offset 6, -8
+ 681              		.cfi_offset 14, -4
+ 682 000c 84B0     		sub	sp, sp, #16
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 19
+
+
+ 683              		.cfi_def_cfa_offset 32
+ 684 000e 0446     		mov	r4, r0
+ 685              	.LBB87:
+ 686              	.LBB70:
+ 687              	.LBB68:
+ 688              	.LBB66:
+ 689              	.LBB64:
+ 690              		.loc 2 86 42 view .LVU172
+ 691 0010 FFF7FEFF 		bl	_ZN5daisy6System6GetNowEv
+ 692              	.LVL69:
+ 693              		.loc 2 86 45 view .LVU173
+ 694 0014 07EE900A 		vmov	s15, r0	@ int
+ 695              		.loc 2 86 26 view .LVU174
+ 696 0018 D4ED126A 		vldr.32	s13, [r4, #72]
+ 697              		.loc 2 86 45 view .LVU175
+ 698 001c F8EE677A 		vcvt.f32.u32	s15, s15
+ 699              	.LBE64:
+ 700              	.LBE66:
+ 701              	.LBE68:
+ 702              	.LBE70:
+ 703              		.loc 1 203 5 view .LVU176
+ 704 0020 9FED257A 		vldr.32	s14, .L66
+ 705              	.LBB71:
+ 706              	.LBB69:
+ 707              	.LBB67:
+ 708              	.LBB65:
+ 709              		.loc 2 86 26 view .LVU177
+ 710 0024 77EEE67A 		vsub.f32	s15, s15, s13
+ 711              	.LBE65:
+ 712              	.LBE67:
+ 713              	.LBE69:
+ 714              	.LBE71:
+ 715              		.loc 1 203 5 view .LVU178
+ 716 0028 F4EEC77A 		vcmpe.f32	s15, s14
+ 717 002c F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 718 0030 3FDB     		blt	.L53
+ 719              	.LBB72:
+ 204:../../Planter/planter.cpp ****         patch.StopAdc();
+ 720              		.loc 1 204 9 is_stmt 1 view .LVU179
+ 721              		.loc 1 204 22 is_stmt 0 view .LVU180
+ 722 0032 04F1B800 		add	r0, r4, #184
+ 723              	.LBB73:
+ 724              	.LBB74:
+ 141:../../Planter/planter.cpp ****     led_2.Init(patch.D9, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 725              		.loc 1 141 15 view .LVU181
+ 726 0036 0025     		movs	r5, #0
+ 142:../../Planter/planter.cpp ****   }
+ 727              		.loc 1 142 15 view .LVU182
+ 728 0038 04F11406 		add	r6, r4, #20
+ 729              	.LBE74:
+ 730              	.LBE73:
+ 731              		.loc 1 204 22 view .LVU183
+ 732 003c 0390     		str	r0, [sp, #12]
+ 733 003e FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM7StopAdcEv
+ 734              	.LVL70:
+ 205:../../Planter/planter.cpp ****         patch.StopAudio();
+ 735              		.loc 1 205 9 is_stmt 1 view .LVU184
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 20
+
+
+ 736              		.loc 1 205 24 is_stmt 0 view .LVU185
+ 737 0042 0398     		ldr	r0, [sp, #12]
+ 738 0044 FFF7FEFF 		bl	_ZN5daisy8patch_sm12DaisyPatchSM9StopAudioEv
+ 739              	.LVL71:
+ 206:../../Planter/planter.cpp ****         
+ 207:../../Planter/planter.cpp ****         planter::InitLeds();
+ 740              		.loc 1 207 9 is_stmt 1 view .LVU186
+ 741              	.LBB76:
+ 742              	.LBI73:
+ 139:../../Planter/planter.cpp ****   {
+ 743              		.loc 1 139 8 view .LVU187
+ 744              	.LBB75:
+ 141:../../Planter/planter.cpp ****     led_2.Init(patch.D9, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 745              		.loc 1 141 5 view .LVU188
+ 141:../../Planter/planter.cpp ****     led_2.Init(patch.D9, GPIO::Mode::OUTPUT, GPIO::Pull::NOPULL);
+ 746              		.loc 1 141 15 is_stmt 0 view .LVU189
+ 747 0048 1C4B     		ldr	r3, .L66+4
+ 748 004a 0095     		str	r5, [sp]
+ 749 004c 2046     		mov	r0, r4
+ 750 004e 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+ 751 0050 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
+ 752 0052 2B46     		mov	r3, r5
+ 753 0054 42EA0121 		orr	r1, r2, r1, lsl #8
+ 754 0058 0122     		movs	r2, #1
+ 755 005a FFF7FEFF 		bl	_ZN5daisy4GPIO4InitENS_3PinENS0_4ModeENS0_4PullENS0_5SpeedE
+ 756              	.LVL72:
+ 142:../../Planter/planter.cpp ****   }
+ 757              		.loc 1 142 5 is_stmt 1 view .LVU190
+ 142:../../Planter/planter.cpp ****   }
+ 758              		.loc 1 142 15 is_stmt 0 view .LVU191
+ 759 005e 184A     		ldr	r2, .L66+8
+ 760 0060 0095     		str	r5, [sp]
+ 761 0062 2B46     		mov	r3, r5
+ 762 0064 1178     		ldrb	r1, [r2]	@ zero_extendqisi2
+ 763 0066 3046     		mov	r0, r6
+ 764 0068 5278     		ldrb	r2, [r2, #1]	@ zero_extendqisi2
+ 765 006a 0425     		movs	r5, #4
+ 766 006c 41EA0221 		orr	r1, r1, r2, lsl #8
+ 767 0070 0122     		movs	r2, #1
+ 768 0072 FFF7FEFF 		bl	_ZN5daisy4GPIO4InitENS_3PinENS0_4ModeENS0_4PullENS0_5SpeedE
+ 769              	.LVL73:
+ 142:../../Planter/planter.cpp ****   }
+ 770              		.loc 1 142 15 view .LVU192
+ 771              	.LBE75:
+ 772              	.LBE76:
+ 773              	.LBB77:
+ 208:../../Planter/planter.cpp **** 
+ 209:../../Planter/planter.cpp ****         // Flash front panel LEDS 4 times
+ 210:../../Planter/planter.cpp ****         for (int i = 0; i < 4; i++) {
+ 774              		.loc 1 210 27 is_stmt 1 view .LVU193
+ 775              	.L58:
+ 211:../../Planter/planter.cpp ****           SetLed(1, true);
+ 776              		.loc 1 211 11 view .LVU194
+ 777              	.LBB78:
+ 778              	.LBI78:
+ 145:../../Planter/planter.cpp ****     if (idx == 1)
+ 779              		.loc 1 145 8 view .LVU195
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 21
+
+
+ 780              	.LBB79:
+ 146:../../Planter/planter.cpp ****       led_1.Write(state);
+ 781              		.loc 1 146 5 view .LVU196
+ 147:../../Planter/planter.cpp ****     else
+ 782              		.loc 1 147 7 view .LVU197
+ 147:../../Planter/planter.cpp ****     else
+ 783              		.loc 1 147 18 is_stmt 0 view .LVU198
+ 784 0076 0121     		movs	r1, #1
+ 785 0078 2046     		mov	r0, r4
+ 786 007a FFF7FEFF 		bl	_ZN5daisy4GPIO5WriteEb
+ 787              	.LVL74:
+ 147:../../Planter/planter.cpp ****     else
+ 788              		.loc 1 147 18 view .LVU199
+ 789              	.LBE79:
+ 790              	.LBE78:
+ 212:../../Planter/planter.cpp ****           SetLed(2, false);
+ 791              		.loc 1 212 11 is_stmt 1 view .LVU200
+ 792              	.LBB80:
+ 793              	.LBI80:
+ 145:../../Planter/planter.cpp ****     if (idx == 1)
+ 794              		.loc 1 145 8 view .LVU201
+ 795              	.LBB81:
+ 146:../../Planter/planter.cpp ****       led_1.Write(state);
+ 796              		.loc 1 146 5 view .LVU202
+ 149:../../Planter/planter.cpp ****   }
+ 797              		.loc 1 149 7 view .LVU203
+ 149:../../Planter/planter.cpp ****   }
+ 798              		.loc 1 149 18 is_stmt 0 view .LVU204
+ 799 007e 0021     		movs	r1, #0
+ 800 0080 3046     		mov	r0, r6
+ 801 0082 FFF7FEFF 		bl	_ZN5daisy4GPIO5WriteEb
+ 802              	.LVL75:
+ 149:../../Planter/planter.cpp ****   }
+ 803              		.loc 1 149 18 view .LVU205
+ 804              	.LBE81:
+ 805              	.LBE80:
+ 213:../../Planter/planter.cpp ****           System::Delay(100);
+ 806              		.loc 1 213 11 is_stmt 1 view .LVU206
+ 807              		.loc 1 213 24 is_stmt 0 view .LVU207
+ 808 0086 6420     		movs	r0, #100
+ 809 0088 FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
+ 810              	.LVL76:
+ 214:../../Planter/planter.cpp **** 
+ 215:../../Planter/planter.cpp ****           SetLed(1, false);
+ 811              		.loc 1 215 11 is_stmt 1 view .LVU208
+ 812              	.LBB82:
+ 813              	.LBI82:
+ 145:../../Planter/planter.cpp ****     if (idx == 1)
+ 814              		.loc 1 145 8 view .LVU209
+ 815              	.LBB83:
+ 146:../../Planter/planter.cpp ****       led_1.Write(state);
+ 816              		.loc 1 146 5 view .LVU210
+ 147:../../Planter/planter.cpp ****     else
+ 817              		.loc 1 147 7 view .LVU211
+ 147:../../Planter/planter.cpp ****     else
+ 818              		.loc 1 147 18 is_stmt 0 view .LVU212
+ 819 008c 0021     		movs	r1, #0
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 22
+
+
+ 820 008e 2046     		mov	r0, r4
+ 821 0090 FFF7FEFF 		bl	_ZN5daisy4GPIO5WriteEb
+ 822              	.LVL77:
+ 147:../../Planter/planter.cpp ****     else
+ 823              		.loc 1 147 18 view .LVU213
+ 824              	.LBE83:
+ 825              	.LBE82:
+ 216:../../Planter/planter.cpp ****           SetLed(2, true);
+ 826              		.loc 1 216 11 is_stmt 1 view .LVU214
+ 827              	.LBB84:
+ 828              	.LBI84:
+ 145:../../Planter/planter.cpp ****     if (idx == 1)
+ 829              		.loc 1 145 8 view .LVU215
+ 830              	.LBB85:
+ 146:../../Planter/planter.cpp ****       led_1.Write(state);
+ 831              		.loc 1 146 5 view .LVU216
+ 149:../../Planter/planter.cpp ****   }
+ 832              		.loc 1 149 7 view .LVU217
+ 149:../../Planter/planter.cpp ****   }
+ 833              		.loc 1 149 18 is_stmt 0 view .LVU218
+ 834 0094 3046     		mov	r0, r6
+ 835 0096 0121     		movs	r1, #1
+ 836 0098 FFF7FEFF 		bl	_ZN5daisy4GPIO5WriteEb
+ 837              	.LVL78:
+ 149:../../Planter/planter.cpp ****   }
+ 838              		.loc 1 149 18 view .LVU219
+ 839              	.LBE85:
+ 840              	.LBE84:
+ 217:../../Planter/planter.cpp ****           System::Delay(100);
+ 841              		.loc 1 217 11 is_stmt 1 view .LVU220
+ 842              		.loc 1 217 24 is_stmt 0 view .LVU221
+ 843 009c 6420     		movs	r0, #100
+ 844 009e FFF7FEFF 		bl	_ZN5daisy6System5DelayEm
+ 845              	.LVL79:
+ 210:../../Planter/planter.cpp ****           SetLed(1, true);
+ 846              		.loc 1 210 9 is_stmt 1 view .LVU222
+ 210:../../Planter/planter.cpp ****           SetLed(1, true);
+ 847              		.loc 1 210 27 view .LVU223
+ 848 00a2 013D     		subs	r5, r5, #1
+ 849              	.LVL80:
+ 210:../../Planter/planter.cpp ****           SetLed(1, true);
+ 850              		.loc 1 210 27 is_stmt 0 view .LVU224
+ 851 00a4 E7D1     		bne	.L58
+ 852              	.LBE77:
+ 218:../../Planter/planter.cpp ****         }
+ 219:../../Planter/planter.cpp **** 
+ 220:../../Planter/planter.cpp ****         // Reset system to bootloader
+ 221:../../Planter/planter.cpp ****         System::ResetToBootloader(System::BootloaderMode::DAISY_INFINITE_TIMEOUT);
+ 853              		.loc 1 221 9 is_stmt 1 view .LVU225
+ 854              		.loc 1 221 34 is_stmt 0 view .LVU226
+ 855 00a6 0320     		movs	r0, #3
+ 856              	.LBE72:
+ 857              	.LBE87:
+ 222:../../Planter/planter.cpp ****       }
+ 223:../../Planter/planter.cpp **** 
+ 224:../../Planter/planter.cpp ****   }
+ 858              		.loc 1 224 3 view .LVU227
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 23
+
+
+ 859 00a8 04B0     		add	sp, sp, #16
+ 860              		.cfi_remember_state
+ 861              		.cfi_def_cfa_offset 16
+ 862              		@ sp needed
+ 863 00aa BDE87040 		pop	{r4, r5, r6, lr}
+ 864              		.cfi_restore 14
+ 865              		.cfi_restore 6
+ 866              		.cfi_restore 5
+ 867              		.cfi_restore 4
+ 868              		.cfi_def_cfa_offset 0
+ 869              	.LVL81:
+ 870              	.LBB88:
+ 871              	.LBB86:
+ 221:../../Planter/planter.cpp ****       }
+ 872              		.loc 1 221 34 view .LVU228
+ 873 00ae FFF7FEBF 		b	_ZN5daisy6System17ResetToBootloaderENS0_14BootloaderModeE
+ 874              	.LVL82:
+ 875              	.L53:
+ 876              		.cfi_restore_state
+ 221:../../Planter/planter.cpp ****       }
+ 877              		.loc 1 221 34 view .LVU229
+ 878              	.LBE86:
+ 879              	.LBE88:
+ 880              		.loc 1 224 3 view .LVU230
+ 881 00b2 04B0     		add	sp, sp, #16
+ 882              		.cfi_def_cfa_offset 16
+ 883              		@ sp needed
+ 884 00b4 70BD     		pop	{r4, r5, r6, pc}
+ 885              	.LVL83:
+ 886              	.L67:
+ 887              		.loc 1 224 3 view .LVU231
+ 888 00b6 00BF     		.align	2
+ 889              	.L66:
+ 890 00b8 00803B45 		.word	1161527296
+ 891 00bc 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSM2D8E
+ 892 00c0 00000000 		.word	_ZN5daisy8patch_sm12DaisyPatchSM2D9E
+ 893              		.cfi_endproc
+ 894              	.LFE2743:
+ 896              		.section	.rodata.CSWTCH.10,"a"
+ 897              		.align	2
+ 898              		.set	.LANCHOR2,. + 0
+ 901              	CSWTCH.10:
+ 902 0000 7AA54C3F 		.word	1061987706
+ 903 0004 832F4C3F 		.word	1061957507
+ 904 0008 BF0E4C3F 		.word	1061949119
+ 905 000c F1634C3F 		.word	1061970929
+ 906              		.section	.rodata.CSWTCH.14,"a"
+ 907              		.align	2
+ 908              		.set	.LANCHOR3,. + 0
+ 911              	CSWTCH.14:
+ 912 0000 D044D83B 		.word	1004029136
+ 913 0004 27A0093C 		.word	1007263783
+ 914 0008 2497FF3B 		.word	1006606116
+ 915 000c B37B723B 		.word	997358515
+ 916 0010 00000000 		.word	0
+ 917 0014 00000000 		.word	0
+ 918              		.section	.rodata.CSWTCH.15,"a"
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 24
+
+
+ 919              		.align	2
+ 920              		.set	.LANCHOR4,. + 0
+ 923              	CSWTCH.15:
+ 924 0000 39D6253F 		.word	1059444281
+ 925 0004 CBA1253F 		.word	1059430859
+ 926 0008 9487253F 		.word	1059424148
+ 927 000c 4625253F 		.word	1059398982
+ 928 0010 0000803F 		.word	1065353216
+ 929 0014 0000803F 		.word	1065353216
+ 930              		.section	.rodata.CSWTCH.8,"a"
+ 931              		.align	2
+ 932              		.set	.LANCHOR0,. + 0
+ 935              	CSWTCH.8:
+ 936 0000 68B34ABF 		.word	-1085623448
+ 937 0004 DFE04BBF 		.word	-1085546273
+ 938 0008 68224CBF 		.word	-1085529496
+ 939 000c 3A924BBF 		.word	-1085566406
+ 940              		.section	.rodata.CSWTCH.9,"a"
+ 941              		.align	2
+ 942              		.set	.LANCHOR1,. + 0
+ 945              	CSWTCH.9:
+ 946 0000 3480B73B 		.word	1001881652
+ 947 0004 17B7D13A 		.word	986822423
+ 948 0008 5F294B3B 		.word	994781535
+ 949 000c E71DA73B 		.word	1000807911
+ 950              		.text
+ 951              	.Letext0:
+ 952              		.file 3 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 953              		.file 4 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 954              		.file 5 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdint.h"
+ 955              		.file 6 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stddef.h"
+ 956              		.file 7 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cmath"
+ 957              		.file 8 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\std_abs.h"
+ 958              		.file 9 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdlib"
+ 959              		.file 10 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdint"
+ 960              		.file 11 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\type_traits"
+ 961              		.file 12 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\debug\\debug.h"
+ 962              		.file 13 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\arm-none-eabi\\t
+ 963              		.file 14 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\algorithmf
+ 964              		.file 15 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\stl_pair.h
+ 965              		.file 16 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\exception_
+ 966              		.file 17 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdarg"
+ 967              		.file 18 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstdio"
+ 968              		.file 19 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstring"
+ 969              		.file 20 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\cstddef"
+ 970              		.file 21 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\bits\\predefined
+ 971              		.file 22 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\_types.h"
+ 972              		.file 23 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\reent.h"
+ 973              		.file 24 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\sys\\lock.h"
+ 974              		.file 25 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\math.h"
+ 975              		.file 26 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdlib.h"
+ 976              		.file 27 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\math.h"
+ 977              		.file 28 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\c++\\10.2.1\\stdlib.h"
+ 978              		.file 29 "../../libDaisy//src/daisy_core.h"
+ 979              		.file 30 "../../libDaisy//src/per/tim.h"
+ 980              		.file 31 "../../libDaisy//src/sys/system.h"
+ 981              		.file 32 "../../libDaisy//src/per/qspi.h"
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 25
+
+
+ 982              		.file 33 "../../libDaisy//src/per/dac.h"
+ 983              		.file 34 "../../libDaisy//src/per/gpio.h"
+ 984              		.file 35 "../../libDaisy//src/per/i2c.h"
+ 985              		.file 36 "../../libDaisy//src/per/sai.h"
+ 986              		.file 37 "../../libDaisy//src/hid/audio.h"
+ 987              		.file 38 "../../libDaisy//src/per/adc.h"
+ 988              		.file 39 "../../libDaisy//src/hid/usb.h"
+ 989              		.file 40 "../../libDaisy//src/hid/ctrl.h"
+ 990              		.file 41 "../../libDaisy//src/hid/gatein.h"
+ 991              		.file 42 "../../libDaisy//src/dev/codec_pcm3060.h"
+ 992              		.file 43 "../../libDaisy//src/dev/max11300.h"
+ 993              		.file 44 "../../libDaisy//src/dev/sr_595.h"
+ 994              		.file 45 "../../libDaisy//src/util/wav_format.h"
+ 995              		.file 46 "../../libDaisy//src/daisy_patch_sm.h"
+ 996              		.file 47 "../../libDaisy//src/dev/sdram.h"
+ 997              		.file 48 "c:\\program files\\daisytoolchain\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
+ 998              		.file 49 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\stdio.h"
+ 999              		.file 50 "c:\\program files\\daisytoolchain\\arm-none-eabi\\include\\string.h"
+ 1000              		.file 51 "../../libDaisy//Middlewares/Third_Party/FatFs/src/integer.h"
+ 1001              		.file 52 "../../libDaisy//Middlewares/Third_Party/FatFs/src/ff.h"
+ 1002              		.file 53 "../../Planter/planter_cal.h"
+ 1003              		.file 54 "../../Planter/planter.h"
+ 1004              		.file 55 "<built-in>"
+ARM GAS  C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s 			page 26
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 planter.cpp
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:17     .text._ZN9anachrome7planter10StartAudioEPFvPKfPfjE:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:26     .text._ZN9anachrome7planter10StartAudioEPFvPKfPfjE:00000000 _ZN9anachrome7planter10StartAudioEPFvPKfPfjE
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:47     .text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:55     .text._ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE:00000000 _ZN9anachrome7planter10StartAudioEPFvPKPKfPPfjE
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:75     .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:83     .text._ZN9anachrome7planter17WriteCvOutBipolarEif:00000000 _ZN9anachrome7planter17WriteCvOutBipolarEif
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:264    .text._ZN9anachrome7planter17WriteCvOutBipolarEif:000000e4 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:275    .text._ZN9anachrome7planter7GetCvInEi:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:283    .text._ZN9anachrome7planter7GetCvInEi:00000000 _ZN9anachrome7planter7GetCvInEi
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:430    .text._ZN9anachrome7planter7GetCvInEi:0000009c $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:440    .text._ZN9anachrome7planter8InitLedsEv:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:448    .text._ZN9anachrome7planter8InitLedsEv:00000000 _ZN9anachrome7planter8InitLedsEv
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:503    .text._ZN9anachrome7planter8InitLedsEv:00000038 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:509    .text._ZN9anachrome7planter6SetLedEib:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:517    .text._ZN9anachrome7planter6SetLedEib:00000000 _ZN9anachrome7planter6SetLedEib
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:544    .text._ZN9anachrome7planter12GetKnobValueEi:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:552    .text._ZN9anachrome7planter12GetKnobValueEi:00000000 _ZN9anachrome7planter12GetKnobValueEi
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:623    .text._ZN9anachrome7planter12GetKnobValueEi:00000054 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:630    .text._ZN9anachrome7planter20BootloaderResetCheckEv:00000000 $t
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:638    .text._ZN9anachrome7planter20BootloaderResetCheckEv:00000000 _ZN9anachrome7planter20BootloaderResetCheckEv
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:890    .text._ZN9anachrome7planter20BootloaderResetCheckEv:000000b8 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:897    .rodata.CSWTCH.10:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:901    .rodata.CSWTCH.10:00000000 CSWTCH.10
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:907    .rodata.CSWTCH.14:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:911    .rodata.CSWTCH.14:00000000 CSWTCH.14
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:919    .rodata.CSWTCH.15:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:923    .rodata.CSWTCH.15:00000000 CSWTCH.15
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:931    .rodata.CSWTCH.8:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:935    .rodata.CSWTCH.8:00000000 CSWTCH.8
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:941    .rodata.CSWTCH.9:00000000 $d
+C:\Users\isaia\AppData\Local\Temp\ccpEaRWd.s:945    .rodata.CSWTCH.9:00000000 CSWTCH.9
+
+UNDEFINED SYMBOLS
+_ZN5daisy8patch_sm12DaisyPatchSM10StartAudioEPFvPKfPfjE
+_ZN5daisy8patch_sm12DaisyPatchSM10StartAudioEPFvPKPKfPPfjE
+_ZN5daisy8patch_sm12DaisyPatchSM10WriteCvOutEif
+_ZN5daisy8patch_sm12DaisyPatchSM11GetAdcValueEi
+_ZN5daisy4GPIO4InitENS_3PinENS0_4ModeENS0_4PullENS0_5SpeedE
+_ZN5daisy8patch_sm12DaisyPatchSM2D8E
+_ZN5daisy8patch_sm12DaisyPatchSM2D9E
+_ZN5daisy4GPIO5WriteEb
+_ZN5daisy6System6GetNowEv
+_ZN5daisy8patch_sm12DaisyPatchSM7StopAdcEv
+_ZN5daisy8patch_sm12DaisyPatchSM9StopAudioEv
+_ZN5daisy6System5DelayEm
+_ZN5daisy6System17ResetToBootloaderENS0_14BootloaderModeE

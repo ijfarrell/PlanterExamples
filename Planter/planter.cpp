@@ -226,7 +226,7 @@ namespace anachrome
         }
 
         const bool held_3s_raw = armed && (System::GetNow() - hold_start_ms >= 3000);
-        const bool held_3s_db  = (button.TimeHeldMs() >= 300.0f);
+        const bool held_3s_db  = (button.TimeHeldMs() >= 1000.0f);
 
         if (held_3s_raw || held_3s_db) {
                 armed         = false;
